@@ -1,5 +1,70 @@
 [
   {
+    "date": "2026-03-21T16:00:14.046380",
+    "papers": [
+      {
+        "pmid": "41636527",
+        "title": "Beneath the surface: expanding the known repertoire of methylotrophic metabolism",
+        "authors": "Bruger EL et al.",
+        "year": "2026",
+        "journal": "Appl Environ Microbiol",
+        "doi": "10.1128/aem.02116-25",
+        "source": "pubmed",
+        "abstract": "Beneath the surface: expanding the known repertoire of methylotrophic metabolism.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "41023737",
+        "title": "Diversity and distribution of the lanthanome in aerobic methane-oxidising bacteria",
+        "authors": "Dandare SU et al.",
+        "year": "2025",
+        "journal": "Environ Microbiome",
+        "doi": "10.1186/s40793-025-00776-5",
+        "source": "pubmed",
+        "abstract": "Diversity and distribution of the lanthanome in aerobic methane-oxidising bacteria.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "40983780",
+        "title": "Deciphering UV-C-induced transcriptomic shifts in tomato: defence mechanisms, stress responses, and photoreceptor regulation",
+        "authors": "Wong GR et al.",
+        "year": "2025",
+        "journal": "Plant Cell Rep",
+        "doi": "10.1007/s00299-025-03604-9",
+        "source": "pubmed",
+        "abstract": "Deciphering UV-C-induced transcriptomic shifts in tomato: defence mechanisms, stress responses, and photoreceptor regulation.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41604879",
+        "title": "Mechanistic insight into the reprotoxic effects of chronic gamma radiation on spermatogenesis in Caenorhabditis elegans",
+        "authors": "Zhu H et al.",
+        "year": "2026",
+        "journal": "Sci Total Environ",
+        "doi": "10.1016/j.scitotenv.2026.181444",
+        "source": "pubmed",
+        "abstract": "Mechanistic insight into the reprotoxic effects of chronic gamma radiation on spermatogenesis in Caenorhabditis elegans.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41595735",
+        "title": "ANXA2P2 and PA2G4P4 Pseudogenes Are Associated with the Response to Ionizing Radiation and Could Be Used as Potential Biomarkers: In Silico Study",
+        "authors": "Kolenda T et al.",
+        "year": "2026",
+        "journal": "Biomedicines",
+        "doi": "10.3390/biomedicines14010200",
+        "source": "pubmed",
+        "abstract": "ANXA2P2 and PA2G4P4 Pseudogenes Are Associated with the Response to Ionizing Radiation and Could Be Used as Potential Biomarkers: In Silico Study.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-03-21T15:55:08.005507",
     "papers": [
       {
