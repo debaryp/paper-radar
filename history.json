@@ -1,5 +1,118 @@
 [
   {
+    "date": "2026-03-21T15:55:08.005507",
+    "papers": [
+      {
+        "pmid": "41379216",
+        "title": "Response and adaptation of verrucomicrobial methanotrophs to heat and acidity",
+        "authors": "Schmitz RA et al.",
+        "year": "2025",
+        "journal": "Arch Microbiol",
+        "doi": "10.1007/s00203-025-04630-7",
+        "source": "pubmed",
+        "abstract": "Response and adaptation of verrucomicrobial methanotrophs to heat and acidity.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "40514433",
+        "title": "PET-based tracking of CAR T cells and viral gene transfer using a cell surface reporter that binds to lanthanide complexes",
+        "authors": "Morath V et al.",
+        "year": "2025",
+        "journal": "Nat Biomed Eng",
+        "doi": "10.1038/s41551-025-01415-7",
+        "source": "pubmed",
+        "abstract": "PET-based tracking of CAR T cells and viral gene transfer using a cell surface reporter that binds to lanthanide complexes.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "41369916",
+        "title": "Response of Ocular Bacteria Exposure to Cerium Oxide Nanoparticles in Eye Drop Formulation",
+        "authors": "Nguyen NHA et al.",
+        "year": "2025",
+        "journal": "Curr Microbiol",
+        "doi": "10.1007/s00284-025-04652-w",
+        "source": "pubmed",
+        "abstract": "Response of Ocular Bacteria Exposure to Cerium Oxide Nanoparticles in Eye Drop Formulation.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "41211415",
+        "title": "Complete uranium bioreduction in 48 hours: Synergistic electron transfer in a synthetic microbial consortium",
+        "authors": "Long X et al.",
+        "year": "2025",
+        "journal": "Environ Sci Ecotechnol",
+        "doi": "10.1016/j.ese.2025.100629",
+        "source": "pubmed",
+        "abstract": "Complete uranium bioreduction in 48 hours: Synergistic electron transfer in a synthetic microbial consortium.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "41740407",
+        "title": "In-situ bioaugmentation of uranium-contaminated groundwater using Desulfovibrio vulgaris UR1: Mechanistic insights, laboratory validation, and field performance",
+        "authors": "Jiang L et al.",
+        "year": "2026",
+        "journal": "J Hazard Mater",
+        "doi": "10.1016/j.jhazmat.2026.141577",
+        "source": "pubmed",
+        "abstract": "In-situ bioaugmentation of uranium-contaminated groundwater using Desulfovibrio vulgaris UR1: Mechanistic insights, laboratory validation, and field performance.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "41327830",
+        "title": "Electrode-Induced UO22+ immobilization by Leifsonia sp. within an iron-Sulfur complex system",
+        "authors": "Tan W et al.",
+        "year": "2026",
+        "journal": "Environ Technol",
+        "doi": "10.1080/09593330.2025.2592741",
+        "source": "pubmed",
+        "abstract": "Electrode-Induced UO22+ immobilization by Leifsonia sp. within an iron-Sulfur complex system.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "41780311",
+        "title": "Integrated transcriptomic and metabolomic profiling reveals genotypic differences in UV-B radiation tolerance mechanisms in Elymus sibiricus L",
+        "authors": "Zhang F et al.",
+        "year": "2026",
+        "journal": "Plant Physiol Biochem",
+        "doi": "10.1016/j.plaphy.2026.111114",
+        "source": "pubmed",
+        "abstract": "Integrated transcriptomic and metabolomic profiling reveals genotypic differences in UV-B radiation tolerance mechanisms in Elymus sibiricus L.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41749059",
+        "title": "Transcriptome-Based Evaluation of Hydrogen Gas Effects for Preventing UVA-Induced Photoaging Using an Artificial Skin Model",
+        "authors": "Kiyoi T et al.",
+        "year": "2026",
+        "journal": "Geriatr Gerontol Int",
+        "doi": "10.1111/ggi.70401",
+        "source": "pubmed",
+        "abstract": "Transcriptome-Based Evaluation of Hydrogen Gas Effects for Preventing UVA-Induced Photoaging Using an Artificial Skin Model.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "40848371",
+        "title": "Fungal spore inactivation in drinking water by UV(222): Kinetics and mechanistic insights with transcriptomic and metabolomic analyses",
+        "authors": "Pan MY et al.",
+        "year": "2025",
+        "journal": "Water Res",
+        "doi": "10.1016/j.watres.2025.124392",
+        "source": "pubmed",
+        "abstract": "Fungal spore inactivation in drinking water by UV(222): Kinetics and mechanistic insights with transcriptomic and metabolomic analyses.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-03-21T15:39:55.473683",
     "papers": [
       {
