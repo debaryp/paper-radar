@@ -1,0 +1,115 @@
+[
+  {
+    "date": "2026-03-21T15:39:55.473683",
+    "papers": [
+      {
+        "pmid": "41626782",
+        "title": "Lanthanide-Dependent Methanol Dehydrogenase XoxF Confers a Competitive Advantage to Sinorhizobium meliloti During Symbiosis with Medicago sativa",
+        "authors": "Walser ON et al.",
+        "year": "2026",
+        "journal": "Mol Plant Microbe Interact",
+        "doi": "10.1094/MPMI-08-25-0110-R",
+        "source": "pubmed",
+        "abstract": "Lanthanide-Dependent Methanol Dehydrogenase XoxF Confers a Competitive Advantage to Sinorhizobium meliloti During Symbiosis with Medicago sativa.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "41117506",
+        "title": "XoxF and the Calvin-Benson cycle mediate lanthanide-dependent growth on methanol in Bradyrhizobium and Sinorhizobium",
+        "authors": "Mineo CR et al.",
+        "year": "2025",
+        "journal": "Appl Environ Microbiol",
+        "doi": "10.1128/aem.01304-25",
+        "source": "pubmed",
+        "abstract": "XoxF and the Calvin-Benson cycle mediate lanthanide-dependent growth on methanol in Bradyrhizobium and Sinorhizobium.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "40970701",
+        "title": "Diel cycle of lanthanide-dependent methylotrophy by TMED127/Methylaequorales bacteria in oligotrophic surface seawater",
+        "authors": "Glass JB et al.",
+        "year": "2025",
+        "journal": "Appl Environ Microbiol",
+        "doi": "10.1128/aem.01181-25",
+        "source": "pubmed",
+        "abstract": "Diel cycle of lanthanide-dependent methylotrophy by TMED127/Methylaequorales bacteria in oligotrophic surface seawater.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "41272311",
+        "title": "Expanding on the ability of trivalent actinides to support microbial alcohol metabolism in evolved methylotrophic bacterium",
+        "authors": "Woods JJ et al.",
+        "year": "2025",
+        "journal": "Commun Chem",
+        "doi": "10.1038/s42004-025-01749-y",
+        "source": "pubmed",
+        "abstract": "Expanding on the ability of trivalent actinides to support microbial alcohol metabolism in evolved methylotrophic bacterium.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "40877614",
+        "title": "Characterization of an enriched acidophilic sulfate-reducing bacteria community from the sediment of a uranium mine (Minas Gerais-Brazil)",
+        "authors": "Licona FM et al.",
+        "year": "2025",
+        "journal": "Braz J Microbiol",
+        "doi": "10.1007/s42770-025-01775-x",
+        "source": "pubmed",
+        "abstract": "Characterization of an enriched acidophilic sulfate-reducing bacteria community from the sediment of a uranium mine (Minas Gerais-Brazil).",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "40684480",
+        "title": "Controls of uranyl species and metabolism on Bacillus subtilis-enhanced uranium bio-immobilization",
+        "authors": "Zhao B et al.",
+        "year": "2025",
+        "journal": "Water Res",
+        "doi": "10.1016/j.watres.2025.124221",
+        "source": "pubmed",
+        "abstract": "Controls of uranyl species and metabolism on Bacillus subtilis-enhanced uranium bio-immobilization.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "41237480",
+        "title": "Unveiling connectivity and differences of bacterial response mechanisms exposed to multi-radiation through the transcriptomic profiles and physiological characteristics of Mount Everest Sphingomonas radiodurans",
+        "authors": "Liu Y et al.",
+        "year": "2025",
+        "journal": "J Photochem Photobiol B",
+        "doi": "10.1016/j.jphotobiol.2025.113304",
+        "source": "pubmed",
+        "abstract": "Unveiling connectivity and differences of bacterial response mechanisms exposed to multi-radiation through the transcriptomic profiles and physiological characteristics of Mount Everest Sphingomonas radiodurans.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41771177",
+        "title": "Transcriptomic and proteomic assessment of radiation injury and dose-rate dependency in white blood cells",
+        "authors": "Subedi S et al.",
+        "year": "2026",
+        "journal": "J Radiol Prot",
+        "doi": "10.1088/1361-6498/ae4be9",
+        "source": "pubmed",
+        "abstract": "Transcriptomic and proteomic assessment of radiation injury and dose-rate dependency in white blood cells.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41745289",
+        "title": "Low-Intensity, Short-Duration Proton Irradiation Enhances Oxidative Stress Sensitivity of Aspergillus nidulans, with Transcriptomic Data Indicating Downregulation of Antioxidative Enzyme Genes",
+        "authors": "Szarka M et al.",
+        "year": "2026",
+        "journal": "J Fungi (Basel)",
+        "doi": "10.3390/jof12020147",
+        "source": "pubmed",
+        "abstract": "Low-Intensity, Short-Duration Proton Irradiation Enhances Oxidative Stress Sensitivity of Aspergillus nidulans, with Transcriptomic Data Indicating Downregulation of Antioxidative Enzyme Genes.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  }
+]
