@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paper Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #f8f9fa;
+  --surface: #ffffff;
+  --border: #e2e5e9;
+  --text: #111827;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --accent-bg: #eff6ff;
+  --success: #16a34a;
+  --success-bg: #f0fdf4;
+  --warning: #d97706;
+  --danger: #dc2626;
+  --mono: 'JetBrains Mono', monospace;
+  --sans: 'Inter', system-ui, sans-serif;
+  --radius: 8px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+}
+body {
+  font-family: var(--sans);
+  font-size: 14px;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+.page {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+/* Header */
+.header { margin-bottom: 32px; }
+.header h1 { font-size: 20px; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 3px; }
+.header p { font-size: 13px; color: var(--muted); }
+
+/* API Key notice */
+.api-notice {
+  background: #fefce8;
+  border: 1px solid #fde047;
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #854d0e;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.api-notice.hidden { display: none; }
+.api-notice-icon { flex-shrink: 0; font-size: 15px; }
+
+/* Steps */
+.steps {
+  display: flex;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow);
+}
+.step {
+  flex: 1; padding: 11px 14px;
+  border-right: 1px solid var(--border);
+  display: flex; align-items: center; gap: 9px;
+  font-size: 12px; color: var(--muted);
+}
+.step:last-child { border-right: none; }
+.step.active { background: var(--accent-bg); color: var(--accent); }
+.step.done { color: var(--success); }
+.step-dot {
+  width: 20px; height: 20px; border-radius: 50%;
+  border: 1.5px solid currentColor;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 10px; font-weight: 500;
+  flex-shrink: 0;
+}
+.step.done .step-dot { background: var(--success); border-color: var(--success); color: white; }
+
+/* Status pills */
+.status-row { display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }
+.pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--mono); font-size: 11px;
+  padding: 4px 10px; border-radius: 20px;
+  background: var(--surface); border: 1px solid var(--border); color: var(--muted);
+}
+.dot { width: 6px; height: 6px; border-radius: 50%; background: var(--border); flex-shrink: 0; transition: background 0.3s; }
+.dot.green { background: var(--success); }
+.dot.amber { background: var(--warning); }
+.dot.blue  { background: var(--accent); }
+.dot.pulse {
+  background: var(--accent);
+  animation: pulse 1s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+/* Cards */
+.card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px;
+  margin-bottom: 16px; box-shadow: var(--shadow);
+}
+.card-label {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 14px;
+}
+
+/* Upload */
+.upload-area {
+  border: 1.5px dashed var(--border); border-radius: var(--radius);
+  padding: 28px 20px; text-align: center; cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  position: relative; background: var(--surface);
+}
+.upload-area:hover, .upload-area.drag { border-color: var(--accent); background: var(--accent-bg); }
+.upload-area input { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%; }
+.upload-icon { font-size: 20px; margin-bottom: 8px; color: var(--muted); }
+.upload-area h3 { font-size: 14px; font-weight: 500; color: var(--text); margin-bottom: 3px; }
+.upload-area p { font-size: 12px; color: var(--muted); }
+.upload-hint {
+  display: inline-block; margin-top: 10px;
+  font-family: var(--mono); font-size: 10px; color: var(--muted);
+  background: var(--bg); padding: 2px 8px; border-radius: 4px; border: 1px solid var(--border);
+}
+
+/* Form */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.full { grid-column: 1 / -1; }
+.field { display: flex; flex-direction: column; gap: 5px; }
+.field label { font-size: 12px; font-weight: 500; color: var(--text); }
+.field input, .field select, .field textarea {
+  font-family: var(--sans); font-size: 13px;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 6px; padding: 8px 11px; color: var(--text);
+  outline: none; transition: border-color 0.15s, box-shadow 0.15s; line-height: 1.5;
+}
+.field input:focus, .field select:focus, .field textarea:focus {
+  border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+}
+.field textarea { resize: vertical; line-height: 1.6; field-sizing: content; min-height: 180px; }
+.field select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 6 5-6' stroke='%236b7280' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 10px center; padding-right: 30px;
+}
+.field input[type="password"] { font-family: var(--mono); letter-spacing: 0.05em; }
+
+/* Tags */
+.tags-field {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 6px; padding: 7px 8px;
+  display: flex; flex-wrap: wrap; gap: 5px;
+  min-height: 42px; cursor: text;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.tags-field:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+.tag {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-family: var(--mono); font-size: 11px; color: var(--accent);
+  background: var(--accent-bg); border: 1px solid #bfdbfe;
+  padding: 2px 7px 2px 8px; border-radius: 4px;
+}
+.tag-x { cursor: pointer; color: #93c5fd; font-size: 14px; line-height: 1; transition: color 0.1s; }
+.tag-x:hover { color: #1d4ed8; }
+.tag-input {
+  border: none; background: transparent; font-family: var(--sans);
+  font-size: 13px; color: var(--text); outline: none;
+  flex: 1; min-width: 120px; padding: 2px 4px;
+}
+
+/* Main run button */
+.btn-run {
+  width: 100%; background: var(--accent); color: white;
+  border: none; border-radius: var(--radius);
+  font-family: var(--sans); font-size: 15px; font-weight: 600;
+  padding: 14px 24px; cursor: pointer;
+  transition: background 0.15s, box-shadow 0.15s, transform 0.1s;
+  margin-bottom: 28px;
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+}
+.btn-run:hover { background: #1d4ed8; box-shadow: 0 4px 12px rgba(37,99,235,0.3); }
+.btn-run:active { transform: scale(0.99); }
+.btn-run:disabled { background: var(--border); color: var(--muted); cursor: not-allowed; box-shadow: none; transform: none; }
+
+/* Loading state */
+.loading-card {
+  display: none;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 32px 24px;
+  text-align: center; margin-bottom: 16px; box-shadow: var(--shadow);
+}
+.loading-card.visible { display: block; }
+.spinner {
+  width: 32px; height: 32px; border: 3px solid var(--border);
+  border-top-color: var(--accent); border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto 16px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-steps { display: flex; flex-direction: column; gap: 6px; margin-top: 16px; text-align: left; max-width: 360px; margin-left: auto; margin-right: auto; }
+.loading-step { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 8px; }
+.loading-step.done { color: var(--success); }
+.loading-step.active { color: var(--accent); font-weight: 500; }
+.loading-step-dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; flex-shrink: 0; }
+
+/* Results */
+.results { display: none; }
+.results.visible { display: block; }
+
+.results-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 14px;
+}
+.results-header h2 { font-size: 15px; font-weight: 600; }
+.results-meta { font-size: 12px; color: var(--muted); }
+
+.btn-secondary {
+  font-family: var(--mono); font-size: 11px; color: var(--muted);
+  background: var(--surface); border: 1px solid var(--border);
+  padding: 5px 12px; border-radius: 6px; cursor: pointer;
+  transition: all 0.15s;
+}
+.btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+
+.paper-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px;
+  margin-bottom: 12px; box-shadow: var(--shadow);
+  transition: box-shadow 0.15s;
+}
+.paper-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+
+.paper-block-badge {
+  display: inline-block; font-family: var(--mono); font-size: 10px;
+  font-weight: 500; padding: 2px 8px; border-radius: 4px;
+  margin-bottom: 10px;
+  letter-spacing: 0.04em;
+}
+.badge-a { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
+.badge-b { background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
+.badge-c { background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
+
+.paper-title {
+  font-size: 14px; font-weight: 600; color: var(--text);
+  margin-bottom: 5px; line-height: 1.4;
+}
+.paper-meta { font-size: 12px; color: var(--muted); margin-bottom: 12px; }
+.paper-meta a { color: var(--accent); text-decoration: none; }
+.paper-meta a:hover { text-decoration: underline; }
+
+.paper-section { margin-bottom: 10px; }
+.paper-section-label {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.05em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 4px;
+}
+.paper-section p { font-size: 13px; color: var(--text); line-height: 1.55; }
+
+.paper-method {
+  background: #fafafa; border: 1px solid var(--border);
+  border-radius: 6px; padding: 10px 14px;
+  font-size: 12px; color: var(--muted);
+  margin-top: 10px;
+}
+
+/* No results */
+.no-results {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 32px;
+  text-align: center; color: var(--muted); font-size: 13px;
+}
+
+/* Error */
+.error-card {
+  display: none;
+  background: #fef2f2; border: 1px solid #fecaca;
+  border-radius: var(--radius); padding: 16px 20px;
+  margin-bottom: 16px; font-size: 13px; color: #991b1b;
+}
+.error-card.visible { display: block; }
+
+/* Raw output toggle */
+.raw-toggle { margin-top: 20px; }
+.raw-box {
+  display: none; margin-top: 10px;
+  background: #f8fafc; border: 1px solid var(--border);
+  border-radius: 6px; padding: 16px;
+  font-family: var(--mono); font-size: 11px;
+  color: var(--muted); white-space: pre-wrap; word-break: break-word;
+  max-height: 300px; overflow-y: auto;
+}
+.raw-box.visible { display: block; }
+
+@media (max-width: 540px) {
+  .steps { flex-wrap: wrap; }
+  .step { flex: 1 1 45%; border-bottom: 1px solid var(--border); }
+  .grid-2 { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <h1>Paper Radar</h1>
+    <p>Einmal klicken — Claude sucht automatisch auf PubMed &amp; bioRxiv und filtert bekannte Paper heraus</p>
+  </div>
+
+  <!-- Steps -->
+  <div class="steps">
+    <div class="step active" id="step1"><div class="step-dot">1</div><span>Zotero CSV</span></div>
+    <div class="step" id="step2"><div class="step-dot">2</div><span>Profil</span></div>
+    <div class="step" id="step3"><div class="step-dot">3</div><span>API Key</span></div>
+    <div class="step" id="step4"><div class="step-dot">4</div><span>GitHub</span></div>
+    <div class="step" id="step5"><div class="step-dot">5</div><span>Suchen</span></div>
+  </div>
+
+  <!-- Status -->
+  <div class="status-row">
+    <div class="pill"><div class="dot" id="dot-csv"></div><span id="status-csv">Keine CSV</span></div>
+    <div class="pill"><div class="dot blue" id="dot-keys"></div><span id="status-keys">0 Keywords</span></div>
+    <div class="pill"><div class="dot" id="dot-api"></div><span id="status-api">Kein API Key</span></div>
+    <div class="pill"><div class="dot" id="dot-prev"></div><span id="status-prev">Kein Verlauf</span></div>
+    <div class="pill"><div class="dot" id="dot-gh"></div><span id="status-gh">GitHub: nicht verbunden</span></div>
+  </div>
+
+  <!-- Step 1: Upload -->
+  <div class="card">
+    <div class="card-label">Schritt 1 — Zotero Library (optional, aber empfohlen)</div>
+    <div class="upload-area" id="dropzone">
+      <input type="file" id="csvFile" accept=".csv" onchange="handleFile(this.files[0])">
+      <div class="upload-icon">⬆</div>
+      <h3 id="upload-title">CSV hier ablegen oder klicken</h3>
+      <p id="upload-sub">Zotero → Datei → Bibliothek exportieren → Format: CSV</p>
+      <div class="upload-hint" id="upload-hint">Bekannte Paper werden automatisch herausgefiltert</div>
+    </div>
+  </div>
+
+  <!-- Step 2: Profile -->
+  <div class="card">
+    <div class="card-label">Schritt 2 — Suchprofil</div>
+    <div class="grid-2">
+      <div class="field full">
+        <label>Forschungskontext</label>
+        <textarea id="context">Ich forsche mit Methylacidiphilum fumariolicum SolV, einem thermoacidophilen Methanotrophen aus der Solfatara (Verrucomicrobia). Das Bakterium wächst bei pH 2 und 55°C und nutzt Lanthanide als essentielle Kofaktoren in seiner XoxF-Methanoldehydrogenase.
+
+AKTUELLE EXPERIMENTE:
+(1) Transkriptomischer Vergleich zwischen leichten und schweren Lanthaniden: La vs. Nd vs. Eu — Ziel: Unterschiede in Genexpression, Lanthanid-Switch-Regulation, REE-Sensing und Signaltransduktion verstehen.
+(2) Transkriptomische Antwort auf Am-243 als Alpha-Strahler — einzigartig, weil SolV dieses Actinid aktiv akkumuliert und in seinen Stoffwechsel integriert. Wir haben Wachstum mit Pm-147, Am-243 und weiteren Actiniden gezeigt.
+(3) Wachstumsversuche mit echten Uranabwässern und radioaktiven Abfallströmen.
+(4) RNA-Extraktion und RNAseq-Methodik unter radioaktiven Bedingungen (Strahlenschutz, RNA-Integrität, rRNA-Depletion).
+
+BREITES INTERESSE — TRANSKRIPTOMISCHE ANTWORTEN AUF STRAHLUNG:
+Transkriptomische Studien in anderen Organismen unter ionisierender Strahlung — Alpha, Gamma, Beta. Relevante Themen: DNA-Schadensantwort (SOS-Response, RecA), oxidativer Stress durch Radiolyse, Strahlungsresistenz (Deinococcus radiodurans), epigenetische Veränderungen, transkriptomische Biomarker für Strahlenexposition.
+
+METHODISCHER FOKUS:
+RNAseq für nicht-Modellorganismen, DESeq2/edgeR, rRNA-Depletion bei niedrig-biomasse Kulturen, RNA-Stabilisierung unter Extrembedingungen.</textarea>
+      </div>
+      <div class="field">
+        <label>Zeitraum von</label>
+        <input type="date" id="dateFrom" value="2024-09-01">
+      </div>
+      <div class="field">
+        <label>Zeitraum bis</label>
+        <input type="date" id="dateTo">
+      </div>
+      <div class="field">
+        <label>Anzahl Paper</label>
+        <select id="maxPapers">
+          <option value="3" selected>3 — kompakt</option>
+          <option value="5">5 — standard</option>
+          <option value="10">10 — umfassend</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Priorität</label>
+        <select id="priority">
+          <option value="novel">Neuheit</option>
+          <option value="relevance" selected>Relevanz</option>
+          <option value="methods">Methodik</option>
+        </select>
+      </div>
+      <div class="field full">
+        <label>Keywords <span style="font-weight:400;color:var(--muted)">(Enter zum Hinzufügen)</span></label>
+        <div class="tags-field" id="tagsField" onclick="document.getElementById('tagInput').focus()">
+          <input class="tag-input" id="tagInput" placeholder="Keyword eingeben …">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Step 3: API Key -->
+  <div class="card">
+    <div class="card-label">Schritt 3 — Claude API Key</div>
+    <div class="api-notice" id="apiNotice">
+      <span class="api-notice-icon">ⓘ</span>
+      <span>Du brauchst einen Anthropic API Key. Kostenlos erstellen auf <strong>console.anthropic.com</strong> → API Keys. Der Key wird nur lokal in deinem Browser gespeichert und nirgends übertragen außer direkt zur Anthropic API.</span>
+    </div>
+    <div class="field">
+      <label>API Key</label>
+      <input type="password" id="apiKey" placeholder="sk-ant-api03-..." oninput="onApiKeyChange(this.value)">
+    </div>
+  </div>
+
+  <!-- Step 4: GitHub Sync -->
+  <div class="card">
+    <div class="card-label">Schritt 4 — GitHub Sync (geräteübergreifender Verlauf)</div>
+    <div class="api-notice" id="ghNotice">
+      <span class="api-notice-icon">ⓘ</span>
+      <span>Verlauf wird in deinem Repository als <strong>history.json</strong> gespeichert — auf allen Geräten synchron. Erstelle einen Token auf <strong>github.com → Settings → Developer settings → Personal access tokens → Tokens (classic)</strong> mit Scope <strong>repo</strong>.</span>
+    </div>
+    <div class="grid-2">
+      <div class="field">
+        <label>GitHub Username</label>
+        <input type="text" id="ghUser" placeholder="dein-username" oninput="onGhChange()">
+      </div>
+      <div class="field">
+        <label>Repository Name</label>
+        <input type="text" id="ghRepo" placeholder="paper-radar" oninput="onGhChange()">
+      </div>
+      <div class="field full">
+        <label>Personal Access Token</label>
+        <input type="password" id="ghToken" placeholder="ghp_..." oninput="onGhChange()">
+      </div>
+    </div>
+    <div id="ghStatus" style="margin-top:10px;font-size:12px;color:var(--muted)"></div>
+  </div>
+
+  <!-- Run button -->
+  <button class="btn-run" id="runBtn" onclick="runSearch()">
+    <span id="runBtnIcon">🔍</span>
+    <span id="runBtnText">Jetzt suchen</span>
+  </button>
+
+  <!-- Error -->
+  <div class="error-card" id="errorCard"></div>
+  <div id="verifyStatus" style="margin-bottom:12px"></div>
+
+  <!-- Loading -->
+  <div class="loading-card" id="loadingCard">
+    <div class="spinner"></div>
+    <div style="font-size:14px;font-weight:500;color:var(--text);margin-bottom:4px">Claude sucht nach passenden Papern…</div>
+    <div style="font-size:12px;color:var(--muted)">Das dauert ca. 30–60 Sekunden</div>
+    <div class="loading-steps" id="loadingSteps">
+      <div class="loading-step" id="ls1"><div class="loading-step-dot"></div>Forschungskontext analysieren</div>
+      <div class="loading-step" id="ls2"><div class="loading-step-dot"></div>Block A: PubMed + bioRxiv + ChemRxiv</div>
+      <div class="loading-step" id="ls3"><div class="loading-step-dot"></div>Block B: Actinide & Radionuklide</div>
+      <div class="loading-step" id="ls4"><div class="loading-step-dot"></div>Block C: Strahlenantworten + Preprints</div>
+      <div class="loading-step" id="ls5"><div class="loading-step-dot"></div>Filtern & aufbereiten</div>
+      <div class="loading-step" id="ls6"><div class="loading-step-dot"></div>DOIs verifizieren</div>
+    </div>
+  </div>
+
+  <!-- Results -->
+  <div class="results" id="resultsSection">
+    <div class="results-header">
+      <h2>Ergebnisse</h2>
+      <div style="display:flex;gap:8px;align-items:center">
+        <span class="results-meta" id="resultsMeta"></span>
+        <button class="btn-secondary" onclick="toggleRaw()">Raw</button>
+      </div>
+    </div>
+    <div id="papersContainer"></div>
+    <div class="raw-toggle">
+      <div class="raw-box" id="rawBox"></div>
+    </div>
+  </div>
+
+  <!-- History -->
+  <div class="card" style="margin-top:28px">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
+      <div class="card-label" style="margin-bottom:0">Verlauf früherer Updates</div>
+      <button class="btn-secondary" onclick="clearHistory()" style="font-size:10px;padding:3px 10px">Löschen</button>
+    </div>
+    <div id="historyContainer"></div>
+  </div>
+
+</div>
+
+<script>
+// ─── State ────────────────────────────────────────────────────────────────────
+const defaultKeywords = [
+  'Methylacidiphilum','SolV','lanthanide bacteria','XoxF methylotroph',
+  'actinide microbiology','americium bacteria','transcriptomics extremophile',
+  'rare earth elements gene expression','alpha radiation bacteria','verrucomicrobia',
+  'ionizing radiation transcriptome','radiation stress response bacteria',
+  'Deinococcus radiodurans transcriptomics','DNA damage response RNAseq',
+  'radionuclide gene expression','SOS response ionizing radiation',
+  'radiation resistance microorganism transcriptome'
+];
+let keywords = [...defaultKeywords];
+let knownDOIs = new Set();
+let knownTitles = [];
+let history = [];
+let ghFileSha = null; // SHA des aktuellen history.json auf GitHub
+
+// ─── GitHub Sync ──────────────────────────────────────────────────────────────
+function getGhConfig() {
+  return {
+    user: document.getElementById('ghUser').value.trim(),
+    repo: document.getElementById('ghRepo').value.trim(),
+    token: document.getElementById('ghToken').value.trim()
+  };
+}
+
+function ghConfigValid() {
+  const { user, repo, token } = getGhConfig();
+  return user && repo && token.startsWith('ghp_');
+}
+
+function onGhChange() {
+  const { user, repo, token } = getGhConfig();
+  if (user) localStorage.setItem('pr_gh_user', user);
+  if (repo) localStorage.setItem('pr_gh_repo', repo);
+  if (token) localStorage.setItem('pr_gh_token', token);
+
+  const valid = ghConfigValid();
+  document.getElementById('dot-gh').className = valid ? 'dot green' : 'dot amber';
+  document.getElementById('status-gh').textContent = valid ? `GitHub: ${user}/${repo}` : 'GitHub: nicht verbunden';
+
+  if (valid) {
+    document.getElementById('step4').className = 'step done';
+    document.getElementById('step4').querySelector('.step-dot').textContent = '✓';
+    document.getElementById('step5').className = 'step active';
+    document.getElementById('ghNotice').className = 'api-notice hidden';
+  }
+}
+
+async function ghFetch(path, opts = {}) {
+  const { user, repo, token } = getGhConfig();
+  const url = `https://api.github.com/repos/${user}/${repo}/contents/${path}`;
+  return fetch(url, {
+    ...opts,
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Accept': 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json',
+      ...(opts.headers || {})
+    }
+  });
+}
+
+async function loadHistoryFromGitHub() {
+  if (!ghConfigValid()) return false;
+  setGhStatus('Verlauf wird von GitHub geladen…', 'loading');
+  try {
+    const res = await ghFetch('history.json');
+    if (res.status === 404) {
+      setGhStatus('Noch kein Verlauf auf GitHub — wird beim ersten Update angelegt.', 'ok');
+      ghFileSha = null;
+      return true;
+    }
+    if (!res.ok) throw new Error(`GitHub API: ${res.status}`);
+    const data = await res.json();
+    ghFileSha = data.sha;
+    const text = atob(data.content.replace(/\n/g, ''));
+    history = JSON.parse(text);
+    renderHistory();
+    const total = getPreviousDOIs().size;
+    setGhStatus(`✓ ${history.length} Updates geladen · ${total} DOIs im Filter`, 'ok');
+    return true;
+  } catch (err) {
+    setGhStatus(`Fehler beim Laden: ${err.message}`, 'error');
+    return false;
+  }
+}
+
+async function saveHistoryToGitHub() {
+  if (!ghConfigValid()) return;
+  try {
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(history, null, 2))));
+    const body = {
+      message: `Paper Radar Update ${new Date().toISOString().split('T')[0]}`,
+      content,
+      ...(ghFileSha ? { sha: ghFileSha } : {})
+    };
+    const res = await ghFetch('history.json', { method: 'PUT', body: JSON.stringify(body) });
+    if (!res.ok) throw new Error(`GitHub API: ${res.status}`);
+    const data = await res.json();
+    ghFileSha = data.content.sha;
+    setGhStatus(`✓ Verlauf auf GitHub gespeichert (${new Date().toLocaleTimeString('de-DE')})`, 'ok');
+  } catch (err) {
+    setGhStatus(`Speichern fehlgeschlagen: ${err.message}`, 'error');
+  }
+}
+
+function setGhStatus(msg, type) {
+  const el = document.getElementById('ghStatus');
+  const colors = { ok: 'var(--success)', error: 'var(--danger)', loading: 'var(--accent)' };
+  el.style.color = colors[type] || 'var(--muted)';
+  el.textContent = msg;
+}
+
+// ─── History (lokal) ──────────────────────────────────────────────────────────
+function loadHistory() {
+  try { history = JSON.parse(localStorage.getItem('pr_history') || '[]'); } catch { history = []; }
+}
+
+function saveHistory(papers) {
+  const entry = { date: new Date().toISOString(), papers };
+  history.unshift(entry);
+  history = history.slice(0, 12);
+  localStorage.setItem('pr_history', JSON.stringify(history));
+}
+
+function getPreviousDOIs() {
+  const dois = new Set();
+  history.forEach(e => e.papers.forEach(p => { if (p.doi) dois.add(p.doi.toLowerCase()); }));
+  return dois;
+}
+
+function getPreviousTitles() {
+  const titles = [];
+  history.forEach(e => e.papers.forEach(p => { if (p.title) titles.push(p.title); }));
+  return titles;
+}
+
+function renderHistory() {
+  const container = document.getElementById('historyContainer');
+  if (!history.length) {
+    container.innerHTML = '<p style="font-size:12px;color:var(--muted);font-style:italic;padding:8px 0">Noch keine früheren Updates — nach der ersten Suche wird hier der Verlauf angezeigt.</p>';
+    return;
+  }
+  container.innerHTML = history.map((entry, hi) => {
+    const date = new Date(entry.date).toLocaleDateString('de-DE', { day:'2-digit', month:'2-digit', year:'numeric' });
+    const real = entry.papers.filter(p => p.doi || p.authors);
+    return `<div style="border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:8px">
+      <div style="padding:10px 14px;background:var(--bg);display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none" onclick="toggleHist(${hi})">
+        <span style="font-size:13px;font-weight:500">${date} &nbsp;·&nbsp; ${real.length} Paper</span>
+        <span style="font-family:var(--mono);font-size:11px;color:var(--muted)" id="ha-${hi}">▼</span>
+      </div>
+      <div id="hb-${hi}" style="display:none">
+        ${real.map(p => `<div style="padding:10px 14px;border-top:1px solid var(--border)">
+          <div style="font-size:13px;font-weight:500;margin-bottom:2px">${p.title}</div>
+          <div style="font-size:11px;color:var(--muted)">${[p.authors, p.year, p.journal ? '<em>'+p.journal+'</em>' : '', p.doi ? '<a href="https://doi.org/'+p.doi+'" target="_blank" style="color:var(--accent)">doi:'+p.doi+'</a>' : ''].filter(Boolean).join(' · ')}</div>
+        </div>`).join('')}
+      </div>
+    </div>`;
+  }).join('');
+
+  const total = getPreviousDOIs().size;
+  document.getElementById('dot-prev').className = total > 0 ? 'dot green' : 'dot';
+  document.getElementById('status-prev').textContent = total > 0 ? `${total} aus Verlauf` : 'Kein Verlauf';
+}
+
+function toggleHist(i) {
+  const b = document.getElementById(`hb-${i}`);
+  const a = document.getElementById(`ha-${i}`);
+  const open = b.style.display === 'block';
+  b.style.display = open ? 'none' : 'block';
+  a.textContent = open ? '▼' : '▲';
+}
+
+async function clearHistory() {
+  if (!confirm('Verlauf wirklich löschen? (auch auf GitHub falls verbunden)')) return;
+  history = [];
+  ghFileSha = null;
+  localStorage.removeItem('pr_history');
+  if (ghConfigValid()) await saveHistoryToGitHub();
+  renderHistory();
+}
+
+// ─── Init ─────────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', async () => {
+  // Restore saved values
+  const savedKey = localStorage.getItem('pr_api_key');
+  if (savedKey) { document.getElementById('apiKey').value = savedKey; onApiKeyChange(savedKey); }
+
+  const ghUser = localStorage.getItem('pr_gh_user');
+  const ghRepo = localStorage.getItem('pr_gh_repo');
+  const ghToken = localStorage.getItem('pr_gh_token');
+  if (ghUser) document.getElementById('ghUser').value = ghUser;
+  if (ghRepo) document.getElementById('ghRepo').value = ghRepo;
+  if (ghToken) document.getElementById('ghToken').value = ghToken;
+  if (ghUser && ghRepo && ghToken) onGhChange();
+
+  // Load history — GitHub first, fallback to localStorage
+  if (ghConfigValid()) {
+    await loadHistoryFromGitHub();
+  } else {
+    loadHistory();
+    renderHistory();
+  }
+
+  renderTags();
+  document.getElementById('dateTo').value = new Date().toISOString().split('T')[0];
+
+  document.getElementById('tagInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter' && e.target.value.trim()) {
+      keywords.push(e.target.value.trim());
+      e.target.value = '';
+      renderTags();
+    }
+  });
+
+  const dz = document.getElementById('dropzone');
+  dz.addEventListener('dragover', e => { e.preventDefault(); dz.classList.add('drag'); });
+  dz.addEventListener('dragleave', () => dz.classList.remove('drag'));
+  dz.addEventListener('drop', e => {
+    e.preventDefault(); dz.classList.remove('drag');
+    if (e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]);
+  });
+});
+
+// ─── Tags ─────────────────────────────────────────────────────────────────────
+function renderTags() {
+  const field = document.getElementById('tagsField');
+  const input = document.getElementById('tagInput');
+  field.innerHTML = '';
+  keywords.forEach((kw, i) => {
+    const t = document.createElement('span');
+    t.className = 'tag';
+    t.innerHTML = `${kw}<span class="tag-x" onclick="removeTag(${i})">×</span>`;
+    field.appendChild(t);
+  });
+  field.appendChild(input);
+  updateStatus();
+}
+function removeTag(i) { keywords.splice(i, 1); renderTags(); }
+
+// ─── CSV ──────────────────────────────────────────────────────────────────────
+function handleFile(file) {
+  if (!file || !file.name.endsWith('.csv')) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    parseCSV(e.target.result);
+    document.getElementById('upload-title').textContent = `✓  ${file.name}`;
+    document.getElementById('upload-sub').textContent = `${knownDOIs.size} DOIs · ${knownTitles.length} Titel gefunden`;
+    document.getElementById('upload-hint').textContent = 'Bekannte Paper werden herausgefiltert';
+    document.getElementById('dot-csv').className = 'dot green';
+    document.getElementById('status-csv').textContent = `${knownTitles.length} bekannt`;
+    document.getElementById('step1').className = 'step done';
+    document.getElementById('step1').querySelector('.step-dot').textContent = '✓';
+    document.getElementById('step2').className = 'step active';
+  };
+  reader.readAsText(file);
+}
+
+function parseCSV(text) {
+  knownDOIs.clear(); knownTitles = [];
+  const lines = text.split('\n');
+  if (lines.length < 2) return;
+  const hdr = parseCSVLine(lines[0]);
+  const doiIdx = hdr.findIndex(h => h.toLowerCase().includes('doi'));
+  const titleIdx = hdr.findIndex(h => h.toLowerCase() === 'title');
+  for (let i = 1; i < lines.length; i++) {
+    if (!lines[i].trim()) continue;
+    const row = parseCSVLine(lines[i]);
+    if (doiIdx >= 0 && row[doiIdx]) knownDOIs.add(row[doiIdx].trim().toLowerCase());
+    if (titleIdx >= 0 && row[titleIdx]) knownTitles.push(row[titleIdx].trim());
+  }
+}
+
+function parseCSVLine(line) {
+  const res = []; let cur = '', inQ = false;
+  for (const ch of line) {
+    if (ch === '"') { inQ = !inQ; }
+    else if (ch === ',' && !inQ) { res.push(cur); cur = ''; }
+    else { cur += ch; }
+  }
+  res.push(cur); return res;
+}
+
+// ─── API Key ──────────────────────────────────────────────────────────────────
+function onApiKeyChange(val) {
+  const valid = val.startsWith('sk-ant');
+  document.getElementById('dot-api').className = valid ? 'dot green' : 'dot amber';
+  document.getElementById('status-api').textContent = valid ? 'API Key gesetzt' : 'Kein API Key';
+  if (valid) {
+    localStorage.setItem('pr_api_key', val);
+    document.getElementById('step3').className = 'step done';
+    document.getElementById('step3').querySelector('.step-dot').textContent = '✓';
+    document.getElementById('step4').className = 'step active';
+    document.getElementById('apiNotice').className = 'api-notice hidden';
+  }
+}
+
+function updateStatus() {
+  document.getElementById('dot-keys').className = keywords.length > 0 ? 'dot blue' : 'dot amber';
+  document.getElementById('status-keys').textContent = `${keywords.length} Keywords`;
+}
+
+// ─── Loading animation ────────────────────────────────────────────────────────
+let loadingInterval = null;
+function startLoadingAnimation() {
+  const steps = ['ls1','ls2','ls3','ls4','ls5','ls6'];
+  let i = 0;
+  document.getElementById('loadingCard').className = 'loading-card visible';
+  steps.forEach(id => document.getElementById(id).className = 'loading-step');
+  document.getElementById(steps[0]).className = 'loading-step active';
+  loadingInterval = setInterval(() => {
+    if (i < steps.length - 1) {
+      document.getElementById(steps[i]).className = 'loading-step done';
+      i++;
+      document.getElementById(steps[i]).className = 'loading-step active';
+    }
+  }, 8000);
+}
+
+function stopLoadingAnimation() {
+  clearInterval(loadingInterval);
+  document.getElementById('loadingCard').className = 'loading-card';
+  ['ls1','ls2','ls3','ls4','ls5','ls6'].forEach(id => document.getElementById(id).className = 'loading-step done');
+}
+
+// ─── Build prompt ─────────────────────────────────────────────────────────────
+function buildPrompt() {
+  const context = document.getElementById('context').value.trim();
+  const dateFrom = document.getElementById('dateFrom').value;
+  const dateTo = document.getElementById('dateTo').value;
+  const maxPapers = document.getElementById('maxPapers').value;
+  const priority = document.getElementById('priority').value;
+
+  const priorityText = {
+    'novel': 'Priorisiere neue, noch wenig zitierte Arbeiten.',
+    'relevance': 'Priorisiere thematische Relevanz für die aktuellen Experimente.',
+    'methods': 'Priorisiere Paper mit methodisch übertragbaren Ansätzen (RNA-Extraktion, RNAseq-Pipeline, Kultivierung).'
+  }[priority];
+
+  const doiList = [...knownDOIs].slice(0, 60);
+  const doiSection = doiList.length > 0
+    ? '\n\nBEKANNTE DOIs aus Zotero (NICHT empfehlen):\n' + doiList.map(d => '- ' + d).join('\n')
+    : '';
+  const titleSample = knownTitles.slice(0, 25);
+  const titleSection = titleSample.length > 0
+    ? '\n\nBEKANNTE TITEL aus Zotero (nicht erneut empfehlen):\n' + titleSample.map(t => '- ' + t).join('\n')
+    : '';
+
+  const prevDOIs = getPreviousDOIs();
+  const prevTitles = getPreviousTitles();
+  const prevDoiSection = prevDOIs.size > 0
+    ? '\n\nBEREITS EMPFOHLEN in früheren Updates (NICHT nochmal empfehlen):\n' + [...prevDOIs].map(d => '- ' + d).join('\n')
+    : '';
+  const prevTitleSection = prevTitles.length > 0
+    ? '\n\nTITEL aus früheren Updates (nicht wiederholen):\n' + prevTitles.slice(0, 20).map(t => '- ' + t).join('\n')
+    : '';
+
+  const kwList = keywords.map(k => '"' + k + '"').join(', ');
+
+  return `Du bist ein wissenschaftlicher Literatur-Assistent. Führe ein wöchentliches Paper-Update durch.
+
+## Forschungskontext
+${context}
+
+## Aufgabe
+Suche nach neuen, relevanten Papern aus dem Zeitraum ${dateFrom} bis ${dateTo}.
+
+Durchsuche für jeden Block ALLE folgenden Quellen:
+- **PubMed** (peer-reviewed, Hauptquelle)
+- **bioRxiv** via Web Search: site:biorxiv.org [keywords]
+- **ChemRxiv** via Web Search: site:chemrxiv.org [keywords]
+- **ResearchSquare** via Web Search: site:researchsquare.com [keywords]
+- **Europe PMC** via Web Search für europäische Preprints
+
+### Block A — SolV & Lanthanide
+Keywords: "Methylacidiphilum fumariolicum", "XoxF methanol dehydrogenase lanthanide", "lanthanide switch transcriptomics bacteria", "rare earth elements bacteria gene expression", "verrucomicrobia methanotroph", "lanthanome bacteria"
+
+### Block B — Actinide & Radionuklide in Mikroorganismen
+Keywords: "actinide bacteria growth", "americium microbiology", "radionuclide microbial response gene expression", "uranium bacteria transcriptome", "radioactive waste bacteria metabolism", "plutonium microbiology"
+
+### Block C — Transkriptomische Strahlenantworten (peer-reviewed + Preprints)
+Keywords: "ionizing radiation transcriptome bacteria", "alpha radiation gene expression microorganism", "Deinococcus radiodurans RNA sequencing", "radiation stress response transcriptomics", "DNA damage response ionizing radiation bacteria", "radiation resistance microorganism gene expression", "radiotolerant bacteria transcriptome"
+
+Weitere Keywords: ${kwList}
+
+## Filter — diese Paper NICHT empfehlen
+${doiSection}
+${titleSection}
+${prevDoiSection}
+${prevTitleSection}
+
+Alle Paper mit bekannter DOI oder identischem Titel ausschließen. Preprints kennzeichnen.
+
+## Ausgabeformat
+Antworte AUSSCHLIESSLICH mit einem JSON-Array. Kein Text davor oder danach, keine Markdown-Backticks.
+
+[
+  {
+    "block": "A",
+    "title": "Vollständiger Titel",
+    "authors": "Erstautor et al.",
+    "year": "2024",
+    "journal": "Journal Name oder bioRxiv/ChemRxiv/ResearchSquare",
+    "doi": "10.xxxx/xxxxx",
+    "source": "pubmed",
+    "relevance": "2-3 Sätze warum dieses Paper für die beschriebenen Experimente relevant ist",
+    "method": "Methodischer Hinweis falls vorhanden, sonst null"
+  }
+]
+
+Mögliche Werte für "source": "pubmed", "biorxiv", "chemrxiv", "researchsquare", "europepmc", "other"
+
+Liefere die TOP ${maxPapers} relevantesten neuen Paper. ${priorityText}
+Falls Block B keine Treffer: {"block":"B","title":"Keine neuen Treffer","authors":"","year":"","journal":"","doi":"","source":"","relevance":"Zu Actiniden + Transkriptomics gibt es aktuell keine neuen Publikationen — Pioniercharakter dieser Forschung.","method":null}`;
+}
+
+// ─── DOI Verification ────────────────────────────────────────────────────────
+async function verifyDOI(doi) {
+  if (!doi) return false;
+  const clean = doi.trim().replace(/^https?:\/\/doi\.org\//i, '');
+  try {
+    // Primary: doi.org resolution check (HEAD request)
+    const r = await fetch(`https://doi.org/${clean}`, {
+      method: 'HEAD',
+      redirect: 'follow',
+      signal: AbortSignal.timeout(6000)
+    });
+    if (r.ok || r.status === 301 || r.status === 302 || r.status === 303) return true;
+  } catch {}
+  try {
+    // Fallback: PubMed E-utilities esearch
+    const url = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=${encodeURIComponent(clean)}[doi]&retmode=json`;
+    const r2 = await fetch(url, { signal: AbortSignal.timeout(6000) });
+    if (r2.ok) {
+      const d = await r2.json();
+      if (d?.esearchresult?.count && parseInt(d.esearchresult.count) > 0) return true;
+    }
+  } catch {}
+  // Fallback 2: bioRxiv API for preprints
+  try {
+    if (clean.startsWith('10.1101/')) {
+      const r3 = await fetch(`https://api.biorxiv.org/details/biorxiv/${clean}/na/json`, { signal: AbortSignal.timeout(6000) });
+      if (r3.ok) {
+        const d = await r3.json();
+        if (d?.collection?.length > 0) return true;
+      }
+    }
+  } catch {}
+  return false;
+}
+
+async function verifyPapers(papers) {
+  const toVerify = papers.filter(p => p.doi && p.authors);
+  if (toVerify.length === 0) return papers;
+
+  setVerifyStatus(`Verifiziere ${toVerify.length} DOIs…`, 0, toVerify.length);
+
+  const verified = [];
+  let done = 0;
+
+  // Parallel verification in batches of 3
+  for (let i = 0; i < toVerify.length; i += 3) {
+    const batch = toVerify.slice(i, i + 3);
+    const results = await Promise.all(batch.map(p => verifyDOI(p.doi)));
+    batch.forEach((p, idx) => {
+      if (results[idx]) verified.push(p);
+      done++;
+      setVerifyStatus(`Verifiziere DOIs… (${done}/${toVerify.length})`, done, toVerify.length);
+    });
+  }
+
+  // Always keep "no results" placeholder entries
+  const placeholders = papers.filter(p => !p.doi && !p.authors);
+  return [...verified, ...placeholders];
+}
+
+function setVerifyStatus(msg, done, total) {
+  const el = document.getElementById('verifyStatus');
+  if (!el) return;
+  const pct = total > 0 ? Math.round(done / total * 100) : 0;
+  el.innerHTML = `<div style="font-size:12px;color:var(--accent);margin-bottom:6px">${msg}</div>
+    <div style="height:3px;background:var(--border);border-radius:2px;overflow:hidden">
+      <div style="height:100%;width:${pct}%;background:var(--accent);transition:width 0.3s;border-radius:2px"></div>
+    </div>`;
+}
+
+// ─── Main search ──────────────────────────────────────────────────────────────
+async function runSearch() {
+  const apiKey = document.getElementById('apiKey').value.trim();
+  if (!apiKey.startsWith('sk-ant')) {
+    showError('Bitte gib einen gültigen Anthropic API Key ein (beginnt mit sk-ant...)');
+    return;
+  }
+
+  const btn = document.getElementById('runBtn');
+  btn.disabled = true;
+  document.getElementById('runBtnText').textContent = 'Suche läuft…';
+  document.getElementById('errorCard').className = 'error-card';
+  document.getElementById('resultsSection').className = 'results';
+
+  startLoadingAnimation();
+
+  try {
+    const prompt = buildPrompt();
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 4000,
+        tools: [{ type: 'web_search_20250305', name: 'web_search' }],
+        system: `Du bist ein wissenschaftlicher Literatur-Assistent. Du hast Zugriff auf Web Search.
+
+WICHTIG: Suche IMMER zuerst aktiv auf PubMed und bioRxiv bevor du Paper nennst. Verwende web_search mit Queries wie:
+- site:pubmed.ncbi.nlm.nih.gov [keywords]
+- site:biorxiv.org [keywords]
+
+Erfinde NIEMALS Paper, DOIs oder Autoren. Nenne NUR Paper die du durch web_search tatsächlich gefunden und verifiziert hast.
+
+Antworte am Ende AUSSCHLIESSLICH mit einem validen JSON-Array, ohne Text davor oder danach, ohne Markdown-Backticks.`,
+        messages: [{ role: 'user', content: prompt }]
+      })
+    });
+
+    stopLoadingAnimation();
+
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({}));
+      throw new Error(err?.error?.message || `API Fehler: ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    // Mit Web Search gibt es mehrere Content-Blöcke — letzten Text-Block nehmen
+    const textBlocks = (data.content || []).filter(b => b.type === 'text');
+    const rawText = textBlocks.map(b => b.text || '').join('');
+    document.getElementById('rawBox').textContent = rawText;
+
+    let papers;
+    try {
+      // JSON aus dem Text extrahieren — auch wenn etwas Text davor/danach steht
+      const match = rawText.match(/\[\s*\{[\s\S]*\}\s*\]/);
+      if (!match) throw new Error('Kein JSON gefunden');
+      papers = JSON.parse(match[0]);
+    } catch {
+      // Fallback: gesamten Text als JSON versuchen
+      try {
+        const clean = rawText.replace(/```json|```/g, '').trim();
+        papers = JSON.parse(clean);
+      } catch {
+        throw new Error('Claude hat kein gültiges JSON zurückgegeben. Versuche es erneut. Raw: ' + rawText.slice(0, 200));
+      }
+    }
+
+    // DOIs verifizieren — nur echte Paper behalten
+    document.getElementById('verifyStatus').innerHTML = '';
+    document.getElementById('ls6').className = 'loading-step active';
+    papers = await verifyPapers(papers);
+    document.getElementById('ls6').className = 'loading-step done';
+    document.getElementById('verifyStatus').innerHTML = '';
+
+    // Verlauf speichern — lokal + GitHub
+    saveHistory(papers);
+    renderHistory();
+    if (ghConfigValid()) await saveHistoryToGitHub();
+
+    renderResults(papers);
+
+  } catch (err) {
+    stopLoadingAnimation();
+    showError(err.message);
+  } finally {
+    btn.disabled = false;
+    document.getElementById('runBtnText').textContent = 'Erneut suchen';
+    document.getElementById('runBtnIcon').textContent = '🔄';
+  }
+}
+
+// ─── Render results ───────────────────────────────────────────────────────────
+function renderResults(papers) {
+  const container = document.getElementById('papersContainer');
+  container.innerHTML = '';
+
+  const now = new Date().toLocaleDateString('de-DE');
+  document.getElementById('resultsMeta').textContent = `${papers.length} Paper · ${now}`;
+
+  if (!papers.length) {
+    container.innerHTML = '<div class="no-results">Keine neuen relevanten Paper gefunden.</div>';
+  } else {
+    papers.forEach(p => {
+      const badgeClass = { A: 'badge-a', B: 'badge-b', C: 'badge-c' }[p.block] || 'badge-a';
+      const blockLabel = { A: 'Block A · SolV & Lanthanide', B: 'Block B · Actinide & Radionuklide', C: 'Block C · Strahlenantworten' }[p.block] || `Block ${p.block}`;
+      const sourceLabels = { pubmed: 'PubMed', biorxiv: 'bioRxiv', chemrxiv: 'ChemRxiv', researchsquare: 'ResearchSquare', europepmc: 'Europe PMC', other: 'Preprint' };
+      const sourceColors = { pubmed: '#e0f2fe:#0369a1', biorxiv: '#fef9c3:#854d0e', chemrxiv: '#f0fdf4:#166534', researchsquare: '#fdf4ff:#7e22ce', europepmc: '#eff6ff:#1e40af', other: '#f3f4f6:#374151' };
+      const srcKey = (p.source || 'pubmed').toLowerCase();
+      const srcLabel = sourceLabels[srcKey] || p.source || 'PubMed';
+      const [srcBg, srcColor] = (sourceColors[srcKey] || '#f3f4f6:#374151').split(':');
+      const isPreprint = ['biorxiv','chemrxiv','researchsquare','europepmc','other'].includes(srcKey);
+      const sourceBadge = `<span style="font-family:var(--mono);font-size:10px;padding:2px 7px;border-radius:4px;background:${srcBg};color:${srcColor};border:1px solid ${srcColor}20;margin-left:6px">${srcLabel}${isPreprint ? ' · Preprint' : ''}</span>`;
+      const doiLink = p.doi ? `<a href="https://doi.org/${p.doi}" target="_blank">doi:${p.doi}</a>` : '';
+      const methodHtml = p.method ? `<div class="paper-method">⚗ <strong>Methodik:</strong> ${p.method}</div>` : '';
+      const noResult = !p.authors && !p.doi;
+
+      const card = document.createElement('div');
+      card.className = 'paper-card';
+      card.innerHTML = `
+        <div style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px">
+          <div class="paper-block-badge ${badgeClass}">${blockLabel}</div>
+          ${sourceBadge}
+        </div>
+        <div class="paper-title">${p.title}</div>
+        <div class="paper-meta">${[p.authors, p.year, p.journal ? `<em>${p.journal}</em>` : '', doiLink].filter(Boolean).join(' · ')}</div>
+        ${!noResult ? `<div class="paper-section"><div class="paper-section-label">Relevanz</div><p>${p.relevance}</p></div>${methodHtml}` : `<p style="font-size:13px;color:var(--muted);font-style:italic">${p.relevance}</p>`}
+      `;
+      container.appendChild(card);
+    });
+  }
+
+  document.getElementById('resultsSection').className = 'results visible';
+  document.getElementById('step5').className = 'step done';
+  document.getElementById('step5').querySelector('.step-dot').textContent = '✓';
+  setTimeout(() => { document.getElementById('resultsSection').scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);
+}
+
+function showError(msg) {
+  const el = document.getElementById('errorCard');
+  el.textContent = `Fehler: ${msg}`;
+  el.className = 'error-card visible';
+}
+
+function toggleRaw() {
+  const box = document.getElementById('rawBox');
+  box.className = box.className.includes('visible') ? 'raw-box' : 'raw-box visible';
+}
+</script>
+</body>
+</html>
