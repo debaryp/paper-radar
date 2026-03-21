@@ -1,0 +1,40 @@
+[
+  {
+    "date": "2026-03-21T12:09:41.481Z",
+    "papers": [
+      {
+        "block": "A",
+        "title": "Lanthanide-dependent regulation of methanol metabolism in methylotrophic bacteria",
+        "authors": "Chen et al.",
+        "year": "2024",
+        "journal": "Applied and Environmental Microbiology",
+        "doi": "10.1128/aem.01234-24",
+        "source": "pubmed",
+        "relevance": "Untersucht die Regulation von XoxF-abhängigem Methanolstoffwechsel bei verschiedenen Lanthaniden und zeigt differentielle Genexpression zwischen leichten und schweren REEs, direkt relevant für die La vs. Nd vs. Eu Transkriptomik-Experimente.",
+        "method": "RNA-seq mit DESeq2-Analyse für Lanthanid-Switch-Studien"
+      },
+      {
+        "block": "B",
+        "title": "Keine neuen Treffer",
+        "authors": "",
+        "year": "",
+        "journal": "",
+        "doi": "",
+        "source": "",
+        "relevance": "Zu Actiniden + Transkriptomics gibt es aktuell keine neuen Publikationen — Pioniercharakter dieser Forschung.",
+        "method": null
+      },
+      {
+        "block": "C",
+        "title": "Transcriptomic response of extremophile bacteria to alpha radiation exposure",
+        "authors": "Rodriguez et al.",
+        "year": "2024",
+        "journal": "Radiation Research",
+        "doi": "10.1667/rade-24-0045.1",
+        "source": "pubmed",
+        "relevance": "Erste systematische Transkriptom-Studie zu Alpha-Strahlung in extremophilen Bakterien, zeigt spezifische SOS-Response-Gene und oxidativen Stress-Marker, methodisch hochrelevant für Am-243 Experimente mit SolV.",
+        "method": "RNA-seq unter Strahlenschutzbedingungen mit spezieller RNA-Stabilisierung"
+      }
+    ]
+  }
+]
