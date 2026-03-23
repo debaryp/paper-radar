@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-03-23T10:33:51.190160",
+    "papers": [
+      {
+        "pmid": "41797108",
+        "title": "Bioremediation of low-concentration uranium wastewater by Desulfovibrio multispirans H1MTZ23 mediated mineralization",
+        "authors": "Meng P et al.",
+        "year": "2026",
+        "journal": "Ecotoxicol Environ Saf",
+        "doi": "10.1016/j.ecoenv.2026.119981",
+        "source": "pubmed",
+        "abstract": "Bioremediation of low-concentration uranium wastewater by Desulfovibrio multispirans H1MTZ23 mediated mineralization.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "41519287",
+        "title": "Ecotoxicological insights into UV-P-induced immunotoxicity and bacterial infection risk in marine medaka (Oryzias melastigma)",
+        "authors": "Wu L et al.",
+        "year": "2026",
+        "journal": "Environ Res",
+        "doi": "10.1016/j.envres.2026.123733",
+        "source": "pubmed",
+        "abstract": "Ecotoxicological insights into UV-P-induced immunotoxicity and bacterial infection risk in marine medaka (Oryzias melastigma).",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41304310",
+        "title": "The Effects of Feeding ybfQ-Deficient Gut Bacteria on Radio-Tolerance in Symbiotic Caenorhabditis elegans: The Key Role of Isoscoparin",
+        "authors": "Ding L et al.",
+        "year": "2025",
+        "journal": "Microorganisms",
+        "doi": "10.3390/microorganisms13112626",
+        "source": "pubmed",
+        "abstract": "The Effects of Feeding ybfQ-Deficient Gut Bacteria on Radio-Tolerance in Symbiotic Caenorhabditis elegans: The Key Role of Isoscoparin.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41762838",
+        "title": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism",
+        "authors": "Li D et al.",
+        "year": "2026",
+        "journal": "J Hazard Mater",
+        "doi": "10.1016/j.jhazmat.2026.141623",
+        "source": "pubmed",
+        "abstract": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-03-21T16:00:14.046380",
     "papers": [
       {

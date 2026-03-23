@@ -1,35 +1,11 @@
 {
-  "generated": "2026-03-21T16:00:14.045996",
-  "date_from": "2025/09/22",
-  "date_to": "2026/03/21",
+  "generated": "2026-03-23T10:33:51.189318",
+  "date_from": "2025/09/24",
+  "date_to": "2026/03/23",
   "papers": [
     {
-      "pmid": "41636527",
-      "title": "Beneath the surface: expanding the known repertoire of methylotrophic metabolism",
-      "authors": "Bruger EL et al.",
-      "year": "2026",
-      "journal": "Appl Environ Microbiol",
-      "doi": "10.1128/aem.02116-25",
-      "source": "pubmed",
-      "abstract": "Beneath the surface: expanding the known repertoire of methylotrophic metabolism.",
       "block": "A",
-      "block_label": "SolV & Lanthanide"
-    },
-    {
-      "pmid": "41023737",
-      "title": "Diversity and distribution of the lanthanome in aerobic methane-oxidising bacteria",
-      "authors": "Dandare SU et al.",
-      "year": "2025",
-      "journal": "Environ Microbiome",
-      "doi": "10.1186/s40793-025-00776-5",
-      "source": "pubmed",
-      "abstract": "Diversity and distribution of the lanthanome in aerobic methane-oxidising bacteria.",
-      "block": "A",
-      "block_label": "SolV & Lanthanide"
-    },
-    {
-      "block": "B",
-      "block_label": "Actinide & Radionuklide",
+      "block_label": "SolV & Lanthanide",
       "title": "Keine neuen verifizierten Treffer",
       "authors": "",
       "year": "",
@@ -39,44 +15,56 @@
       "no_result": true
     },
     {
-      "pmid": "40983780",
-      "title": "Deciphering UV-C-induced transcriptomic shifts in tomato: defence mechanisms, stress responses, and photoreceptor regulation",
-      "authors": "Wong GR et al.",
+      "pmid": "41797108",
+      "title": "Bioremediation of low-concentration uranium wastewater by Desulfovibrio multispirans H1MTZ23 mediated mineralization",
+      "authors": "Meng P et al.",
+      "year": "2026",
+      "journal": "Ecotoxicol Environ Saf",
+      "doi": "10.1016/j.ecoenv.2026.119981",
+      "source": "pubmed",
+      "abstract": "Bioremediation of low-concentration uranium wastewater by Desulfovibrio multispirans H1MTZ23 mediated mineralization.",
+      "block": "B",
+      "block_label": "Actinide & Radionuklide"
+    },
+    {
+      "pmid": "41519287",
+      "title": "Ecotoxicological insights into UV-P-induced immunotoxicity and bacterial infection risk in marine medaka (Oryzias melastigma)",
+      "authors": "Wu L et al.",
+      "year": "2026",
+      "journal": "Environ Res",
+      "doi": "10.1016/j.envres.2026.123733",
+      "source": "pubmed",
+      "abstract": "Ecotoxicological insights into UV-P-induced immunotoxicity and bacterial infection risk in marine medaka (Oryzias melastigma).",
+      "block": "C",
+      "block_label": "Transkriptomische Strahlenantworten"
+    },
+    {
+      "pmid": "41304310",
+      "title": "The Effects of Feeding ybfQ-Deficient Gut Bacteria on Radio-Tolerance in Symbiotic Caenorhabditis elegans: The Key Role of Isoscoparin",
+      "authors": "Ding L et al.",
       "year": "2025",
-      "journal": "Plant Cell Rep",
-      "doi": "10.1007/s00299-025-03604-9",
+      "journal": "Microorganisms",
+      "doi": "10.3390/microorganisms13112626",
       "source": "pubmed",
-      "abstract": "Deciphering UV-C-induced transcriptomic shifts in tomato: defence mechanisms, stress responses, and photoreceptor regulation.",
+      "abstract": "The Effects of Feeding ybfQ-Deficient Gut Bacteria on Radio-Tolerance in Symbiotic Caenorhabditis elegans: The Key Role of Isoscoparin.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "41604879",
-      "title": "Mechanistic insight into the reprotoxic effects of chronic gamma radiation on spermatogenesis in Caenorhabditis elegans",
-      "authors": "Zhu H et al.",
+      "pmid": "41762838",
+      "title": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism",
+      "authors": "Li D et al.",
       "year": "2026",
-      "journal": "Sci Total Environ",
-      "doi": "10.1016/j.scitotenv.2026.181444",
+      "journal": "J Hazard Mater",
+      "doi": "10.1016/j.jhazmat.2026.141623",
       "source": "pubmed",
-      "abstract": "Mechanistic insight into the reprotoxic effects of chronic gamma radiation on spermatogenesis in Caenorhabditis elegans.",
-      "block": "C",
-      "block_label": "Transkriptomische Strahlenantworten"
-    },
-    {
-      "pmid": "41595735",
-      "title": "ANXA2P2 and PA2G4P4 Pseudogenes Are Associated with the Response to Ionizing Radiation and Could Be Used as Potential Biomarkers: In Silico Study",
-      "authors": "Kolenda T et al.",
-      "year": "2026",
-      "journal": "Biomedicines",
-      "doi": "10.3390/biomedicines14010200",
-      "source": "pubmed",
-      "abstract": "ANXA2P2 and PA2G4P4 Pseudogenes Are Associated with the Response to Ionizing Radiation and Could Be Used as Potential Biomarkers: In Silico Study.",
+      "abstract": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
   ],
-  "total_verified": 5,
+  "total_verified": 4,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 18
+  "history_dois_filtered": 23
 }
