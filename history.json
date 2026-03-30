@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-03-30T10:48:57.827794",
+    "papers": [
+      {
+        "pmid": "41903902",
+        "title": "Polystyrene microplastic-derived dissolved organic matter mitigates arsenic phytotoxicity in Tibetan hulless barley seedlings: Phenotypic and transcriptomic evidence",
+        "authors": "Huang Y et al.",
+        "year": "2026",
+        "journal": "Environ Pollut",
+        "doi": "10.1016/j.envpol.2026.128027",
+        "source": "pubmed",
+        "abstract": "Polystyrene microplastic-derived dissolved organic matter mitigates arsenic phytotoxicity in Tibetan hulless barley seedlings: Phenotypic and transcriptomic evidence.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41878420",
+        "title": "Transcriptomic insights into the immune responses of the lung and muscle of non-healthy harbor porpoises (Phocoena phocoena)",
+        "authors": "Dönmez EM et al.",
+        "year": "2026",
+        "journal": "Front Immunol",
+        "doi": "10.3389/fimmu.2026.1738836",
+        "source": "pubmed",
+        "abstract": "Transcriptomic insights into the immune responses of the lung and muscle of non-healthy harbor porpoises (Phocoena phocoena).",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41683667",
+        "title": "Physiological Changes and Transposition of Insertion Sequences in the dps-Double-Knockout Mutant of Deinococcus geothermalis",
+        "authors": "Park Y et al.",
+        "year": "2026",
+        "journal": "Int J Mol Sci",
+        "doi": "10.3390/ijms27031238",
+        "source": "pubmed",
+        "abstract": "Physiological Changes and Transposition of Insertion Sequences in the dps-Double-Knockout Mutant of Deinococcus geothermalis.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-03-23T10:33:51.190160",
     "papers": [
       {

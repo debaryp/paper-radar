@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-23T10:33:51.189318",
-  "date_from": "2025/09/24",
-  "date_to": "2026/03/23",
+  "generated": "2026-03-30T10:48:57.827421",
+  "date_from": "2025/10/01",
+  "date_to": "2026/03/30",
   "papers": [
     {
       "block": "A",
@@ -15,56 +15,55 @@
       "no_result": true
     },
     {
-      "pmid": "41797108",
-      "title": "Bioremediation of low-concentration uranium wastewater by Desulfovibrio multispirans H1MTZ23 mediated mineralization",
-      "authors": "Meng P et al.",
-      "year": "2026",
-      "journal": "Ecotoxicol Environ Saf",
-      "doi": "10.1016/j.ecoenv.2026.119981",
-      "source": "pubmed",
-      "abstract": "Bioremediation of low-concentration uranium wastewater by Desulfovibrio multispirans H1MTZ23 mediated mineralization.",
       "block": "B",
-      "block_label": "Actinide & Radionuklide"
+      "block_label": "Actinide & Radionuklide",
+      "title": "Keine neuen verifizierten Treffer",
+      "authors": "",
+      "year": "",
+      "journal": "",
+      "doi": "",
+      "source": "",
+      "no_result": true
     },
     {
-      "pmid": "41519287",
-      "title": "Ecotoxicological insights into UV-P-induced immunotoxicity and bacterial infection risk in marine medaka (Oryzias melastigma)",
-      "authors": "Wu L et al.",
+      "pmid": "41903902",
+      "title": "Polystyrene microplastic-derived dissolved organic matter mitigates arsenic phytotoxicity in Tibetan hulless barley seedlings: Phenotypic and transcriptomic evidence",
+      "authors": "Huang Y et al.",
       "year": "2026",
-      "journal": "Environ Res",
-      "doi": "10.1016/j.envres.2026.123733",
+      "journal": "Environ Pollut",
+      "doi": "10.1016/j.envpol.2026.128027",
       "source": "pubmed",
-      "abstract": "Ecotoxicological insights into UV-P-induced immunotoxicity and bacterial infection risk in marine medaka (Oryzias melastigma).",
+      "abstract": "Polystyrene microplastic-derived dissolved organic matter mitigates arsenic phytotoxicity in Tibetan hulless barley seedlings: Phenotypic and transcriptomic evidence.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "41304310",
-      "title": "The Effects of Feeding ybfQ-Deficient Gut Bacteria on Radio-Tolerance in Symbiotic Caenorhabditis elegans: The Key Role of Isoscoparin",
-      "authors": "Ding L et al.",
-      "year": "2025",
-      "journal": "Microorganisms",
-      "doi": "10.3390/microorganisms13112626",
+      "pmid": "41878420",
+      "title": "Transcriptomic insights into the immune responses of the lung and muscle of non-healthy harbor porpoises (Phocoena phocoena)",
+      "authors": "Dönmez EM et al.",
+      "year": "2026",
+      "journal": "Front Immunol",
+      "doi": "10.3389/fimmu.2026.1738836",
       "source": "pubmed",
-      "abstract": "The Effects of Feeding ybfQ-Deficient Gut Bacteria on Radio-Tolerance in Symbiotic Caenorhabditis elegans: The Key Role of Isoscoparin.",
+      "abstract": "Transcriptomic insights into the immune responses of the lung and muscle of non-healthy harbor porpoises (Phocoena phocoena).",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "41762838",
-      "title": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism",
-      "authors": "Li D et al.",
+      "pmid": "41683667",
+      "title": "Physiological Changes and Transposition of Insertion Sequences in the dps-Double-Knockout Mutant of Deinococcus geothermalis",
+      "authors": "Park Y et al.",
       "year": "2026",
-      "journal": "J Hazard Mater",
-      "doi": "10.1016/j.jhazmat.2026.141623",
+      "journal": "Int J Mol Sci",
+      "doi": "10.3390/ijms27031238",
       "source": "pubmed",
-      "abstract": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism.",
+      "abstract": "Physiological Changes and Transposition of Insertion Sequences in the dps-Double-Knockout Mutant of Deinococcus geothermalis.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
   ],
-  "total_verified": 4,
+  "total_verified": 3,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 23
+  "history_dois_filtered": 27
 }
