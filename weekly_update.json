@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-06T10:40:52.051099",
-  "date_from": "2025/10/08",
-  "date_to": "2026/04/06",
+  "generated": "2026-04-13T11:52:48.763613",
+  "date_from": "2025/10/15",
+  "date_to": "2026/04/13",
   "papers": [
     {
       "block": "A",
@@ -15,56 +15,55 @@
       "no_result": true
     },
     {
-      "pmid": "41865578",
-      "title": "Photosensitive COFs-carboxylated nanocellulose membrane enables high-efficiency uranium extraction via synergistic coordination complexation and photocatalytic reduction",
-      "authors": "Guo S et al.",
-      "year": "2026",
-      "journal": "J Hazard Mater",
-      "doi": "10.1016/j.jhazmat.2026.141815",
-      "source": "pubmed",
-      "abstract": "Photosensitive COFs-carboxylated nanocellulose membrane enables high-efficiency uranium extraction via synergistic coordination complexation and photocatalytic reduction.",
       "block": "B",
-      "block_label": "Actinide & Radionuklide"
+      "block_label": "Actinide & Radionuklide",
+      "title": "Keine neuen verifizierten Treffer",
+      "authors": "",
+      "year": "",
+      "journal": "",
+      "doi": "",
+      "source": "",
+      "no_result": true
     },
     {
-      "pmid": "41929682",
-      "title": "Cosmic silence and viral noise: transcriptomic crosstalk in Caenorhabditis elegans under simulated space conditions",
-      "authors": "Villena-Giménez A et al.",
+      "pmid": "41527391",
+      "title": "Roles of Alp and Prt Regulons in the Response of Pseudomonas aeruginosa to UV-C Light",
+      "authors": "Fonseca MRB et al.",
       "year": "2026",
-      "journal": "Front Microbiol",
-      "doi": "10.3389/fmicb.2026.1781245",
+      "journal": "Environ Microbiol Rep",
+      "doi": "10.1111/1758-2229.70268",
       "source": "pubmed",
-      "abstract": "Cosmic silence and viral noise: transcriptomic crosstalk in Caenorhabditis elegans under simulated space conditions.",
+      "abstract": "Roles of Alp and Prt Regulons in the Response of Pseudomonas aeruginosa to UV-C Light.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "41828529",
-      "title": "Cardiospermum halicacabum Extract Attenuates UVB-Induced Photoaging in Human Skin Fibroblasts via Inhibition of the PI3K/Akt/mTOR Signaling Pathway",
-      "authors": "Zhao K et al.",
-      "year": "2026",
-      "journal": "Int J Mol Sci",
-      "doi": "10.3390/ijms27052304",
-      "source": "pubmed",
-      "abstract": "Cardiospermum halicacabum Extract Attenuates UVB-Induced Photoaging in Human Skin Fibroblasts via Inhibition of the PI3K/Akt/mTOR Signaling Pathway.",
-      "block": "C",
-      "block_label": "Transkriptomische Strahlenantworten"
-    },
-    {
-      "pmid": "41594601",
-      "title": "Melanin and Neuromelanin in Humans: Insights Across Health, Aging, Diseases, and Unexpected Aspects of Fungal Melanogenesis",
-      "authors": "Hatch K et al.",
+      "pmid": "41465484",
+      "title": "Functional Expansion of the Skin Microbiome: A Pantothenate-Producing Rothia Strain Confers Anti-Inflammatory and Photoaging-Protective Effects",
+      "authors": "Kim HB et al.",
       "year": "2025",
-      "journal": "Biomolecules",
-      "doi": "10.3390/biom16010061",
+      "journal": "Int J Mol Sci",
+      "doi": "10.3390/ijms262412058",
       "source": "pubmed",
-      "abstract": "Melanin and Neuromelanin in Humans: Insights Across Health, Aging, Diseases, and Unexpected Aspects of Fungal Melanogenesis.",
+      "abstract": "Functional Expansion of the Skin Microbiome: A Pantothenate-Producing Rothia Strain Confers Anti-Inflammatory and Photoaging-Protective Effects.",
+      "block": "C",
+      "block_label": "Transkriptomische Strahlenantworten"
+    },
+    {
+      "pmid": "41900360",
+      "title": "Characterization of Borrelia-Derived Extracellular Vesicles: Implications for Pathogenesis and Diagnostics",
+      "authors": "Birkaya B et al.",
+      "year": "2026",
+      "journal": "Microorganisms",
+      "doi": "10.3390/microorganisms14030600",
+      "source": "pubmed",
+      "abstract": "Characterization of Borrelia-Derived Extracellular Vesicles: Implications for Pathogenesis and Diagnostics.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
   ],
-  "total_verified": 4,
+  "total_verified": 3,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 30
+  "history_dois_filtered": 34
 }

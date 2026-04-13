@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-04-13T11:52:48.764036",
+    "papers": [
+      {
+        "pmid": "41527391",
+        "title": "Roles of Alp and Prt Regulons in the Response of Pseudomonas aeruginosa to UV-C Light",
+        "authors": "Fonseca MRB et al.",
+        "year": "2026",
+        "journal": "Environ Microbiol Rep",
+        "doi": "10.1111/1758-2229.70268",
+        "source": "pubmed",
+        "abstract": "Roles of Alp and Prt Regulons in the Response of Pseudomonas aeruginosa to UV-C Light.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41465484",
+        "title": "Functional Expansion of the Skin Microbiome: A Pantothenate-Producing Rothia Strain Confers Anti-Inflammatory and Photoaging-Protective Effects",
+        "authors": "Kim HB et al.",
+        "year": "2025",
+        "journal": "Int J Mol Sci",
+        "doi": "10.3390/ijms262412058",
+        "source": "pubmed",
+        "abstract": "Functional Expansion of the Skin Microbiome: A Pantothenate-Producing Rothia Strain Confers Anti-Inflammatory and Photoaging-Protective Effects.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41900360",
+        "title": "Characterization of Borrelia-Derived Extracellular Vesicles: Implications for Pathogenesis and Diagnostics",
+        "authors": "Birkaya B et al.",
+        "year": "2026",
+        "journal": "Microorganisms",
+        "doi": "10.3390/microorganisms14030600",
+        "source": "pubmed",
+        "abstract": "Characterization of Borrelia-Derived Extracellular Vesicles: Implications for Pathogenesis and Diagnostics.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-04-06T10:40:52.051420",
     "papers": [
       {
