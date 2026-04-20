@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-04-20T11:53:46.195439",
+    "papers": [
+      {
+        "pmid": "41861456",
+        "title": "Mechanisms and determinants of bacterial susceptibility to antimicrobial Blue Light: From chromophores to transcriptomes",
+        "authors": "Kruszewska-Naczk B et al.",
+        "year": "2026",
+        "journal": "Drug Resist Updat",
+        "doi": "10.1016/j.drup.2026.101391",
+        "source": "pubmed",
+        "abstract": "Mechanisms and determinants of bacterial susceptibility to antimicrobial Blue Light: From chromophores to transcriptomes.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41983715",
+        "title": "ROS-Responsive Hydrogel Delivering Bio-Nanoselenium for Targeted Therapy of UVB-Induced Skin Photodamage",
+        "authors": "Zhu K et al.",
+        "year": "2026",
+        "journal": "ACS Appl Mater Interfaces",
+        "doi": "10.1021/acsami.6c00317",
+        "source": "pubmed",
+        "abstract": "ROS-Responsive Hydrogel Delivering Bio-Nanoselenium for Targeted Therapy of UVB-Induced Skin Photodamage.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41977288",
+        "title": "Graphene Far-Infrared Therapy Enhances Diabetic Wound Healing Through Potential Mitigation of Oxidative Stress and Inflammation and Regulation of Chemokines and Macrophage Polarization",
+        "authors": "Jian X et al.",
+        "year": "2026",
+        "journal": "Int J Mol Sci",
+        "doi": "10.3390/ijms27073101",
+        "source": "pubmed",
+        "abstract": "Graphene Far-Infrared Therapy Enhances Diabetic Wound Healing Through Potential Mitigation of Oxidative Stress and Inflammation and Regulation of Chemokines and Macrophage Polarization.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-04-13T11:52:48.764036",
     "papers": [
       {

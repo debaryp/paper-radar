@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-13T11:52:48.763613",
-  "date_from": "2025/10/15",
-  "date_to": "2026/04/13",
+  "generated": "2026-04-20T11:53:46.195002",
+  "date_from": "2025/10/22",
+  "date_to": "2026/04/20",
   "papers": [
     {
       "block": "A",
@@ -26,38 +26,38 @@
       "no_result": true
     },
     {
-      "pmid": "41527391",
-      "title": "Roles of Alp and Prt Regulons in the Response of Pseudomonas aeruginosa to UV-C Light",
-      "authors": "Fonseca MRB et al.",
+      "pmid": "41861456",
+      "title": "Mechanisms and determinants of bacterial susceptibility to antimicrobial Blue Light: From chromophores to transcriptomes",
+      "authors": "Kruszewska-Naczk B et al.",
       "year": "2026",
-      "journal": "Environ Microbiol Rep",
-      "doi": "10.1111/1758-2229.70268",
+      "journal": "Drug Resist Updat",
+      "doi": "10.1016/j.drup.2026.101391",
       "source": "pubmed",
-      "abstract": "Roles of Alp and Prt Regulons in the Response of Pseudomonas aeruginosa to UV-C Light.",
+      "abstract": "Mechanisms and determinants of bacterial susceptibility to antimicrobial Blue Light: From chromophores to transcriptomes.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "41465484",
-      "title": "Functional Expansion of the Skin Microbiome: A Pantothenate-Producing Rothia Strain Confers Anti-Inflammatory and Photoaging-Protective Effects",
-      "authors": "Kim HB et al.",
-      "year": "2025",
+      "pmid": "41983715",
+      "title": "ROS-Responsive Hydrogel Delivering Bio-Nanoselenium for Targeted Therapy of UVB-Induced Skin Photodamage",
+      "authors": "Zhu K et al.",
+      "year": "2026",
+      "journal": "ACS Appl Mater Interfaces",
+      "doi": "10.1021/acsami.6c00317",
+      "source": "pubmed",
+      "abstract": "ROS-Responsive Hydrogel Delivering Bio-Nanoselenium for Targeted Therapy of UVB-Induced Skin Photodamage.",
+      "block": "C",
+      "block_label": "Transkriptomische Strahlenantworten"
+    },
+    {
+      "pmid": "41977288",
+      "title": "Graphene Far-Infrared Therapy Enhances Diabetic Wound Healing Through Potential Mitigation of Oxidative Stress and Inflammation and Regulation of Chemokines and Macrophage Polarization",
+      "authors": "Jian X et al.",
+      "year": "2026",
       "journal": "Int J Mol Sci",
-      "doi": "10.3390/ijms262412058",
+      "doi": "10.3390/ijms27073101",
       "source": "pubmed",
-      "abstract": "Functional Expansion of the Skin Microbiome: A Pantothenate-Producing Rothia Strain Confers Anti-Inflammatory and Photoaging-Protective Effects.",
-      "block": "C",
-      "block_label": "Transkriptomische Strahlenantworten"
-    },
-    {
-      "pmid": "41900360",
-      "title": "Characterization of Borrelia-Derived Extracellular Vesicles: Implications for Pathogenesis and Diagnostics",
-      "authors": "Birkaya B et al.",
-      "year": "2026",
-      "journal": "Microorganisms",
-      "doi": "10.3390/microorganisms14030600",
-      "source": "pubmed",
-      "abstract": "Characterization of Borrelia-Derived Extracellular Vesicles: Implications for Pathogenesis and Diagnostics.",
+      "abstract": "Graphene Far-Infrared Therapy Enhances Diabetic Wound Healing Through Potential Mitigation of Oxidative Stress and Inflammation and Regulation of Chemokines and Macrophage Polarization.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
@@ -65,5 +65,5 @@
   "total_verified": 3,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 34
+  "history_dois_filtered": 37
 }
