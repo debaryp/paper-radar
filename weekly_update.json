@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-20T11:53:46.195002",
-  "date_from": "2025/10/22",
-  "date_to": "2026/04/20",
+  "generated": "2026-04-27T09:21:36.517435",
+  "date_from": "2025/10/29",
+  "date_to": "2026/04/27",
   "papers": [
     {
       "block": "A",
@@ -26,38 +26,38 @@
       "no_result": true
     },
     {
-      "pmid": "41861456",
-      "title": "Mechanisms and determinants of bacterial susceptibility to antimicrobial Blue Light: From chromophores to transcriptomes",
-      "authors": "Kruszewska-Naczk B et al.",
+      "pmid": "42036129",
+      "title": "Lipophagy Mitigates Radiation-induced Liver Lipid Disorders and Damage in Adolescent Mice",
+      "authors": "Zhang YF et al.",
       "year": "2026",
-      "journal": "Drug Resist Updat",
-      "doi": "10.1016/j.drup.2026.101391",
+      "journal": "Radiat Res",
+      "doi": "10.1667/RADE-26-00008",
       "source": "pubmed",
-      "abstract": "Mechanisms and determinants of bacterial susceptibility to antimicrobial Blue Light: From chromophores to transcriptomes.",
+      "abstract": "Lipophagy Mitigates Radiation-induced Liver Lipid Disorders and Damage in Adolescent Mice.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "41983715",
-      "title": "ROS-Responsive Hydrogel Delivering Bio-Nanoselenium for Targeted Therapy of UVB-Induced Skin Photodamage",
-      "authors": "Zhu K et al.",
+      "pmid": "42004243",
+      "title": "Radiotherapy Reprograms Intermediate Monocytes Into Proinflammatory Drivers of Systemic Inflammation in Radiation-Induced Heart Disease",
+      "authors": "He J et al.",
       "year": "2026",
-      "journal": "ACS Appl Mater Interfaces",
-      "doi": "10.1021/acsami.6c00317",
+      "journal": "Cardiol Res Pract",
+      "doi": "10.1155/crp/1117746",
       "source": "pubmed",
-      "abstract": "ROS-Responsive Hydrogel Delivering Bio-Nanoselenium for Targeted Therapy of UVB-Induced Skin Photodamage.",
+      "abstract": "Radiotherapy Reprograms Intermediate Monocytes Into Proinflammatory Drivers of Systemic Inflammation in Radiation-Induced Heart Disease.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "41977288",
-      "title": "Graphene Far-Infrared Therapy Enhances Diabetic Wound Healing Through Potential Mitigation of Oxidative Stress and Inflammation and Regulation of Chemokines and Macrophage Polarization",
-      "authors": "Jian X et al.",
+      "pmid": "41967244",
+      "title": "Illumination-induced restructuring of extracellular polymeric substances from Klebsiella Sp. HDJY-1 drives indirect photodegradation of thifensulfuron-methyl",
+      "authors": "Gu J et al.",
       "year": "2026",
-      "journal": "Int J Mol Sci",
-      "doi": "10.3390/ijms27073101",
+      "journal": "Water Res",
+      "doi": "10.1016/j.watres.2026.125906",
       "source": "pubmed",
-      "abstract": "Graphene Far-Infrared Therapy Enhances Diabetic Wound Healing Through Potential Mitigation of Oxidative Stress and Inflammation and Regulation of Chemokines and Macrophage Polarization.",
+      "abstract": "Illumination-induced restructuring of extracellular polymeric substances from Klebsiella Sp. HDJY-1 drives indirect photodegradation of thifensulfuron-methyl.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
@@ -65,5 +65,5 @@
   "total_verified": 3,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 37
+  "history_dois_filtered": 40
 }

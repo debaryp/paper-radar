@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-04-27T09:21:36.518206",
+    "papers": [
+      {
+        "pmid": "42036129",
+        "title": "Lipophagy Mitigates Radiation-induced Liver Lipid Disorders and Damage in Adolescent Mice",
+        "authors": "Zhang YF et al.",
+        "year": "2026",
+        "journal": "Radiat Res",
+        "doi": "10.1667/RADE-26-00008",
+        "source": "pubmed",
+        "abstract": "Lipophagy Mitigates Radiation-induced Liver Lipid Disorders and Damage in Adolescent Mice.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42004243",
+        "title": "Radiotherapy Reprograms Intermediate Monocytes Into Proinflammatory Drivers of Systemic Inflammation in Radiation-Induced Heart Disease",
+        "authors": "He J et al.",
+        "year": "2026",
+        "journal": "Cardiol Res Pract",
+        "doi": "10.1155/crp/1117746",
+        "source": "pubmed",
+        "abstract": "Radiotherapy Reprograms Intermediate Monocytes Into Proinflammatory Drivers of Systemic Inflammation in Radiation-Induced Heart Disease.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41967244",
+        "title": "Illumination-induced restructuring of extracellular polymeric substances from Klebsiella Sp. HDJY-1 drives indirect photodegradation of thifensulfuron-methyl",
+        "authors": "Gu J et al.",
+        "year": "2026",
+        "journal": "Water Res",
+        "doi": "10.1016/j.watres.2026.125906",
+        "source": "pubmed",
+        "abstract": "Illumination-induced restructuring of extracellular polymeric substances from Klebsiella Sp. HDJY-1 drives indirect photodegradation of thifensulfuron-methyl.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-04-20T11:53:46.195439",
     "papers": [
       {
