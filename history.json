@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-05-04T09:23:03.928420",
+    "papers": [
+      {
+        "pmid": "42047664",
+        "title": "Signatures of Radiation-Induced Stress and Putative Selection on Immune Targets in Chornobyl Wolves",
+        "authors": "Love CN et al.",
+        "year": "2026",
+        "journal": "Mol Ecol",
+        "doi": "10.1111/mec.70308",
+        "source": "pubmed",
+        "abstract": "Signatures of Radiation-Induced Stress and Putative Selection on Immune Targets in Chornobyl Wolves.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42042008",
+        "title": "Radiation-Responsive Promoters: Molecular Mechanisms, Screening Strategies, and Translational Applications as Radiation Biomarkers",
+        "authors": "Xu N et al.",
+        "year": "2026",
+        "journal": "Curr Issues Mol Biol",
+        "doi": "10.3390/cimb48040348",
+        "source": "pubmed",
+        "abstract": "Radiation-Responsive Promoters: Molecular Mechanisms, Screening Strategies, and Translational Applications as Radiation Biomarkers.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41794153",
+        "title": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB",
+        "authors": "Ma Y et al.",
+        "year": "2026",
+        "journal": "Free Radic Biol Med",
+        "doi": "10.1016/j.freeradbiomed.2026.02.074",
+        "source": "pubmed",
+        "abstract": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-04-27T09:21:36.518206",
     "papers": [
       {

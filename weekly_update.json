@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-27T09:21:36.517435",
-  "date_from": "2025/10/29",
-  "date_to": "2026/04/27",
+  "generated": "2026-05-04T09:23:03.927840",
+  "date_from": "2025/11/05",
+  "date_to": "2026/05/04",
   "papers": [
     {
       "block": "A",
@@ -26,38 +26,38 @@
       "no_result": true
     },
     {
-      "pmid": "42036129",
-      "title": "Lipophagy Mitigates Radiation-induced Liver Lipid Disorders and Damage in Adolescent Mice",
-      "authors": "Zhang YF et al.",
+      "pmid": "42047664",
+      "title": "Signatures of Radiation-Induced Stress and Putative Selection on Immune Targets in Chornobyl Wolves",
+      "authors": "Love CN et al.",
       "year": "2026",
-      "journal": "Radiat Res",
-      "doi": "10.1667/RADE-26-00008",
+      "journal": "Mol Ecol",
+      "doi": "10.1111/mec.70308",
       "source": "pubmed",
-      "abstract": "Lipophagy Mitigates Radiation-induced Liver Lipid Disorders and Damage in Adolescent Mice.",
+      "abstract": "Signatures of Radiation-Induced Stress and Putative Selection on Immune Targets in Chornobyl Wolves.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42004243",
-      "title": "Radiotherapy Reprograms Intermediate Monocytes Into Proinflammatory Drivers of Systemic Inflammation in Radiation-Induced Heart Disease",
-      "authors": "He J et al.",
+      "pmid": "42042008",
+      "title": "Radiation-Responsive Promoters: Molecular Mechanisms, Screening Strategies, and Translational Applications as Radiation Biomarkers",
+      "authors": "Xu N et al.",
       "year": "2026",
-      "journal": "Cardiol Res Pract",
-      "doi": "10.1155/crp/1117746",
+      "journal": "Curr Issues Mol Biol",
+      "doi": "10.3390/cimb48040348",
       "source": "pubmed",
-      "abstract": "Radiotherapy Reprograms Intermediate Monocytes Into Proinflammatory Drivers of Systemic Inflammation in Radiation-Induced Heart Disease.",
+      "abstract": "Radiation-Responsive Promoters: Molecular Mechanisms, Screening Strategies, and Translational Applications as Radiation Biomarkers.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "41967244",
-      "title": "Illumination-induced restructuring of extracellular polymeric substances from Klebsiella Sp. HDJY-1 drives indirect photodegradation of thifensulfuron-methyl",
-      "authors": "Gu J et al.",
+      "pmid": "41794153",
+      "title": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB",
+      "authors": "Ma Y et al.",
       "year": "2026",
-      "journal": "Water Res",
-      "doi": "10.1016/j.watres.2026.125906",
+      "journal": "Free Radic Biol Med",
+      "doi": "10.1016/j.freeradbiomed.2026.02.074",
       "source": "pubmed",
-      "abstract": "Illumination-induced restructuring of extracellular polymeric substances from Klebsiella Sp. HDJY-1 drives indirect photodegradation of thifensulfuron-methyl.",
+      "abstract": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
@@ -65,5 +65,5 @@
   "total_verified": 3,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 40
+  "history_dois_filtered": 43
 }
