@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-05-11T10:39:27.499052",
+    "papers": [
+      {
+        "pmid": "42025675",
+        "title": "Uranium increases toxin biosynthesis gene expression and cell toxicity in the cyanobacteria Microcystis aeruginosa",
+        "authors": "Wang H et al.",
+        "year": "2026",
+        "journal": "Environ Pollut",
+        "doi": "10.1016/j.envpol.2026.128188",
+        "source": "pubmed",
+        "abstract": "Uranium increases toxin biosynthesis gene expression and cell toxicity in the cyanobacteria Microcystis aeruginosa.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "42079249",
+        "title": "A transcriptomic analysis reveals shared and inducer-specific expression patterns of cellular senescence",
+        "authors": "Bridge JE et al.",
+        "year": "2026",
+        "journal": "bioRxiv",
+        "doi": "10.64898/2026.04.20.719721",
+        "source": "pubmed",
+        "abstract": "A transcriptomic analysis reveals shared and inducer-specific expression patterns of cellular senescence.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42088506",
+        "title": "Limited immune perturbations in mice exposed to sustained low-dose ionizing radiation",
+        "authors": "Marr B et al.",
+        "year": "2026",
+        "journal": "Front Immunol",
+        "doi": "10.3389/fimmu.2026.1642012",
+        "source": "pubmed",
+        "abstract": "Limited immune perturbations in mice exposed to sustained low-dose ionizing radiation.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42074497",
+        "title": "Identification of Radiation-Induced Injury Pathways and Hub Genes from RNA-Seq Data Based on Integrative Bioinformatics Approach",
+        "authors": "Siregar KAAK et al.",
+        "year": "2026",
+        "journal": "Genes (Basel)",
+        "doi": "10.3390/genes17040377",
+        "source": "pubmed",
+        "abstract": "Identification of Radiation-Induced Injury Pathways and Hub Genes from RNA-Seq Data Based on Integrative Bioinformatics Approach.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-05-04T09:23:03.928420",
     "papers": [
       {

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-04T09:23:03.927840",
-  "date_from": "2025/11/05",
-  "date_to": "2026/05/04",
+  "generated": "2026-05-11T10:39:27.498638",
+  "date_from": "2025/11/12",
+  "date_to": "2026/05/11",
   "papers": [
     {
       "block": "A",
@@ -15,55 +15,56 @@
       "no_result": true
     },
     {
+      "pmid": "42025675",
+      "title": "Uranium increases toxin biosynthesis gene expression and cell toxicity in the cyanobacteria Microcystis aeruginosa",
+      "authors": "Wang H et al.",
+      "year": "2026",
+      "journal": "Environ Pollut",
+      "doi": "10.1016/j.envpol.2026.128188",
+      "source": "pubmed",
+      "abstract": "Uranium increases toxin biosynthesis gene expression and cell toxicity in the cyanobacteria Microcystis aeruginosa.",
       "block": "B",
-      "block_label": "Actinide & Radionuklide",
-      "title": "Keine neuen verifizierten Treffer",
-      "authors": "",
-      "year": "",
-      "journal": "",
-      "doi": "",
-      "source": "",
-      "no_result": true
+      "block_label": "Actinide & Radionuklide"
     },
     {
-      "pmid": "42047664",
-      "title": "Signatures of Radiation-Induced Stress and Putative Selection on Immune Targets in Chornobyl Wolves",
-      "authors": "Love CN et al.",
+      "pmid": "42079249",
+      "title": "A transcriptomic analysis reveals shared and inducer-specific expression patterns of cellular senescence",
+      "authors": "Bridge JE et al.",
       "year": "2026",
-      "journal": "Mol Ecol",
-      "doi": "10.1111/mec.70308",
+      "journal": "bioRxiv",
+      "doi": "10.64898/2026.04.20.719721",
       "source": "pubmed",
-      "abstract": "Signatures of Radiation-Induced Stress and Putative Selection on Immune Targets in Chornobyl Wolves.",
+      "abstract": "A transcriptomic analysis reveals shared and inducer-specific expression patterns of cellular senescence.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42042008",
-      "title": "Radiation-Responsive Promoters: Molecular Mechanisms, Screening Strategies, and Translational Applications as Radiation Biomarkers",
-      "authors": "Xu N et al.",
+      "pmid": "42088506",
+      "title": "Limited immune perturbations in mice exposed to sustained low-dose ionizing radiation",
+      "authors": "Marr B et al.",
       "year": "2026",
-      "journal": "Curr Issues Mol Biol",
-      "doi": "10.3390/cimb48040348",
+      "journal": "Front Immunol",
+      "doi": "10.3389/fimmu.2026.1642012",
       "source": "pubmed",
-      "abstract": "Radiation-Responsive Promoters: Molecular Mechanisms, Screening Strategies, and Translational Applications as Radiation Biomarkers.",
+      "abstract": "Limited immune perturbations in mice exposed to sustained low-dose ionizing radiation.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "41794153",
-      "title": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB",
-      "authors": "Ma Y et al.",
+      "pmid": "42074497",
+      "title": "Identification of Radiation-Induced Injury Pathways and Hub Genes from RNA-Seq Data Based on Integrative Bioinformatics Approach",
+      "authors": "Siregar KAAK et al.",
       "year": "2026",
-      "journal": "Free Radic Biol Med",
-      "doi": "10.1016/j.freeradbiomed.2026.02.074",
+      "journal": "Genes (Basel)",
+      "doi": "10.3390/genes17040377",
       "source": "pubmed",
-      "abstract": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB.",
+      "abstract": "Identification of Radiation-Induced Injury Pathways and Hub Genes from RNA-Seq Data Based on Integrative Bioinformatics Approach.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
   ],
-  "total_verified": 3,
+  "total_verified": 4,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 43
+  "history_dois_filtered": 46
 }
