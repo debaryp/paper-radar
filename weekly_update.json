@@ -1,11 +1,23 @@
 {
-  "generated": "2026-05-11T10:39:27.498638",
-  "date_from": "2025/11/12",
-  "date_to": "2026/05/11",
+  "generated": "2026-05-18T11:08:22.100038",
+  "date_from": "2025/11/19",
+  "date_to": "2026/05/18",
   "papers": [
     {
+      "pmid": "42061327",
+      "title": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed",
+      "authors": "Xuan Y et al.",
+      "year": "2026",
+      "journal": "J Hazard Mater",
+      "doi": "10.1016/j.jhazmat.2026.142223",
+      "source": "pubmed",
+      "abstract": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed.",
       "block": "A",
-      "block_label": "SolV & Lanthanide",
+      "block_label": "SolV & Lanthanide"
+    },
+    {
+      "block": "B",
+      "block_label": "Actinide & Radionuklide",
       "title": "Keine neuen verifizierten Treffer",
       "authors": "",
       "year": "",
@@ -15,50 +27,38 @@
       "no_result": true
     },
     {
-      "pmid": "42025675",
-      "title": "Uranium increases toxin biosynthesis gene expression and cell toxicity in the cyanobacteria Microcystis aeruginosa",
-      "authors": "Wang H et al.",
+      "pmid": "42123636",
+      "title": "A Ponatinib-Associated Transcriptomic Signature: Implications for Cardiovascular Toxicity",
+      "authors": "Kong J et al.",
       "year": "2026",
-      "journal": "Environ Pollut",
-      "doi": "10.1016/j.envpol.2026.128188",
+      "journal": "Int J Mol Sci",
+      "doi": "10.3390/ijms27094058",
       "source": "pubmed",
-      "abstract": "Uranium increases toxin biosynthesis gene expression and cell toxicity in the cyanobacteria Microcystis aeruginosa.",
-      "block": "B",
-      "block_label": "Actinide & Radionuklide"
-    },
-    {
-      "pmid": "42079249",
-      "title": "A transcriptomic analysis reveals shared and inducer-specific expression patterns of cellular senescence",
-      "authors": "Bridge JE et al.",
-      "year": "2026",
-      "journal": "bioRxiv",
-      "doi": "10.64898/2026.04.20.719721",
-      "source": "pubmed",
-      "abstract": "A transcriptomic analysis reveals shared and inducer-specific expression patterns of cellular senescence.",
+      "abstract": "A Ponatinib-Associated Transcriptomic Signature: Implications for Cardiovascular Toxicity.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42088506",
-      "title": "Limited immune perturbations in mice exposed to sustained low-dose ionizing radiation",
-      "authors": "Marr B et al.",
+      "pmid": "42123302",
+      "title": "Transcriptome Dynamics Provide Insight into the Mechanisms Underlying Cucumber Stomatal Movement Regulated by Blue Light (BL) and Drought Stress",
+      "authors": "Liu X et al.",
       "year": "2026",
-      "journal": "Front Immunol",
-      "doi": "10.3389/fimmu.2026.1642012",
+      "journal": "Int J Mol Sci",
+      "doi": "10.3390/ijms27093717",
       "source": "pubmed",
-      "abstract": "Limited immune perturbations in mice exposed to sustained low-dose ionizing radiation.",
+      "abstract": "Transcriptome Dynamics Provide Insight into the Mechanisms Underlying Cucumber Stomatal Movement Regulated by Blue Light (BL) and Drought Stress.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42074497",
-      "title": "Identification of Radiation-Induced Injury Pathways and Hub Genes from RNA-Seq Data Based on Integrative Bioinformatics Approach",
-      "authors": "Siregar KAAK et al.",
+      "pmid": "42092354",
+      "title": "Chemodiverse cell system responses to UV in an algal sister of land plants",
+      "authors": "Kunz CF et al.",
       "year": "2026",
-      "journal": "Genes (Basel)",
-      "doi": "10.3390/genes17040377",
+      "journal": "Curr Biol",
+      "doi": "10.1016/j.cub.2026.04.015",
       "source": "pubmed",
-      "abstract": "Identification of Radiation-Induced Injury Pathways and Hub Genes from RNA-Seq Data Based on Integrative Bioinformatics Approach.",
+      "abstract": "Chemodiverse cell system responses to UV in an algal sister of land plants.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
@@ -66,5 +66,5 @@
   "total_verified": 4,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 46
+  "history_dois_filtered": 50
 }

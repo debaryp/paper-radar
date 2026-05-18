@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-05-18T11:08:22.101002",
+    "papers": [
+      {
+        "pmid": "42061327",
+        "title": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed",
+        "authors": "Xuan Y et al.",
+        "year": "2026",
+        "journal": "J Hazard Mater",
+        "doi": "10.1016/j.jhazmat.2026.142223",
+        "source": "pubmed",
+        "abstract": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "42123636",
+        "title": "A Ponatinib-Associated Transcriptomic Signature: Implications for Cardiovascular Toxicity",
+        "authors": "Kong J et al.",
+        "year": "2026",
+        "journal": "Int J Mol Sci",
+        "doi": "10.3390/ijms27094058",
+        "source": "pubmed",
+        "abstract": "A Ponatinib-Associated Transcriptomic Signature: Implications for Cardiovascular Toxicity.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42123302",
+        "title": "Transcriptome Dynamics Provide Insight into the Mechanisms Underlying Cucumber Stomatal Movement Regulated by Blue Light (BL) and Drought Stress",
+        "authors": "Liu X et al.",
+        "year": "2026",
+        "journal": "Int J Mol Sci",
+        "doi": "10.3390/ijms27093717",
+        "source": "pubmed",
+        "abstract": "Transcriptome Dynamics Provide Insight into the Mechanisms Underlying Cucumber Stomatal Movement Regulated by Blue Light (BL) and Drought Stress.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42092354",
+        "title": "Chemodiverse cell system responses to UV in an algal sister of land plants",
+        "authors": "Kunz CF et al.",
+        "year": "2026",
+        "journal": "Curr Biol",
+        "doi": "10.1016/j.cub.2026.04.015",
+        "source": "pubmed",
+        "abstract": "Chemodiverse cell system responses to UV in an algal sister of land plants.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-05-11T10:39:27.499052",
     "papers": [
       {
