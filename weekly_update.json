@@ -1,19 +1,18 @@
 {
-  "generated": "2026-05-18T11:08:22.100038",
-  "date_from": "2025/11/19",
-  "date_to": "2026/05/18",
+  "generated": "2026-05-25T11:12:46.285972",
+  "date_from": "2025/11/26",
+  "date_to": "2026/05/25",
   "papers": [
     {
-      "pmid": "42061327",
-      "title": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed",
-      "authors": "Xuan Y et al.",
-      "year": "2026",
-      "journal": "J Hazard Mater",
-      "doi": "10.1016/j.jhazmat.2026.142223",
-      "source": "pubmed",
-      "abstract": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed.",
       "block": "A",
-      "block_label": "SolV & Lanthanide"
+      "block_label": "SolV & Lanthanide",
+      "title": "Keine neuen verifizierten Treffer",
+      "authors": "",
+      "year": "",
+      "journal": "",
+      "doi": "",
+      "source": "",
+      "no_result": true
     },
     {
       "block": "B",
@@ -27,44 +26,44 @@
       "no_result": true
     },
     {
-      "pmid": "42123636",
-      "title": "A Ponatinib-Associated Transcriptomic Signature: Implications for Cardiovascular Toxicity",
-      "authors": "Kong J et al.",
+      "pmid": "42156530",
+      "title": "Transcriptomic changes in tomato brown rugose fruit virus-infected tomato in response to low-dose gamma irradiation",
+      "authors": "Tokhmechi K et al.",
       "year": "2026",
-      "journal": "Int J Mol Sci",
-      "doi": "10.3390/ijms27094058",
+      "journal": "Sci Rep",
+      "doi": "10.1038/s41598-026-52855-3",
       "source": "pubmed",
-      "abstract": "A Ponatinib-Associated Transcriptomic Signature: Implications for Cardiovascular Toxicity.",
+      "abstract": "Transcriptomic changes in tomato brown rugose fruit virus-infected tomato in response to low-dose gamma irradiation.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42123302",
-      "title": "Transcriptome Dynamics Provide Insight into the Mechanisms Underlying Cucumber Stomatal Movement Regulated by Blue Light (BL) and Drought Stress",
-      "authors": "Liu X et al.",
+      "pmid": "42066813",
+      "title": "Flavonoid and isoflavonoid biosynthetic gene expression is affected by MYB36 transcription factor deficiency in Lotus japonicus",
+      "authors": "Monje-Rueda MD et al.",
       "year": "2026",
-      "journal": "Int J Mol Sci",
-      "doi": "10.3390/ijms27093717",
+      "journal": "Plant Sci",
+      "doi": "10.1016/j.plantsci.2026.113171",
       "source": "pubmed",
-      "abstract": "Transcriptome Dynamics Provide Insight into the Mechanisms Underlying Cucumber Stomatal Movement Regulated by Blue Light (BL) and Drought Stress.",
+      "abstract": "Flavonoid and isoflavonoid biosynthetic gene expression is affected by MYB36 transcription factor deficiency in Lotus japonicus.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42092354",
-      "title": "Chemodiverse cell system responses to UV in an algal sister of land plants",
-      "authors": "Kunz CF et al.",
+      "pmid": "42173765",
+      "title": "Synergistic enhancement of PD-L1 expression from DNA repair dysfunction and UV exposure in xeroderma pigmentosum: Potential therapeutic role of PD-L1 inhibitors",
+      "authors": "Lin YC et al.",
       "year": "2026",
-      "journal": "Curr Biol",
-      "doi": "10.1016/j.cub.2026.04.015",
+      "journal": "J Dermatol Sci",
+      "doi": "10.1016/j.jdermsci.2026.04.008",
       "source": "pubmed",
-      "abstract": "Chemodiverse cell system responses to UV in an algal sister of land plants.",
+      "abstract": "Synergistic enhancement of PD-L1 expression from DNA repair dysfunction and UV exposure in xeroderma pigmentosum: Potential therapeutic role of PD-L1 inhibitors.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
   ],
-  "total_verified": 4,
+  "total_verified": 3,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 50
+  "history_dois_filtered": 54
 }
