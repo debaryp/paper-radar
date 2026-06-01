@@ -1,18 +1,19 @@
 {
-  "generated": "2026-05-25T11:12:46.285972",
-  "date_from": "2025/11/26",
-  "date_to": "2026/05/25",
+  "generated": "2026-06-01T12:40:29.600105",
+  "date_from": "2025/12/03",
+  "date_to": "2026/06/01",
   "papers": [
     {
+      "pmid": "41626782",
+      "title": "Lanthanide-Dependent Methanol Dehydrogenase XoxF Confers a Competitive Advantage to Sinorhizobium meliloti During Symbiosis with Medicago sativa",
+      "authors": "Walser ON et al.",
+      "year": "2026",
+      "journal": "Mol Plant Microbe Interact",
+      "doi": "10.1094/MPMI-08-25-0110-R",
+      "source": "pubmed",
+      "abstract": "Lanthanide-Dependent Methanol Dehydrogenase XoxF Confers a Competitive Advantage to Sinorhizobium meliloti During Symbiosis with Medicago sativa.",
       "block": "A",
-      "block_label": "SolV & Lanthanide",
-      "title": "Keine neuen verifizierten Treffer",
-      "authors": "",
-      "year": "",
-      "journal": "",
-      "doi": "",
-      "source": "",
-      "no_result": true
+      "block_label": "SolV & Lanthanide"
     },
     {
       "block": "B",
@@ -26,44 +27,44 @@
       "no_result": true
     },
     {
-      "pmid": "42156530",
-      "title": "Transcriptomic changes in tomato brown rugose fruit virus-infected tomato in response to low-dose gamma irradiation",
-      "authors": "Tokhmechi K et al.",
+      "pmid": "41745289",
+      "title": "Low-Intensity, Short-Duration Proton Irradiation Enhances Oxidative Stress Sensitivity of Aspergillus nidulans, with Transcriptomic Data Indicating Downregulation of Antioxidative Enzyme Genes",
+      "authors": "Szarka M et al.",
       "year": "2026",
-      "journal": "Sci Rep",
-      "doi": "10.1038/s41598-026-52855-3",
+      "journal": "J Fungi (Basel)",
+      "doi": "10.3390/jof12020147",
       "source": "pubmed",
-      "abstract": "Transcriptomic changes in tomato brown rugose fruit virus-infected tomato in response to low-dose gamma irradiation.",
+      "abstract": "Low-Intensity, Short-Duration Proton Irradiation Enhances Oxidative Stress Sensitivity of Aspergillus nidulans, with Transcriptomic Data Indicating Downregulation of Antioxidative Enzyme Genes.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42066813",
-      "title": "Flavonoid and isoflavonoid biosynthetic gene expression is affected by MYB36 transcription factor deficiency in Lotus japonicus",
-      "authors": "Monje-Rueda MD et al.",
+      "pmid": "42211001",
+      "title": "Transcriptomic and alternative splicing reprogramming by low-dose gamma irradiation in tomato under ToBRFV infection",
+      "authors": "Ghorbani A et al.",
       "year": "2026",
-      "journal": "Plant Sci",
-      "doi": "10.1016/j.plantsci.2026.113171",
+      "journal": "Biochem Biophys Rep",
+      "doi": "10.1016/j.bbrep.2026.102626",
       "source": "pubmed",
-      "abstract": "Flavonoid and isoflavonoid biosynthetic gene expression is affected by MYB36 transcription factor deficiency in Lotus japonicus.",
+      "abstract": "Transcriptomic and alternative splicing reprogramming by low-dose gamma irradiation in tomato under ToBRFV infection.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42173765",
-      "title": "Synergistic enhancement of PD-L1 expression from DNA repair dysfunction and UV exposure in xeroderma pigmentosum: Potential therapeutic role of PD-L1 inhibitors",
-      "authors": "Lin YC et al.",
+      "pmid": "42208211",
+      "title": "Mitigating UV-B radiation effects on growth and grain yield of qingke via abscisic acid-induced pathways and transcript-driven metabolic reprogramming",
+      "authors": "Shoaib N et al.",
       "year": "2026",
-      "journal": "J Dermatol Sci",
-      "doi": "10.1016/j.jdermsci.2026.04.008",
+      "journal": "Plant Physiol Biochem",
+      "doi": "10.1016/j.plaphy.2026.111433",
       "source": "pubmed",
-      "abstract": "Synergistic enhancement of PD-L1 expression from DNA repair dysfunction and UV exposure in xeroderma pigmentosum: Potential therapeutic role of PD-L1 inhibitors.",
+      "abstract": "Mitigating UV-B radiation effects on growth and grain yield of qingke via abscisic acid-induced pathways and transcript-driven metabolic reprogramming.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
   ],
-  "total_verified": 3,
+  "total_verified": 4,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 54
+  "history_dois_filtered": 48
 }
