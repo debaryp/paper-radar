@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-06-08T12:00:07.514533",
+    "papers": [
+      {
+        "pmid": "41379216",
+        "title": "Response and adaptation of verrucomicrobial methanotrophs to heat and acidity",
+        "authors": "Schmitz RA et al.",
+        "year": "2025",
+        "journal": "Arch Microbiol",
+        "doi": "10.1007/s00203-025-04630-7",
+        "source": "pubmed",
+        "abstract": "Response and adaptation of verrucomicrobial methanotrophs to heat and acidity.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "41369916",
+        "title": "Response of Ocular Bacteria Exposure to Cerium Oxide Nanoparticles in Eye Drop Formulation",
+        "authors": "Nguyen NHA et al.",
+        "year": "2025",
+        "journal": "Curr Microbiol",
+        "doi": "10.1007/s00284-025-04652-w",
+        "source": "pubmed",
+        "abstract": "Response of Ocular Bacteria Exposure to Cerium Oxide Nanoparticles in Eye Drop Formulation.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "41740407",
+        "title": "In-situ bioaugmentation of uranium-contaminated groundwater using Desulfovibrio vulgaris UR1: Mechanistic insights, laboratory validation, and field performance",
+        "authors": "Jiang L et al.",
+        "year": "2026",
+        "journal": "J Hazard Mater",
+        "doi": "10.1016/j.jhazmat.2026.141577",
+        "source": "pubmed",
+        "abstract": "In-situ bioaugmentation of uranium-contaminated groundwater using Desulfovibrio vulgaris UR1: Mechanistic insights, laboratory validation, and field performance.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "41327830",
+        "title": "Electrode-Induced UO22+ immobilization by Leifsonia sp. within an iron-Sulfur complex system",
+        "authors": "Tan W et al.",
+        "year": "2026",
+        "journal": "Environ Technol",
+        "doi": "10.1080/09593330.2025.2592741",
+        "source": "pubmed",
+        "abstract": "Electrode-Induced UO22+ immobilization by Leifsonia sp. within an iron-Sulfur complex system.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "42132387",
+        "title": "Intermittent light enhances pigment production in the diatom Phaeodactylum tricornutum: a combined physiological and transcriptomic approach",
+        "authors": "Zheng J et al.",
+        "year": "2026",
+        "journal": "Microbiol Spectr",
+        "doi": "10.1128/spectrum.03449-25",
+        "source": "pubmed",
+        "abstract": "Intermittent light enhances pigment production in the diatom Phaeodactylum tricornutum: a combined physiological and transcriptomic approach.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42237169",
+        "title": "Single-cell analysis of skin and blood reveals systemic immune responses to ultraviolet B and their impairment in MS",
+        "authors": "Falk S et al.",
+        "year": "2026",
+        "journal": "J Neuroinflammation",
+        "doi": "10.1186/s12974-026-03887-z",
+        "source": "pubmed",
+        "abstract": "Single-cell analysis of skin and blood reveals systemic immune responses to ultraviolet B and their impairment in MS.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42234970",
+        "title": "Cellular Senescence in the Absence of Galactic Cosmic-Ray Muons",
+        "authors": "Llop-Hernández À et al.",
+        "year": "2026",
+        "journal": "Aging Dis",
+        "doi": "10.14336/AD.2026.0025",
+        "source": "pubmed",
+        "abstract": "Cellular Senescence in the Absence of Galactic Cosmic-Ray Muons.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-06-01T12:40:29.600416",
     "papers": [
       {
@@ -505,71 +594,6 @@
         "doi": "10.1016/j.jhazmat.2026.141623",
         "source": "pubmed",
         "abstract": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-03-21T16:00:14.046380",
-    "papers": [
-      {
-        "pmid": "41636527",
-        "title": "Beneath the surface: expanding the known repertoire of methylotrophic metabolism",
-        "authors": "Bruger EL et al.",
-        "year": "2026",
-        "journal": "Appl Environ Microbiol",
-        "doi": "10.1128/aem.02116-25",
-        "source": "pubmed",
-        "abstract": "Beneath the surface: expanding the known repertoire of methylotrophic metabolism.",
-        "block": "A",
-        "block_label": "SolV & Lanthanide"
-      },
-      {
-        "pmid": "41023737",
-        "title": "Diversity and distribution of the lanthanome in aerobic methane-oxidising bacteria",
-        "authors": "Dandare SU et al.",
-        "year": "2025",
-        "journal": "Environ Microbiome",
-        "doi": "10.1186/s40793-025-00776-5",
-        "source": "pubmed",
-        "abstract": "Diversity and distribution of the lanthanome in aerobic methane-oxidising bacteria.",
-        "block": "A",
-        "block_label": "SolV & Lanthanide"
-      },
-      {
-        "pmid": "40983780",
-        "title": "Deciphering UV-C-induced transcriptomic shifts in tomato: defence mechanisms, stress responses, and photoreceptor regulation",
-        "authors": "Wong GR et al.",
-        "year": "2025",
-        "journal": "Plant Cell Rep",
-        "doi": "10.1007/s00299-025-03604-9",
-        "source": "pubmed",
-        "abstract": "Deciphering UV-C-induced transcriptomic shifts in tomato: defence mechanisms, stress responses, and photoreceptor regulation.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "41604879",
-        "title": "Mechanistic insight into the reprotoxic effects of chronic gamma radiation on spermatogenesis in Caenorhabditis elegans",
-        "authors": "Zhu H et al.",
-        "year": "2026",
-        "journal": "Sci Total Environ",
-        "doi": "10.1016/j.scitotenv.2026.181444",
-        "source": "pubmed",
-        "abstract": "Mechanistic insight into the reprotoxic effects of chronic gamma radiation on spermatogenesis in Caenorhabditis elegans.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "41595735",
-        "title": "ANXA2P2 and PA2G4P4 Pseudogenes Are Associated with the Response to Ionizing Radiation and Could Be Used as Potential Biomarkers: In Silico Study",
-        "authors": "Kolenda T et al.",
-        "year": "2026",
-        "journal": "Biomedicines",
-        "doi": "10.3390/biomedicines14010200",
-        "source": "pubmed",
-        "abstract": "ANXA2P2 and PA2G4P4 Pseudogenes Are Associated with the Response to Ionizing Radiation and Could Be Used as Potential Biomarkers: In Silico Study.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
