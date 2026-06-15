@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-06-15T13:18:28.815770",
+    "papers": [
+      {
+        "pmid": "41636527",
+        "title": "Beneath the surface: expanding the known repertoire of methylotrophic metabolism",
+        "authors": "Bruger EL et al.",
+        "year": "2026",
+        "journal": "Appl Environ Microbiol",
+        "doi": "10.1128/aem.02116-25",
+        "source": "pubmed",
+        "abstract": "Beneath the surface: expanding the known repertoire of methylotrophic metabolism.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "41604879",
+        "title": "Mechanistic insight into the reprotoxic effects of chronic gamma radiation on spermatogenesis in Caenorhabditis elegans",
+        "authors": "Zhu H et al.",
+        "year": "2026",
+        "journal": "Sci Total Environ",
+        "doi": "10.1016/j.scitotenv.2026.181444",
+        "source": "pubmed",
+        "abstract": "Mechanistic insight into the reprotoxic effects of chronic gamma radiation on spermatogenesis in Caenorhabditis elegans.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41595735",
+        "title": "ANXA2P2 and PA2G4P4 Pseudogenes Are Associated with the Response to Ionizing Radiation and Could Be Used as Potential Biomarkers: In Silico Study",
+        "authors": "Kolenda T et al.",
+        "year": "2026",
+        "journal": "Biomedicines",
+        "doi": "10.3390/biomedicines14010200",
+        "source": "pubmed",
+        "abstract": "ANXA2P2 and PA2G4P4 Pseudogenes Are Associated with the Response to Ionizing Radiation and Could Be Used as Potential Biomarkers: In Silico Study.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42278530",
+        "title": "Genome-Wide Analysis of the FAR1/FHY3 (FRS) Gene Family and Expression Responses of PbFRS Genes to PEG-Induced Osmotic Stress, Light, and Shade in Phoebe bournei",
+        "authors": "Feng Y et al.",
+        "year": "2026",
+        "journal": "Int J Mol Sci",
+        "doi": "10.3390/ijms27115004",
+        "source": "pubmed",
+        "abstract": "Genome-Wide Analysis of the FAR1/FHY3 (FRS) Gene Family and Expression Responses of PbFRS Genes to PEG-Induced Osmotic Stress, Light, and Shade in Phoebe bournei.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-06-08T12:00:07.514533",
     "papers": [
       {
@@ -541,59 +594,6 @@
         "doi": "10.3390/ijms27031238",
         "source": "pubmed",
         "abstract": "Physiological Changes and Transposition of Insertion Sequences in the dps-Double-Knockout Mutant of Deinococcus geothermalis.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-03-23T10:33:51.190160",
-    "papers": [
-      {
-        "pmid": "41797108",
-        "title": "Bioremediation of low-concentration uranium wastewater by Desulfovibrio multispirans H1MTZ23 mediated mineralization",
-        "authors": "Meng P et al.",
-        "year": "2026",
-        "journal": "Ecotoxicol Environ Saf",
-        "doi": "10.1016/j.ecoenv.2026.119981",
-        "source": "pubmed",
-        "abstract": "Bioremediation of low-concentration uranium wastewater by Desulfovibrio multispirans H1MTZ23 mediated mineralization.",
-        "block": "B",
-        "block_label": "Actinide & Radionuklide"
-      },
-      {
-        "pmid": "41519287",
-        "title": "Ecotoxicological insights into UV-P-induced immunotoxicity and bacterial infection risk in marine medaka (Oryzias melastigma)",
-        "authors": "Wu L et al.",
-        "year": "2026",
-        "journal": "Environ Res",
-        "doi": "10.1016/j.envres.2026.123733",
-        "source": "pubmed",
-        "abstract": "Ecotoxicological insights into UV-P-induced immunotoxicity and bacterial infection risk in marine medaka (Oryzias melastigma).",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "41304310",
-        "title": "The Effects of Feeding ybfQ-Deficient Gut Bacteria on Radio-Tolerance in Symbiotic Caenorhabditis elegans: The Key Role of Isoscoparin",
-        "authors": "Ding L et al.",
-        "year": "2025",
-        "journal": "Microorganisms",
-        "doi": "10.3390/microorganisms13112626",
-        "source": "pubmed",
-        "abstract": "The Effects of Feeding ybfQ-Deficient Gut Bacteria on Radio-Tolerance in Symbiotic Caenorhabditis elegans: The Key Role of Isoscoparin.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "41762838",
-        "title": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism",
-        "authors": "Li D et al.",
-        "year": "2026",
-        "journal": "J Hazard Mater",
-        "doi": "10.1016/j.jhazmat.2026.141623",
-        "source": "pubmed",
-        "abstract": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
