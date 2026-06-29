@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-06-29T12:01:29.487682",
+    "papers": [
+      {
+        "pmid": "42353212",
+        "title": "Comparative Genomic Analysis and Data About the Metabolism of the Genus Sphaerotilus Provide the First Evidence of Methylotrophic Growth and Reveal Two Strategies of Methanol Oxidation and C1 Compound Assimilation",
+        "authors": "Smolyakov DD et al.",
+        "year": "2026",
+        "journal": "Int J Mol Sci",
+        "doi": "10.3390/ijms27125498",
+        "source": "pubmed",
+        "abstract": "Comparative Genomic Analysis and Data About the Metabolism of the Genus Sphaerotilus Provide the First Evidence of Methylotrophic Growth and Reveal Two Strategies of Methanol Oxidation and C1 Compound Assimilation.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "42352982",
+        "title": "Comparative Analysis of Doxorubicin-Induced Cardiotoxicity in Tumor-Bearing and Non-Tumor-Bearing Mouse Models: A Transcriptomic Methodological Study",
+        "authors": "Yu A et al.",
+        "year": "2026",
+        "journal": "Int J Mol Sci",
+        "doi": "10.3390/ijms27125263",
+        "source": "pubmed",
+        "abstract": "Comparative Analysis of Doxorubicin-Induced Cardiotoxicity in Tumor-Bearing and Non-Tumor-Bearing Mouse Models: A Transcriptomic Methodological Study.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42326007",
+        "title": "Broccoli-derived nanovesicles protect against UVB-induced skin photoaging via integrated transcriptomic and proteomic reprogramming of redox and extracellular matrix homeostasis",
+        "authors": "Li K et al.",
+        "year": "2026",
+        "journal": "Front Cell Dev Biol",
+        "doi": "10.3389/fcell.2026.1806671",
+        "source": "pubmed",
+        "abstract": "Broccoli-derived nanovesicles protect against UVB-induced skin photoaging via integrated transcriptomic and proteomic reprogramming of redox and extracellular matrix homeostasis.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41563231",
+        "title": "Pretreatment Chromosomal Instability Correlates With Radiation Sensitivity in Squamous Cell Cancers",
+        "authors": "Cosper PF et al.",
+        "year": "2026",
+        "journal": "Int J Radiat Oncol Biol Phys",
+        "doi": "10.1016/j.ijrobp.2025.12.014",
+        "source": "pubmed",
+        "abstract": "Pretreatment Chromosomal Instability Correlates With Radiation Sensitivity in Squamous Cell Cancers.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-06-22T12:51:06.663737",
     "papers": [
       {
@@ -553,59 +606,6 @@
         "doi": "10.3390/microorganisms14030600",
         "source": "pubmed",
         "abstract": "Characterization of Borrelia-Derived Extracellular Vesicles: Implications for Pathogenesis and Diagnostics.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-04-06T10:40:52.051420",
-    "papers": [
-      {
-        "pmid": "41865578",
-        "title": "Photosensitive COFs-carboxylated nanocellulose membrane enables high-efficiency uranium extraction via synergistic coordination complexation and photocatalytic reduction",
-        "authors": "Guo S et al.",
-        "year": "2026",
-        "journal": "J Hazard Mater",
-        "doi": "10.1016/j.jhazmat.2026.141815",
-        "source": "pubmed",
-        "abstract": "Photosensitive COFs-carboxylated nanocellulose membrane enables high-efficiency uranium extraction via synergistic coordination complexation and photocatalytic reduction.",
-        "block": "B",
-        "block_label": "Actinide & Radionuklide"
-      },
-      {
-        "pmid": "41929682",
-        "title": "Cosmic silence and viral noise: transcriptomic crosstalk in Caenorhabditis elegans under simulated space conditions",
-        "authors": "Villena-Giménez A et al.",
-        "year": "2026",
-        "journal": "Front Microbiol",
-        "doi": "10.3389/fmicb.2026.1781245",
-        "source": "pubmed",
-        "abstract": "Cosmic silence and viral noise: transcriptomic crosstalk in Caenorhabditis elegans under simulated space conditions.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "41828529",
-        "title": "Cardiospermum halicacabum Extract Attenuates UVB-Induced Photoaging in Human Skin Fibroblasts via Inhibition of the PI3K/Akt/mTOR Signaling Pathway",
-        "authors": "Zhao K et al.",
-        "year": "2026",
-        "journal": "Int J Mol Sci",
-        "doi": "10.3390/ijms27052304",
-        "source": "pubmed",
-        "abstract": "Cardiospermum halicacabum Extract Attenuates UVB-Induced Photoaging in Human Skin Fibroblasts via Inhibition of the PI3K/Akt/mTOR Signaling Pathway.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "41594601",
-        "title": "Melanin and Neuromelanin in Humans: Insights Across Health, Aging, Diseases, and Unexpected Aspects of Fungal Melanogenesis",
-        "authors": "Hatch K et al.",
-        "year": "2025",
-        "journal": "Biomolecules",
-        "doi": "10.3390/biom16010061",
-        "source": "pubmed",
-        "abstract": "Melanin and Neuromelanin in Humans: Insights Across Health, Aging, Diseases, and Unexpected Aspects of Fungal Melanogenesis.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
