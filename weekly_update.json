@@ -1,23 +1,11 @@
 {
-  "generated": "2026-06-29T12:01:29.486980",
-  "date_from": "2025/12/31",
-  "date_to": "2026/06/29",
+  "generated": "2026-07-06T11:38:40.666072",
+  "date_from": "2026/01/07",
+  "date_to": "2026/07/06",
   "papers": [
     {
-      "pmid": "42353212",
-      "title": "Comparative Genomic Analysis and Data About the Metabolism of the Genus Sphaerotilus Provide the First Evidence of Methylotrophic Growth and Reveal Two Strategies of Methanol Oxidation and C1 Compound Assimilation",
-      "authors": "Smolyakov DD et al.",
-      "year": "2026",
-      "journal": "Int J Mol Sci",
-      "doi": "10.3390/ijms27125498",
-      "source": "pubmed",
-      "abstract": "Comparative Genomic Analysis and Data About the Metabolism of the Genus Sphaerotilus Provide the First Evidence of Methylotrophic Growth and Reveal Two Strategies of Methanol Oxidation and C1 Compound Assimilation.",
       "block": "A",
-      "block_label": "SolV & Lanthanide"
-    },
-    {
-      "block": "B",
-      "block_label": "Actinide & Radionuklide",
+      "block_label": "SolV & Lanthanide",
       "title": "Keine neuen verifizierten Treffer",
       "authors": "",
       "year": "",
@@ -27,38 +15,50 @@
       "no_result": true
     },
     {
-      "pmid": "42352982",
-      "title": "Comparative Analysis of Doxorubicin-Induced Cardiotoxicity in Tumor-Bearing and Non-Tumor-Bearing Mouse Models: A Transcriptomic Methodological Study",
-      "authors": "Yu A et al.",
+      "pmid": "41865578",
+      "title": "Photosensitive COFs-carboxylated nanocellulose membrane enables high-efficiency uranium extraction via synergistic coordination complexation and photocatalytic reduction",
+      "authors": "Guo S et al.",
+      "year": "2026",
+      "journal": "J Hazard Mater",
+      "doi": "10.1016/j.jhazmat.2026.141815",
+      "source": "pubmed",
+      "abstract": "Photosensitive COFs-carboxylated nanocellulose membrane enables high-efficiency uranium extraction via synergistic coordination complexation and photocatalytic reduction.",
+      "block": "B",
+      "block_label": "Actinide & Radionuklide"
+    },
+    {
+      "pmid": "42380874",
+      "title": "Multiphasic blood transcriptomic signatures of radioprotection by BIO 300, a synthetic genistein nanosuspension, in a nonhuman primate model of acute radiation syndrome",
+      "authors": "Nanoth Vellichirammal N et al.",
+      "year": "2026",
+      "journal": "J Transl Med",
+      "doi": "10.1186/s12967-026-08485-4",
+      "source": "pubmed",
+      "abstract": "Multiphasic blood transcriptomic signatures of radioprotection by BIO 300, a synthetic genistein nanosuspension, in a nonhuman primate model of acute radiation syndrome.",
+      "block": "C",
+      "block_label": "Transkriptomische Strahlenantworten"
+    },
+    {
+      "pmid": "41762838",
+      "title": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism",
+      "authors": "Li D et al.",
+      "year": "2026",
+      "journal": "J Hazard Mater",
+      "doi": "10.1016/j.jhazmat.2026.141623",
+      "source": "pubmed",
+      "abstract": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism.",
+      "block": "C",
+      "block_label": "Transkriptomische Strahlenantworten"
+    },
+    {
+      "pmid": "41683667",
+      "title": "Physiological Changes and Transposition of Insertion Sequences in the dps-Double-Knockout Mutant of Deinococcus geothermalis",
+      "authors": "Park Y et al.",
       "year": "2026",
       "journal": "Int J Mol Sci",
-      "doi": "10.3390/ijms27125263",
+      "doi": "10.3390/ijms27031238",
       "source": "pubmed",
-      "abstract": "Comparative Analysis of Doxorubicin-Induced Cardiotoxicity in Tumor-Bearing and Non-Tumor-Bearing Mouse Models: A Transcriptomic Methodological Study.",
-      "block": "C",
-      "block_label": "Transkriptomische Strahlenantworten"
-    },
-    {
-      "pmid": "42326007",
-      "title": "Broccoli-derived nanovesicles protect against UVB-induced skin photoaging via integrated transcriptomic and proteomic reprogramming of redox and extracellular matrix homeostasis",
-      "authors": "Li K et al.",
-      "year": "2026",
-      "journal": "Front Cell Dev Biol",
-      "doi": "10.3389/fcell.2026.1806671",
-      "source": "pubmed",
-      "abstract": "Broccoli-derived nanovesicles protect against UVB-induced skin photoaging via integrated transcriptomic and proteomic reprogramming of redox and extracellular matrix homeostasis.",
-      "block": "C",
-      "block_label": "Transkriptomische Strahlenantworten"
-    },
-    {
-      "pmid": "41563231",
-      "title": "Pretreatment Chromosomal Instability Correlates With Radiation Sensitivity in Squamous Cell Cancers",
-      "authors": "Cosper PF et al.",
-      "year": "2026",
-      "journal": "Int J Radiat Oncol Biol Phys",
-      "doi": "10.1016/j.ijrobp.2025.12.014",
-      "source": "pubmed",
-      "abstract": "Pretreatment Chromosomal Instability Correlates With Radiation Sensitivity in Squamous Cell Cancers.",
+      "abstract": "Physiological Changes and Transposition of Insertion Sequences in the dps-Double-Knockout Mutant of Deinococcus geothermalis.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
