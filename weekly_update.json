@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-06T11:38:40.666072",
-  "date_from": "2026/01/07",
-  "date_to": "2026/07/06",
+  "generated": "2026-07-13T10:29:36.002842",
+  "date_from": "2026/01/14",
+  "date_to": "2026/07/13",
   "papers": [
     {
       "block": "A",
@@ -15,56 +15,55 @@
       "no_result": true
     },
     {
-      "pmid": "41865578",
-      "title": "Photosensitive COFs-carboxylated nanocellulose membrane enables high-efficiency uranium extraction via synergistic coordination complexation and photocatalytic reduction",
-      "authors": "Guo S et al.",
-      "year": "2026",
-      "journal": "J Hazard Mater",
-      "doi": "10.1016/j.jhazmat.2026.141815",
-      "source": "pubmed",
-      "abstract": "Photosensitive COFs-carboxylated nanocellulose membrane enables high-efficiency uranium extraction via synergistic coordination complexation and photocatalytic reduction.",
       "block": "B",
-      "block_label": "Actinide & Radionuklide"
+      "block_label": "Actinide & Radionuklide",
+      "title": "Keine neuen verifizierten Treffer",
+      "authors": "",
+      "year": "",
+      "journal": "",
+      "doi": "",
+      "source": "",
+      "no_result": true
     },
     {
-      "pmid": "42380874",
-      "title": "Multiphasic blood transcriptomic signatures of radioprotection by BIO 300, a synthetic genistein nanosuspension, in a nonhuman primate model of acute radiation syndrome",
-      "authors": "Nanoth Vellichirammal N et al.",
+      "pmid": "42108285",
+      "title": "Transcriptome SNP analysis of tomato seedlings exposed to low‑dose gamma irradiation and cold plasma suggests antiviral responses",
+      "authors": "Ghorbani A et al.",
       "year": "2026",
-      "journal": "J Transl Med",
-      "doi": "10.1186/s12967-026-08485-4",
+      "journal": "Sci Rep",
+      "doi": "10.1038/s41598-026-52353-6",
       "source": "pubmed",
-      "abstract": "Multiphasic blood transcriptomic signatures of radioprotection by BIO 300, a synthetic genistein nanosuspension, in a nonhuman primate model of acute radiation syndrome.",
+      "abstract": "Transcriptome SNP analysis of tomato seedlings exposed to low‑dose gamma irradiation and cold plasma suggests antiviral responses.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "41762838",
-      "title": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism",
-      "authors": "Li D et al.",
+      "pmid": "42361669",
+      "title": "Low-dose radiation mitigates PM2.5-induced lung impairment by down-regulating ROS-mediated inflammation and apoptotic pathways in AECII cells",
+      "authors": "Liu R et al.",
       "year": "2026",
-      "journal": "J Hazard Mater",
-      "doi": "10.1016/j.jhazmat.2026.141623",
+      "journal": "Ecotoxicol Environ Saf",
+      "doi": "10.1016/j.ecoenv.2026.120428",
       "source": "pubmed",
-      "abstract": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism.",
+      "abstract": "Low-dose radiation mitigates PM2.5-induced lung impairment by down-regulating ROS-mediated inflammation and apoptotic pathways in AECII cells.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "41683667",
-      "title": "Physiological Changes and Transposition of Insertion Sequences in the dps-Double-Knockout Mutant of Deinococcus geothermalis",
-      "authors": "Park Y et al.",
+      "pmid": "42346346",
+      "title": "Enhanced Synthesis of Polyphenols and Terpenes by UV-A Irradiation in Artemisia argyi Leaves",
+      "authors": "Li S et al.",
       "year": "2026",
-      "journal": "Int J Mol Sci",
-      "doi": "10.3390/ijms27031238",
+      "journal": "Metabolites",
+      "doi": "10.3390/metabo16060367",
       "source": "pubmed",
-      "abstract": "Physiological Changes and Transposition of Insertion Sequences in the dps-Double-Knockout Mutant of Deinococcus geothermalis.",
+      "abstract": "Enhanced Synthesis of Polyphenols and Terpenes by UV-A Irradiation in Artemisia argyi Leaves.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
   ],
-  "total_verified": 4,
+  "total_verified": 3,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 46
+  "history_dois_filtered": 47
 }
