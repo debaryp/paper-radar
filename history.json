@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-07-20T10:14:44.930434",
+    "papers": [
+      {
+        "pmid": "42455263",
+        "title": "Transcriptome landscape unveils putative defense response in Chryseobacterium sp. strain PMSZPI against uranium toxicity",
+        "authors": "Khare D et al.",
+        "year": "2026",
+        "journal": "World J Microbiol Biotechnol",
+        "doi": "10.1007/s11274-026-05140-4",
+        "source": "pubmed",
+        "abstract": "Transcriptome landscape unveils putative defense response in Chryseobacterium sp. strain PMSZPI against uranium toxicity.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "42456388",
+        "title": "Integrating multi-omics reveals the protective effects of Lycium ruthenicum anthocyanins against radiation pneumonitis through gut-lung axis modulation",
+        "authors": "Deng K et al.",
+        "year": "2026",
+        "journal": "Tissue Cell",
+        "doi": "10.1016/j.tice.2026.103756",
+        "source": "pubmed",
+        "abstract": "Integrating multi-omics reveals the protective effects of Lycium ruthenicum anthocyanins against radiation pneumonitis through gut-lung axis modulation.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42278555",
+        "title": "Long-Term PET-Nanoplastic Exposure Alters DNA Damage Response Capacity in BEAS-2B Human Bronchial Epithelial Cells",
+        "authors": "Morataya-Reyes M et al.",
+        "year": "2026",
+        "journal": "Int J Mol Sci",
+        "doi": "10.3390/ijms27115031",
+        "source": "pubmed",
+        "abstract": "Long-Term PET-Nanoplastic Exposure Alters DNA Damage Response Capacity in BEAS-2B Human Bronchial Epithelial Cells.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41828529",
+        "title": "Cardiospermum halicacabum Extract Attenuates UVB-Induced Photoaging in Human Skin Fibroblasts via Inhibition of the PI3K/Akt/mTOR Signaling Pathway",
+        "authors": "Zhao K et al.",
+        "year": "2026",
+        "journal": "Int J Mol Sci",
+        "doi": "10.3390/ijms27052304",
+        "source": "pubmed",
+        "abstract": "Cardiospermum halicacabum Extract Attenuates UVB-Induced Photoaging in Human Skin Fibroblasts via Inhibition of the PI3K/Akt/mTOR Signaling Pathway.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-07-13T10:29:36.003130",
     "papers": [
       {
@@ -577,47 +630,6 @@
         "doi": "10.1016/j.freeradbiomed.2026.02.074",
         "source": "pubmed",
         "abstract": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-04-27T09:21:36.518206",
-    "papers": [
-      {
-        "pmid": "42036129",
-        "title": "Lipophagy Mitigates Radiation-induced Liver Lipid Disorders and Damage in Adolescent Mice",
-        "authors": "Zhang YF et al.",
-        "year": "2026",
-        "journal": "Radiat Res",
-        "doi": "10.1667/RADE-26-00008",
-        "source": "pubmed",
-        "abstract": "Lipophagy Mitigates Radiation-induced Liver Lipid Disorders and Damage in Adolescent Mice.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42004243",
-        "title": "Radiotherapy Reprograms Intermediate Monocytes Into Proinflammatory Drivers of Systemic Inflammation in Radiation-Induced Heart Disease",
-        "authors": "He J et al.",
-        "year": "2026",
-        "journal": "Cardiol Res Pract",
-        "doi": "10.1155/crp/1117746",
-        "source": "pubmed",
-        "abstract": "Radiotherapy Reprograms Intermediate Monocytes Into Proinflammatory Drivers of Systemic Inflammation in Radiation-Induced Heart Disease.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "41967244",
-        "title": "Illumination-induced restructuring of extracellular polymeric substances from Klebsiella Sp. HDJY-1 drives indirect photodegradation of thifensulfuron-methyl",
-        "authors": "Gu J et al.",
-        "year": "2026",
-        "journal": "Water Res",
-        "doi": "10.1016/j.watres.2026.125906",
-        "source": "pubmed",
-        "abstract": "Illumination-induced restructuring of extracellular polymeric substances from Klebsiella Sp. HDJY-1 drives indirect photodegradation of thifensulfuron-methyl.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
