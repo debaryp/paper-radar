@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-07-27T10:44:34.087835",
+    "papers": [
+      {
+        "pmid": "42330899",
+        "title": "Shoot-root hormonal coordination and cross-sphere microbiome assembly underpin nanomaterial-induced resistance to rare earth elements in lettuce",
+        "authors": "Xi Q et al.",
+        "year": "2026",
+        "journal": "J Hazard Mater",
+        "doi": "10.1016/j.jhazmat.2026.142728",
+        "source": "pubmed",
+        "abstract": "Shoot-root hormonal coordination and cross-sphere microbiome assembly underpin nanomaterial-induced resistance to rare earth elements in lettuce.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "42478579",
+        "title": "Integrated Kinetic and Transcriptomic Insights Into Nano-Assisted Tandemol Biodegradation by UV-Mutagenized Pseudomonas synaxantha rhizo-25",
+        "authors": "Masvingwe NP et al.",
+        "year": "2026",
+        "journal": "J Basic Microbiol",
+        "doi": "10.1002/jobm.70188",
+        "source": "pubmed",
+        "abstract": "Integrated Kinetic and Transcriptomic Insights Into Nano-Assisted Tandemol Biodegradation by UV-Mutagenized Pseudomonas synaxantha rhizo-25.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42174123",
+        "title": "Hypoxia, metastatic origin and HPV16 E6/E7 expression differentially shape the radiation response in head and neck squamous cell carcinoma cell lines",
+        "authors": "Pereckova J et al.",
+        "year": "2026",
+        "journal": "Sci Rep",
+        "doi": "10.1038/s41598-026-54319-0",
+        "source": "pubmed",
+        "abstract": "Hypoxia, metastatic origin and HPV16 E6/E7 expression differentially shape the radiation response in head and neck squamous cell carcinoma cell lines.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41527391",
+        "title": "Roles of Alp and Prt Regulons in the Response of Pseudomonas aeruginosa to UV-C Light",
+        "authors": "Fonseca MRB et al.",
+        "year": "2026",
+        "journal": "Environ Microbiol Rep",
+        "doi": "10.1111/1758-2229.70268",
+        "source": "pubmed",
+        "abstract": "Roles of Alp and Prt Regulons in the Response of Pseudomonas aeruginosa to UV-C Light.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-07-20T10:14:44.930434",
     "papers": [
       {
@@ -589,47 +642,6 @@
         "doi": "10.3390/genes17040377",
         "source": "pubmed",
         "abstract": "Identification of Radiation-Induced Injury Pathways and Hub Genes from RNA-Seq Data Based on Integrative Bioinformatics Approach.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-05-04T09:23:03.928420",
-    "papers": [
-      {
-        "pmid": "42047664",
-        "title": "Signatures of Radiation-Induced Stress and Putative Selection on Immune Targets in Chornobyl Wolves",
-        "authors": "Love CN et al.",
-        "year": "2026",
-        "journal": "Mol Ecol",
-        "doi": "10.1111/mec.70308",
-        "source": "pubmed",
-        "abstract": "Signatures of Radiation-Induced Stress and Putative Selection on Immune Targets in Chornobyl Wolves.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42042008",
-        "title": "Radiation-Responsive Promoters: Molecular Mechanisms, Screening Strategies, and Translational Applications as Radiation Biomarkers",
-        "authors": "Xu N et al.",
-        "year": "2026",
-        "journal": "Curr Issues Mol Biol",
-        "doi": "10.3390/cimb48040348",
-        "source": "pubmed",
-        "abstract": "Radiation-Responsive Promoters: Molecular Mechanisms, Screening Strategies, and Translational Applications as Radiation Biomarkers.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "41794153",
-        "title": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB",
-        "authors": "Ma Y et al.",
-        "year": "2026",
-        "journal": "Free Radic Biol Med",
-        "doi": "10.1016/j.freeradbiomed.2026.02.074",
-        "source": "pubmed",
-        "abstract": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
