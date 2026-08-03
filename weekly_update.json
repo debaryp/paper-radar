@@ -1,19 +1,18 @@
 {
-  "generated": "2026-07-27T10:44:34.087306",
-  "date_from": "2026/01/28",
-  "date_to": "2026/07/27",
+  "generated": "2026-08-03T10:44:41.173751",
+  "date_from": "2026/02/04",
+  "date_to": "2026/08/03",
   "papers": [
     {
-      "pmid": "42330899",
-      "title": "Shoot-root hormonal coordination and cross-sphere microbiome assembly underpin nanomaterial-induced resistance to rare earth elements in lettuce",
-      "authors": "Xi Q et al.",
-      "year": "2026",
-      "journal": "J Hazard Mater",
-      "doi": "10.1016/j.jhazmat.2026.142728",
-      "source": "pubmed",
-      "abstract": "Shoot-root hormonal coordination and cross-sphere microbiome assembly underpin nanomaterial-induced resistance to rare earth elements in lettuce.",
       "block": "A",
-      "block_label": "SolV & Lanthanide"
+      "block_label": "SolV & Lanthanide",
+      "title": "Keine neuen verifizierten Treffer",
+      "authors": "",
+      "year": "",
+      "journal": "",
+      "doi": "",
+      "source": "",
+      "no_result": true
     },
     {
       "block": "B",
@@ -27,44 +26,44 @@
       "no_result": true
     },
     {
-      "pmid": "42478579",
-      "title": "Integrated Kinetic and Transcriptomic Insights Into Nano-Assisted Tandemol Biodegradation by UV-Mutagenized Pseudomonas synaxantha rhizo-25",
-      "authors": "Masvingwe NP et al.",
+      "pmid": "42524029",
+      "title": "Transcriptomic differences in chromatin and cell cycle regulation in A549 cells after irradiation with carbon ions and X-rays",
+      "authors": "Nisar H et al.",
       "year": "2026",
-      "journal": "J Basic Microbiol",
-      "doi": "10.1002/jobm.70188",
+      "journal": "Front Oncol",
+      "doi": "10.3389/fonc.2026.1869974",
       "source": "pubmed",
-      "abstract": "Integrated Kinetic and Transcriptomic Insights Into Nano-Assisted Tandemol Biodegradation by UV-Mutagenized Pseudomonas synaxantha rhizo-25.",
+      "abstract": "Transcriptomic differences in chromatin and cell cycle regulation in A549 cells after irradiation with carbon ions and X-rays.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42174123",
-      "title": "Hypoxia, metastatic origin and HPV16 E6/E7 expression differentially shape the radiation response in head and neck squamous cell carcinoma cell lines",
-      "authors": "Pereckova J et al.",
+      "pmid": "42520679",
+      "title": "Integrated single-cell and spatial transcriptomic atlas of multi-etiology acute lung injury reveals etiology-dependent neutrophil fate decisions and a prognostic neutrophil-monocyte/macrophage interaction signature",
+      "authors": "Chen L et al.",
       "year": "2026",
-      "journal": "Sci Rep",
-      "doi": "10.1038/s41598-026-54319-0",
+      "journal": "Int Immunopharmacol",
+      "doi": "10.1016/j.intimp.2026.117182",
       "source": "pubmed",
-      "abstract": "Hypoxia, metastatic origin and HPV16 E6/E7 expression differentially shape the radiation response in head and neck squamous cell carcinoma cell lines.",
+      "abstract": "Integrated single-cell and spatial transcriptomic atlas of multi-etiology acute lung injury reveals etiology-dependent neutrophil fate decisions and a prognostic neutrophil-monocyte/macrophage interaction signature.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "41527391",
-      "title": "Roles of Alp and Prt Regulons in the Response of Pseudomonas aeruginosa to UV-C Light",
-      "authors": "Fonseca MRB et al.",
+      "pmid": "42387605",
+      "title": "Integrative Identification of Anti-Photoaging Peptides From Stress-Tolerant Microorganisms via Machine Learning and KEAP1-NRF2 Docking",
+      "authors": "Lee H et al.",
       "year": "2026",
-      "journal": "Environ Microbiol Rep",
-      "doi": "10.1111/1758-2229.70268",
+      "journal": "J Pept Sci",
+      "doi": "10.1002/psc.70115",
       "source": "pubmed",
-      "abstract": "Roles of Alp and Prt Regulons in the Response of Pseudomonas aeruginosa to UV-C Light.",
+      "abstract": "Integrative Identification of Anti-Photoaging Peptides From Stress-Tolerant Microorganisms via Machine Learning and KEAP1-NRF2 Docking.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
   ],
-  "total_verified": 4,
+  "total_verified": 3,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 48
+  "history_dois_filtered": 49
 }

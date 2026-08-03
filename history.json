@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-08-03T10:44:41.174143",
+    "papers": [
+      {
+        "pmid": "42524029",
+        "title": "Transcriptomic differences in chromatin and cell cycle regulation in A549 cells after irradiation with carbon ions and X-rays",
+        "authors": "Nisar H et al.",
+        "year": "2026",
+        "journal": "Front Oncol",
+        "doi": "10.3389/fonc.2026.1869974",
+        "source": "pubmed",
+        "abstract": "Transcriptomic differences in chromatin and cell cycle regulation in A549 cells after irradiation with carbon ions and X-rays.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42520679",
+        "title": "Integrated single-cell and spatial transcriptomic atlas of multi-etiology acute lung injury reveals etiology-dependent neutrophil fate decisions and a prognostic neutrophil-monocyte/macrophage interaction signature",
+        "authors": "Chen L et al.",
+        "year": "2026",
+        "journal": "Int Immunopharmacol",
+        "doi": "10.1016/j.intimp.2026.117182",
+        "source": "pubmed",
+        "abstract": "Integrated single-cell and spatial transcriptomic atlas of multi-etiology acute lung injury reveals etiology-dependent neutrophil fate decisions and a prognostic neutrophil-monocyte/macrophage interaction signature.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42387605",
+        "title": "Integrative Identification of Anti-Photoaging Peptides From Stress-Tolerant Microorganisms via Machine Learning and KEAP1-NRF2 Docking",
+        "authors": "Lee H et al.",
+        "year": "2026",
+        "journal": "J Pept Sci",
+        "doi": "10.1002/psc.70115",
+        "source": "pubmed",
+        "abstract": "Integrative Identification of Anti-Photoaging Peptides From Stress-Tolerant Microorganisms via Machine Learning and KEAP1-NRF2 Docking.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-07-27T10:44:34.087835",
     "papers": [
       {
@@ -589,59 +630,6 @@
         "doi": "10.1016/j.cub.2026.04.015",
         "source": "pubmed",
         "abstract": "Chemodiverse cell system responses to UV in an algal sister of land plants.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-05-11T10:39:27.499052",
-    "papers": [
-      {
-        "pmid": "42025675",
-        "title": "Uranium increases toxin biosynthesis gene expression and cell toxicity in the cyanobacteria Microcystis aeruginosa",
-        "authors": "Wang H et al.",
-        "year": "2026",
-        "journal": "Environ Pollut",
-        "doi": "10.1016/j.envpol.2026.128188",
-        "source": "pubmed",
-        "abstract": "Uranium increases toxin biosynthesis gene expression and cell toxicity in the cyanobacteria Microcystis aeruginosa.",
-        "block": "B",
-        "block_label": "Actinide & Radionuklide"
-      },
-      {
-        "pmid": "42079249",
-        "title": "A transcriptomic analysis reveals shared and inducer-specific expression patterns of cellular senescence",
-        "authors": "Bridge JE et al.",
-        "year": "2026",
-        "journal": "bioRxiv",
-        "doi": "10.64898/2026.04.20.719721",
-        "source": "pubmed",
-        "abstract": "A transcriptomic analysis reveals shared and inducer-specific expression patterns of cellular senescence.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42088506",
-        "title": "Limited immune perturbations in mice exposed to sustained low-dose ionizing radiation",
-        "authors": "Marr B et al.",
-        "year": "2026",
-        "journal": "Front Immunol",
-        "doi": "10.3389/fimmu.2026.1642012",
-        "source": "pubmed",
-        "abstract": "Limited immune perturbations in mice exposed to sustained low-dose ionizing radiation.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42074497",
-        "title": "Identification of Radiation-Induced Injury Pathways and Hub Genes from RNA-Seq Data Based on Integrative Bioinformatics Approach",
-        "authors": "Siregar KAAK et al.",
-        "year": "2026",
-        "journal": "Genes (Basel)",
-        "doi": "10.3390/genes17040377",
-        "source": "pubmed",
-        "abstract": "Identification of Radiation-Induced Injury Pathways and Hub Genes from RNA-Seq Data Based on Integrative Bioinformatics Approach.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
