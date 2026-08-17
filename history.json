@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-08-17T07:53:57.331968",
+    "papers": [
+      {
+        "pmid": "42061327",
+        "title": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed",
+        "authors": "Xuan Y et al.",
+        "year": "2026",
+        "journal": "J Hazard Mater",
+        "doi": "10.1016/j.jhazmat.2026.142223",
+        "source": "pubmed",
+        "abstract": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "42603249",
+        "title": "Compound Kushen Injection Mitigates Radiation-Induced Pulmonary Fibrosis by Restoring AT2 Cell Stemness and Alveolar Regenerative Capacity",
+        "authors": "Liu YL et al.",
+        "year": "2026",
+        "journal": "Chin J Integr Med",
+        "doi": "10.1007/s11655-026-4159-z",
+        "source": "pubmed",
+        "abstract": "Compound Kushen Injection Mitigates Radiation-Induced Pulmonary Fibrosis by Restoring AT2 Cell Stemness and Alveolar Regenerative Capacity.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42587797",
+        "title": "Far-Infrared Irradiation Induces Time-Dependent Endothelial-Protective and Vascular Repair-Associated Molecular Remodeling in Human Femoral Artery Endothelial Cells",
+        "authors": "Saito M et al.",
+        "year": "2026",
+        "journal": "Cells",
+        "doi": "10.3390/cells15151390",
+        "source": "pubmed",
+        "abstract": "Far-Infrared Irradiation Induces Time-Dependent Endothelial-Protective and Vascular Repair-Associated Molecular Remodeling in Human Femoral Artery Endothelial Cells.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42092354",
+        "title": "Chemodiverse cell system responses to UV in an algal sister of land plants",
+        "authors": "Kunz CF et al.",
+        "year": "2026",
+        "journal": "Curr Biol",
+        "doi": "10.1016/j.cub.2026.04.015",
+        "source": "pubmed",
+        "abstract": "Chemodiverse cell system responses to UV in an algal sister of land plants.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-08-10T08:40:20.172035",
     "papers": [
       {
@@ -613,47 +666,6 @@
         "doi": "10.1016/j.plaphy.2026.111433",
         "source": "pubmed",
         "abstract": "Mitigating UV-B radiation effects on growth and grain yield of qingke via abscisic acid-induced pathways and transcript-driven metabolic reprogramming.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-05-25T11:12:46.286819",
-    "papers": [
-      {
-        "pmid": "42156530",
-        "title": "Transcriptomic changes in tomato brown rugose fruit virus-infected tomato in response to low-dose gamma irradiation",
-        "authors": "Tokhmechi K et al.",
-        "year": "2026",
-        "journal": "Sci Rep",
-        "doi": "10.1038/s41598-026-52855-3",
-        "source": "pubmed",
-        "abstract": "Transcriptomic changes in tomato brown rugose fruit virus-infected tomato in response to low-dose gamma irradiation.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42066813",
-        "title": "Flavonoid and isoflavonoid biosynthetic gene expression is affected by MYB36 transcription factor deficiency in Lotus japonicus",
-        "authors": "Monje-Rueda MD et al.",
-        "year": "2026",
-        "journal": "Plant Sci",
-        "doi": "10.1016/j.plantsci.2026.113171",
-        "source": "pubmed",
-        "abstract": "Flavonoid and isoflavonoid biosynthetic gene expression is affected by MYB36 transcription factor deficiency in Lotus japonicus.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42173765",
-        "title": "Synergistic enhancement of PD-L1 expression from DNA repair dysfunction and UV exposure in xeroderma pigmentosum: Potential therapeutic role of PD-L1 inhibitors",
-        "authors": "Lin YC et al.",
-        "year": "2026",
-        "journal": "J Dermatol Sci",
-        "doi": "10.1016/j.jdermsci.2026.04.008",
-        "source": "pubmed",
-        "abstract": "Synergistic enhancement of PD-L1 expression from DNA repair dysfunction and UV exposure in xeroderma pigmentosum: Potential therapeutic role of PD-L1 inhibitors.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
