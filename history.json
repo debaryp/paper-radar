@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-08-24T07:58:39.468142",
+    "papers": [
+      {
+        "pmid": "42156530",
+        "title": "Transcriptomic changes in tomato brown rugose fruit virus-infected tomato in response to low-dose gamma irradiation",
+        "authors": "Tokhmechi K et al.",
+        "year": "2026",
+        "journal": "Sci Rep",
+        "doi": "10.1038/s41598-026-52855-3",
+        "source": "pubmed",
+        "abstract": "Transcriptomic changes in tomato brown rugose fruit virus-infected tomato in response to low-dose gamma irradiation.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42631491",
+        "title": "Molecular Omics Unveils the Antimicrobial Mechanism of UV-LED-Induced Chitosan Composite Film Against Penicillium italicum",
+        "authors": "Xing Y et al.",
+        "year": "2026",
+        "journal": "J Food Sci",
+        "doi": "10.1111/1750-3841.71385",
+        "source": "pubmed",
+        "abstract": "Molecular Omics Unveils the Antimicrobial Mechanism of UV-LED-Induced Chitosan Composite Film Against Penicillium italicum.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "41794153",
+        "title": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB",
+        "authors": "Ma Y et al.",
+        "year": "2026",
+        "journal": "Free Radic Biol Med",
+        "doi": "10.1016/j.freeradbiomed.2026.02.074",
+        "source": "pubmed",
+        "abstract": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-08-17T07:53:57.331968",
     "papers": [
       {
@@ -613,59 +654,6 @@
         "doi": "10.14336/AD.2026.0025",
         "source": "pubmed",
         "abstract": "Cellular Senescence in the Absence of Galactic Cosmic-Ray Muons.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-06-01T12:40:29.600416",
-    "papers": [
-      {
-        "pmid": "41626782",
-        "title": "Lanthanide-Dependent Methanol Dehydrogenase XoxF Confers a Competitive Advantage to Sinorhizobium meliloti During Symbiosis with Medicago sativa",
-        "authors": "Walser ON et al.",
-        "year": "2026",
-        "journal": "Mol Plant Microbe Interact",
-        "doi": "10.1094/MPMI-08-25-0110-R",
-        "source": "pubmed",
-        "abstract": "Lanthanide-Dependent Methanol Dehydrogenase XoxF Confers a Competitive Advantage to Sinorhizobium meliloti During Symbiosis with Medicago sativa.",
-        "block": "A",
-        "block_label": "SolV & Lanthanide"
-      },
-      {
-        "pmid": "41745289",
-        "title": "Low-Intensity, Short-Duration Proton Irradiation Enhances Oxidative Stress Sensitivity of Aspergillus nidulans, with Transcriptomic Data Indicating Downregulation of Antioxidative Enzyme Genes",
-        "authors": "Szarka M et al.",
-        "year": "2026",
-        "journal": "J Fungi (Basel)",
-        "doi": "10.3390/jof12020147",
-        "source": "pubmed",
-        "abstract": "Low-Intensity, Short-Duration Proton Irradiation Enhances Oxidative Stress Sensitivity of Aspergillus nidulans, with Transcriptomic Data Indicating Downregulation of Antioxidative Enzyme Genes.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42211001",
-        "title": "Transcriptomic and alternative splicing reprogramming by low-dose gamma irradiation in tomato under ToBRFV infection",
-        "authors": "Ghorbani A et al.",
-        "year": "2026",
-        "journal": "Biochem Biophys Rep",
-        "doi": "10.1016/j.bbrep.2026.102626",
-        "source": "pubmed",
-        "abstract": "Transcriptomic and alternative splicing reprogramming by low-dose gamma irradiation in tomato under ToBRFV infection.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42208211",
-        "title": "Mitigating UV-B radiation effects on growth and grain yield of qingke via abscisic acid-induced pathways and transcript-driven metabolic reprogramming",
-        "authors": "Shoaib N et al.",
-        "year": "2026",
-        "journal": "Plant Physiol Biochem",
-        "doi": "10.1016/j.plaphy.2026.111433",
-        "source": "pubmed",
-        "abstract": "Mitigating UV-B radiation effects on growth and grain yield of qingke via abscisic acid-induced pathways and transcript-driven metabolic reprogramming.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }

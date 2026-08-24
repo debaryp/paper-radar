@@ -1,19 +1,18 @@
 {
-  "generated": "2026-08-17T07:53:57.331232",
-  "date_from": "2026/02/18",
-  "date_to": "2026/08/17",
+  "generated": "2026-08-24T07:58:39.467679",
+  "date_from": "2026/02/25",
+  "date_to": "2026/08/24",
   "papers": [
     {
-      "pmid": "42061327",
-      "title": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed",
-      "authors": "Xuan Y et al.",
-      "year": "2026",
-      "journal": "J Hazard Mater",
-      "doi": "10.1016/j.jhazmat.2026.142223",
-      "source": "pubmed",
-      "abstract": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed.",
       "block": "A",
-      "block_label": "SolV & Lanthanide"
+      "block_label": "SolV & Lanthanide",
+      "title": "Keine neuen verifizierten Treffer",
+      "authors": "",
+      "year": "",
+      "journal": "",
+      "doi": "",
+      "source": "",
+      "no_result": true
     },
     {
       "block": "B",
@@ -27,44 +26,44 @@
       "no_result": true
     },
     {
-      "pmid": "42603249",
-      "title": "Compound Kushen Injection Mitigates Radiation-Induced Pulmonary Fibrosis by Restoring AT2 Cell Stemness and Alveolar Regenerative Capacity",
-      "authors": "Liu YL et al.",
+      "pmid": "42156530",
+      "title": "Transcriptomic changes in tomato brown rugose fruit virus-infected tomato in response to low-dose gamma irradiation",
+      "authors": "Tokhmechi K et al.",
       "year": "2026",
-      "journal": "Chin J Integr Med",
-      "doi": "10.1007/s11655-026-4159-z",
+      "journal": "Sci Rep",
+      "doi": "10.1038/s41598-026-52855-3",
       "source": "pubmed",
-      "abstract": "Compound Kushen Injection Mitigates Radiation-Induced Pulmonary Fibrosis by Restoring AT2 Cell Stemness and Alveolar Regenerative Capacity.",
+      "abstract": "Transcriptomic changes in tomato brown rugose fruit virus-infected tomato in response to low-dose gamma irradiation.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42587797",
-      "title": "Far-Infrared Irradiation Induces Time-Dependent Endothelial-Protective and Vascular Repair-Associated Molecular Remodeling in Human Femoral Artery Endothelial Cells",
-      "authors": "Saito M et al.",
+      "pmid": "42631491",
+      "title": "Molecular Omics Unveils the Antimicrobial Mechanism of UV-LED-Induced Chitosan Composite Film Against Penicillium italicum",
+      "authors": "Xing Y et al.",
       "year": "2026",
-      "journal": "Cells",
-      "doi": "10.3390/cells15151390",
+      "journal": "J Food Sci",
+      "doi": "10.1111/1750-3841.71385",
       "source": "pubmed",
-      "abstract": "Far-Infrared Irradiation Induces Time-Dependent Endothelial-Protective and Vascular Repair-Associated Molecular Remodeling in Human Femoral Artery Endothelial Cells.",
+      "abstract": "Molecular Omics Unveils the Antimicrobial Mechanism of UV-LED-Induced Chitosan Composite Film Against Penicillium italicum.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42092354",
-      "title": "Chemodiverse cell system responses to UV in an algal sister of land plants",
-      "authors": "Kunz CF et al.",
+      "pmid": "41794153",
+      "title": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB",
+      "authors": "Ma Y et al.",
       "year": "2026",
-      "journal": "Curr Biol",
-      "doi": "10.1016/j.cub.2026.04.015",
+      "journal": "Free Radic Biol Med",
+      "doi": "10.1016/j.freeradbiomed.2026.02.074",
       "source": "pubmed",
-      "abstract": "Chemodiverse cell system responses to UV in an algal sister of land plants.",
+      "abstract": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
   ],
-  "total_verified": 4,
+  "total_verified": 3,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 50
+  "history_dois_filtered": 51
 }
