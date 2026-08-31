@@ -1,18 +1,19 @@
 {
-  "generated": "2026-08-24T07:58:39.467679",
-  "date_from": "2026/02/25",
-  "date_to": "2026/08/24",
+  "generated": "2026-08-31T14:55:15.766752",
+  "date_from": "2026/03/04",
+  "date_to": "2026/08/31",
   "papers": [
     {
+      "pmid": "41626782",
+      "title": "Lanthanide-Dependent Methanol Dehydrogenase XoxF Confers a Competitive Advantage to Sinorhizobium meliloti During Symbiosis with Medicago sativa",
+      "authors": "Walser ON et al.",
+      "year": "2026",
+      "journal": "Mol Plant Microbe Interact",
+      "doi": "10.1094/MPMI-08-25-0110-R",
+      "source": "pubmed",
+      "abstract": "Lanthanide-Dependent Methanol Dehydrogenase XoxF Confers a Competitive Advantage to Sinorhizobium meliloti During Symbiosis with Medicago sativa.",
       "block": "A",
-      "block_label": "SolV & Lanthanide",
-      "title": "Keine neuen verifizierten Treffer",
-      "authors": "",
-      "year": "",
-      "journal": "",
-      "doi": "",
-      "source": "",
-      "no_result": true
+      "block_label": "SolV & Lanthanide"
     },
     {
       "block": "B",
@@ -26,44 +27,44 @@
       "no_result": true
     },
     {
-      "pmid": "42156530",
-      "title": "Transcriptomic changes in tomato brown rugose fruit virus-infected tomato in response to low-dose gamma irradiation",
-      "authors": "Tokhmechi K et al.",
+      "pmid": "42652458",
+      "title": "A Comparative Transcriptomic Analysis of X-Ray Irradiation Responses Identifies Candidate Biomarker Genes in Bactrocera dorsalis Larvae",
+      "authors": "Li B et al.",
       "year": "2026",
-      "journal": "Sci Rep",
-      "doi": "10.1038/s41598-026-52855-3",
+      "journal": "Insects",
+      "doi": "10.3390/insects17080804",
       "source": "pubmed",
-      "abstract": "Transcriptomic changes in tomato brown rugose fruit virus-infected tomato in response to low-dose gamma irradiation.",
+      "abstract": "A Comparative Transcriptomic Analysis of X-Ray Irradiation Responses Identifies Candidate Biomarker Genes in Bactrocera dorsalis Larvae.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42631491",
-      "title": "Molecular Omics Unveils the Antimicrobial Mechanism of UV-LED-Induced Chitosan Composite Film Against Penicillium italicum",
-      "authors": "Xing Y et al.",
+      "pmid": "42208211",
+      "title": "Mitigating UV-B radiation effects on growth and grain yield of qingke via abscisic acid-induced pathways and transcript-driven metabolic reprogramming",
+      "authors": "Shoaib N et al.",
       "year": "2026",
-      "journal": "J Food Sci",
-      "doi": "10.1111/1750-3841.71385",
+      "journal": "Plant Physiol Biochem",
+      "doi": "10.1016/j.plaphy.2026.111433",
       "source": "pubmed",
-      "abstract": "Molecular Omics Unveils the Antimicrobial Mechanism of UV-LED-Induced Chitosan Composite Film Against Penicillium italicum.",
+      "abstract": "Mitigating UV-B radiation effects on growth and grain yield of qingke via abscisic acid-induced pathways and transcript-driven metabolic reprogramming.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "41794153",
-      "title": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB",
-      "authors": "Ma Y et al.",
+      "pmid": "42668079",
+      "title": "Identification of new targets for the protection against radiation-induced brain injury through integrated dual-omics analysis",
+      "authors": "Li X et al.",
       "year": "2026",
-      "journal": "Free Radic Biol Med",
-      "doi": "10.1016/j.freeradbiomed.2026.02.074",
+      "journal": "Exp Neurol",
+      "doi": "10.1016/j.expneurol.2026.116001",
       "source": "pubmed",
-      "abstract": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB.",
+      "abstract": "Identification of new targets for the protection against radiation-induced brain injury through integrated dual-omics analysis.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
   ],
-  "total_verified": 3,
+  "total_verified": 4,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 51
+  "history_dois_filtered": 50
 }

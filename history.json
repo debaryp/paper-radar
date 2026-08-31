@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-08-31T14:55:15.767400",
+    "papers": [
+      {
+        "pmid": "41626782",
+        "title": "Lanthanide-Dependent Methanol Dehydrogenase XoxF Confers a Competitive Advantage to Sinorhizobium meliloti During Symbiosis with Medicago sativa",
+        "authors": "Walser ON et al.",
+        "year": "2026",
+        "journal": "Mol Plant Microbe Interact",
+        "doi": "10.1094/MPMI-08-25-0110-R",
+        "source": "pubmed",
+        "abstract": "Lanthanide-Dependent Methanol Dehydrogenase XoxF Confers a Competitive Advantage to Sinorhizobium meliloti During Symbiosis with Medicago sativa.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "42652458",
+        "title": "A Comparative Transcriptomic Analysis of X-Ray Irradiation Responses Identifies Candidate Biomarker Genes in Bactrocera dorsalis Larvae",
+        "authors": "Li B et al.",
+        "year": "2026",
+        "journal": "Insects",
+        "doi": "10.3390/insects17080804",
+        "source": "pubmed",
+        "abstract": "A Comparative Transcriptomic Analysis of X-Ray Irradiation Responses Identifies Candidate Biomarker Genes in Bactrocera dorsalis Larvae.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42208211",
+        "title": "Mitigating UV-B radiation effects on growth and grain yield of qingke via abscisic acid-induced pathways and transcript-driven metabolic reprogramming",
+        "authors": "Shoaib N et al.",
+        "year": "2026",
+        "journal": "Plant Physiol Biochem",
+        "doi": "10.1016/j.plaphy.2026.111433",
+        "source": "pubmed",
+        "abstract": "Mitigating UV-B radiation effects on growth and grain yield of qingke via abscisic acid-induced pathways and transcript-driven metabolic reprogramming.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42668079",
+        "title": "Identification of new targets for the protection against radiation-induced brain injury through integrated dual-omics analysis",
+        "authors": "Li X et al.",
+        "year": "2026",
+        "journal": "Exp Neurol",
+        "doi": "10.1016/j.expneurol.2026.116001",
+        "source": "pubmed",
+        "abstract": "Identification of new targets for the protection against radiation-induced brain injury through integrated dual-omics analysis.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-08-24T07:58:39.468142",
     "papers": [
       {
@@ -565,95 +618,6 @@
         "doi": "10.3390/ijms27115004",
         "source": "pubmed",
         "abstract": "Genome-Wide Analysis of the FAR1/FHY3 (FRS) Gene Family and Expression Responses of PbFRS Genes to PEG-Induced Osmotic Stress, Light, and Shade in Phoebe bournei.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-06-08T12:00:07.514533",
-    "papers": [
-      {
-        "pmid": "41379216",
-        "title": "Response and adaptation of verrucomicrobial methanotrophs to heat and acidity",
-        "authors": "Schmitz RA et al.",
-        "year": "2025",
-        "journal": "Arch Microbiol",
-        "doi": "10.1007/s00203-025-04630-7",
-        "source": "pubmed",
-        "abstract": "Response and adaptation of verrucomicrobial methanotrophs to heat and acidity.",
-        "block": "A",
-        "block_label": "SolV & Lanthanide"
-      },
-      {
-        "pmid": "41369916",
-        "title": "Response of Ocular Bacteria Exposure to Cerium Oxide Nanoparticles in Eye Drop Formulation",
-        "authors": "Nguyen NHA et al.",
-        "year": "2025",
-        "journal": "Curr Microbiol",
-        "doi": "10.1007/s00284-025-04652-w",
-        "source": "pubmed",
-        "abstract": "Response of Ocular Bacteria Exposure to Cerium Oxide Nanoparticles in Eye Drop Formulation.",
-        "block": "A",
-        "block_label": "SolV & Lanthanide"
-      },
-      {
-        "pmid": "41740407",
-        "title": "In-situ bioaugmentation of uranium-contaminated groundwater using Desulfovibrio vulgaris UR1: Mechanistic insights, laboratory validation, and field performance",
-        "authors": "Jiang L et al.",
-        "year": "2026",
-        "journal": "J Hazard Mater",
-        "doi": "10.1016/j.jhazmat.2026.141577",
-        "source": "pubmed",
-        "abstract": "In-situ bioaugmentation of uranium-contaminated groundwater using Desulfovibrio vulgaris UR1: Mechanistic insights, laboratory validation, and field performance.",
-        "block": "B",
-        "block_label": "Actinide & Radionuklide"
-      },
-      {
-        "pmid": "41327830",
-        "title": "Electrode-Induced UO22+ immobilization by Leifsonia sp. within an iron-Sulfur complex system",
-        "authors": "Tan W et al.",
-        "year": "2026",
-        "journal": "Environ Technol",
-        "doi": "10.1080/09593330.2025.2592741",
-        "source": "pubmed",
-        "abstract": "Electrode-Induced UO22+ immobilization by Leifsonia sp. within an iron-Sulfur complex system.",
-        "block": "B",
-        "block_label": "Actinide & Radionuklide"
-      },
-      {
-        "pmid": "42132387",
-        "title": "Intermittent light enhances pigment production in the diatom Phaeodactylum tricornutum: a combined physiological and transcriptomic approach",
-        "authors": "Zheng J et al.",
-        "year": "2026",
-        "journal": "Microbiol Spectr",
-        "doi": "10.1128/spectrum.03449-25",
-        "source": "pubmed",
-        "abstract": "Intermittent light enhances pigment production in the diatom Phaeodactylum tricornutum: a combined physiological and transcriptomic approach.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42237169",
-        "title": "Single-cell analysis of skin and blood reveals systemic immune responses to ultraviolet B and their impairment in MS",
-        "authors": "Falk S et al.",
-        "year": "2026",
-        "journal": "J Neuroinflammation",
-        "doi": "10.1186/s12974-026-03887-z",
-        "source": "pubmed",
-        "abstract": "Single-cell analysis of skin and blood reveals systemic immune responses to ultraviolet B and their impairment in MS.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42234970",
-        "title": "Cellular Senescence in the Absence of Galactic Cosmic-Ray Muons",
-        "authors": "Llop-Hernández À et al.",
-        "year": "2026",
-        "journal": "Aging Dis",
-        "doi": "10.14336/AD.2026.0025",
-        "source": "pubmed",
-        "abstract": "Cellular Senescence in the Absence of Galactic Cosmic-Ray Muons.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
