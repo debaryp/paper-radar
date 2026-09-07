@@ -1,5 +1,70 @@
 [
   {
+    "date": "2026-09-07T13:21:06.823781",
+    "papers": [
+      {
+        "pmid": "42678158",
+        "title": "xoxF-linked methanol oxidation signals recur across wetland metagenomes",
+        "authors": "Kaur S et al.",
+        "year": "2026",
+        "journal": "Microbiol Spectr",
+        "doi": "10.1128/spectrum.00889-26",
+        "source": "pubmed",
+        "abstract": "xoxF-linked methanol oxidation signals recur across wetland metagenomes.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "41740407",
+        "title": "In-situ bioaugmentation of uranium-contaminated groundwater using Desulfovibrio vulgaris UR1: Mechanistic insights, laboratory validation, and field performance",
+        "authors": "Jiang L et al.",
+        "year": "2026",
+        "journal": "J Hazard Mater",
+        "doi": "10.1016/j.jhazmat.2026.141577",
+        "source": "pubmed",
+        "abstract": "In-situ bioaugmentation of uranium-contaminated groundwater using Desulfovibrio vulgaris UR1: Mechanistic insights, laboratory validation, and field performance.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "42694740",
+        "title": "Evolutionary Reorganization of Transcriptomic Architecture Across a UVB Tolerance Gradient in Fish",
+        "authors": "Valdivieso C et al.",
+        "year": "2026",
+        "journal": "Ecol Evol",
+        "doi": "10.1002/ece3.74298",
+        "source": "pubmed",
+        "abstract": "Evolutionary Reorganization of Transcriptomic Architecture Across a UVB Tolerance Gradient in Fish.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42685503",
+        "title": "Spatial transcriptomics of primary and metastatic ALK-rearranged NSCLC reveals site-specific adaptations",
+        "authors": "Khatoon W et al.",
+        "year": "2026",
+        "journal": "Curr Probl Cancer",
+        "doi": "10.1016/j.currproblcancer.2026.101331",
+        "source": "pubmed",
+        "abstract": "Spatial transcriptomics of primary and metastatic ALK-rearranged NSCLC reveals site-specific adaptations.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42670482",
+        "title": "Cross-cancer transcriptomic analysis reveals conserved developmental, ferroptosis, and immune remodeling modules in Wilms tumor and oral cancer",
+        "authors": "Li G et al.",
+        "year": "2026",
+        "journal": "Front Genet",
+        "doi": "10.3389/fgene.2026.1861806",
+        "source": "pubmed",
+        "abstract": "Cross-cancer transcriptomic analysis reveals conserved developmental, ferroptosis, and immune remodeling modules in Wilms tumor and oral cancer.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-08-31T14:55:15.767400",
     "papers": [
       {
@@ -565,59 +630,6 @@
         "doi": "10.1016/j.envres.2026.123733",
         "source": "pubmed",
         "abstract": "Ecotoxicological insights into UV-P-induced immunotoxicity and bacterial infection risk in marine medaka (Oryzias melastigma).",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-06-15T13:18:28.815770",
-    "papers": [
-      {
-        "pmid": "41636527",
-        "title": "Beneath the surface: expanding the known repertoire of methylotrophic metabolism",
-        "authors": "Bruger EL et al.",
-        "year": "2026",
-        "journal": "Appl Environ Microbiol",
-        "doi": "10.1128/aem.02116-25",
-        "source": "pubmed",
-        "abstract": "Beneath the surface: expanding the known repertoire of methylotrophic metabolism.",
-        "block": "A",
-        "block_label": "SolV & Lanthanide"
-      },
-      {
-        "pmid": "41604879",
-        "title": "Mechanistic insight into the reprotoxic effects of chronic gamma radiation on spermatogenesis in Caenorhabditis elegans",
-        "authors": "Zhu H et al.",
-        "year": "2026",
-        "journal": "Sci Total Environ",
-        "doi": "10.1016/j.scitotenv.2026.181444",
-        "source": "pubmed",
-        "abstract": "Mechanistic insight into the reprotoxic effects of chronic gamma radiation on spermatogenesis in Caenorhabditis elegans.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "41595735",
-        "title": "ANXA2P2 and PA2G4P4 Pseudogenes Are Associated with the Response to Ionizing Radiation and Could Be Used as Potential Biomarkers: In Silico Study",
-        "authors": "Kolenda T et al.",
-        "year": "2026",
-        "journal": "Biomedicines",
-        "doi": "10.3390/biomedicines14010200",
-        "source": "pubmed",
-        "abstract": "ANXA2P2 and PA2G4P4 Pseudogenes Are Associated with the Response to Ionizing Radiation and Could Be Used as Potential Biomarkers: In Silico Study.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42278530",
-        "title": "Genome-Wide Analysis of the FAR1/FHY3 (FRS) Gene Family and Expression Responses of PbFRS Genes to PEG-Induced Osmotic Stress, Light, and Shade in Phoebe bournei",
-        "authors": "Feng Y et al.",
-        "year": "2026",
-        "journal": "Int J Mol Sci",
-        "doi": "10.3390/ijms27115004",
-        "source": "pubmed",
-        "abstract": "Genome-Wide Analysis of the FAR1/FHY3 (FRS) Gene Family and Expression Responses of PbFRS Genes to PEG-Induced Osmotic Stress, Light, and Shade in Phoebe bournei.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
