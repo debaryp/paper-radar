@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-09-28T15:04:45.414686",
+    "papers": [
+      {
+        "pmid": "42353212",
+        "title": "Comparative Genomic Analysis and Data About the Metabolism of the Genus Sphaerotilus Provide the First Evidence of Methylotrophic Growth and Reveal Two Strategies of Methanol Oxidation and C1 Compound Assimilation",
+        "authors": "Smolyakov DD et al.",
+        "year": "2026",
+        "journal": "Int J Mol Sci",
+        "doi": "10.3390/ijms27125498",
+        "source": "pubmed",
+        "abstract": "Comparative Genomic Analysis and Data About the Metabolism of the Genus Sphaerotilus Provide the First Evidence of Methylotrophic Growth and Reveal Two Strategies of Methanol Oxidation and C1 Compound Assimilation.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "41563231",
+        "title": "Pretreatment Chromosomal Instability Correlates With Radiation Sensitivity in Squamous Cell Cancers",
+        "authors": "Cosper PF et al.",
+        "year": "2026",
+        "journal": "Int J Radiat Oncol Biol Phys",
+        "doi": "10.1016/j.ijrobp.2025.12.014",
+        "source": "pubmed",
+        "abstract": "Pretreatment Chromosomal Instability Correlates With Radiation Sensitivity in Squamous Cell Cancers.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42679049",
+        "title": "A skin-kidney neutrophil axis links ultraviolet exposure to renal angiogenesis and tissue remodeling in healthy and lupus kidneys",
+        "authors": "Cortez A et al.",
+        "year": "2026",
+        "journal": "J Immunol",
+        "doi": "10.1093/jimmun/vkag178",
+        "source": "pubmed",
+        "abstract": "A skin-kidney neutrophil axis links ultraviolet exposure to renal angiogenesis and tissue remodeling in healthy and lupus kidneys.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42298774",
+        "title": "Monochromatic light reprograms transcription, metabolism, and rhizosphere microbial communities in Salvia miltiorrhiza",
+        "authors": "Chen X et al.",
+        "year": "2026",
+        "journal": "Plant Signal Behav",
+        "doi": "10.1080/15592324.2026.2686334",
+        "source": "pubmed",
+        "abstract": "Monochromatic light reprograms transcription, metabolism, and rhizosphere microbial communities in Salvia miltiorrhiza.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-09-21T13:43:52.811618",
     "papers": [
       {
@@ -613,59 +666,6 @@
         "doi": "10.3390/metabo16060367",
         "source": "pubmed",
         "abstract": "Enhanced Synthesis of Polyphenols and Terpenes by UV-A Irradiation in Artemisia argyi Leaves.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-06T11:38:40.666473",
-    "papers": [
-      {
-        "pmid": "41865578",
-        "title": "Photosensitive COFs-carboxylated nanocellulose membrane enables high-efficiency uranium extraction via synergistic coordination complexation and photocatalytic reduction",
-        "authors": "Guo S et al.",
-        "year": "2026",
-        "journal": "J Hazard Mater",
-        "doi": "10.1016/j.jhazmat.2026.141815",
-        "source": "pubmed",
-        "abstract": "Photosensitive COFs-carboxylated nanocellulose membrane enables high-efficiency uranium extraction via synergistic coordination complexation and photocatalytic reduction.",
-        "block": "B",
-        "block_label": "Actinide & Radionuklide"
-      },
-      {
-        "pmid": "42380874",
-        "title": "Multiphasic blood transcriptomic signatures of radioprotection by BIO 300, a synthetic genistein nanosuspension, in a nonhuman primate model of acute radiation syndrome",
-        "authors": "Nanoth Vellichirammal N et al.",
-        "year": "2026",
-        "journal": "J Transl Med",
-        "doi": "10.1186/s12967-026-08485-4",
-        "source": "pubmed",
-        "abstract": "Multiphasic blood transcriptomic signatures of radioprotection by BIO 300, a synthetic genistein nanosuspension, in a nonhuman primate model of acute radiation syndrome.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "41762838",
-        "title": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism",
-        "authors": "Li D et al.",
-        "year": "2026",
-        "journal": "J Hazard Mater",
-        "doi": "10.1016/j.jhazmat.2026.141623",
-        "source": "pubmed",
-        "abstract": "Deinococcus sp. NH1 enhances cadmium tolerance in rice by modulating rhizosphere microbiome and plant metabolism.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "41683667",
-        "title": "Physiological Changes and Transposition of Insertion Sequences in the dps-Double-Knockout Mutant of Deinococcus geothermalis",
-        "authors": "Park Y et al.",
-        "year": "2026",
-        "journal": "Int J Mol Sci",
-        "doi": "10.3390/ijms27031238",
-        "source": "pubmed",
-        "abstract": "Physiological Changes and Transposition of Insertion Sequences in the dps-Double-Knockout Mutant of Deinococcus geothermalis.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
