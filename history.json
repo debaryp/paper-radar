@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-05T15:39:41.556303",
+    "papers": [
+      {
+        "pmid": "42821248",
+        "title": "Bioremediation processes for removing plutonium from the environment: a review",
+        "authors": "Zafar S et al.",
+        "year": "2026",
+        "journal": "Environ Sci Pollut Res Int",
+        "doi": "10.1007/s11356-026-38278-7",
+        "source": "pubmed",
+        "abstract": "Bioremediation processes for removing plutonium from the environment: a review.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "42821200",
+        "title": "Integrated Multi-Cohort Transcriptomic Analysis Reveals Molecular Networks and Signaling Pathway Landscape of Aconitine-Induced Cardiotoxicity and Myocardial Injury",
+        "authors": "Hu C et al.",
+        "year": "2026",
+        "journal": "Cardiovasc Toxicol",
+        "doi": "10.1007/s12012-026-10197-6",
+        "source": "pubmed",
+        "abstract": "Integrated Multi-Cohort Transcriptomic Analysis Reveals Molecular Networks and Signaling Pathway Landscape of Aconitine-Induced Cardiotoxicity and Myocardial Injury.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42811984",
+        "title": "Integrated Transcriptomic and Functional Analyses Identify SERPINE1 as a Ferroptosis-Associated Mediator of Glioblastoma Radioresistance",
+        "authors": "Wang Y et al.",
+        "year": "2026",
+        "journal": "Front Biosci (Landmark Ed)",
+        "doi": "10.31083/FBL53668",
+        "source": "pubmed",
+        "abstract": "Integrated Transcriptomic and Functional Analyses Identify SERPINE1 as a Ferroptosis-Associated Mediator of Glioblastoma Radioresistance.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42810610",
+        "title": "Molecular Mechanisms of Radiation-Induced Oxidative Stress: A Genomic Perspective",
+        "authors": "Bhawalkar A et al.",
+        "year": "2026",
+        "journal": "Mutat Res Rev Mutat Res",
+        "doi": "10.1016/j.mrrev.2026.108610",
+        "source": "pubmed",
+        "abstract": "Molecular Mechanisms of Radiation-Induced Oxidative Stress: A Genomic Perspective.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-09-28T15:04:45.414686",
     "papers": [
       {
@@ -625,47 +678,6 @@
         "doi": "10.3390/ijms27052304",
         "source": "pubmed",
         "abstract": "Cardiospermum halicacabum Extract Attenuates UVB-Induced Photoaging in Human Skin Fibroblasts via Inhibition of the PI3K/Akt/mTOR Signaling Pathway.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-13T10:29:36.003130",
-    "papers": [
-      {
-        "pmid": "42108285",
-        "title": "Transcriptome SNP analysis of tomato seedlings exposed to low‑dose gamma irradiation and cold plasma suggests antiviral responses",
-        "authors": "Ghorbani A et al.",
-        "year": "2026",
-        "journal": "Sci Rep",
-        "doi": "10.1038/s41598-026-52353-6",
-        "source": "pubmed",
-        "abstract": "Transcriptome SNP analysis of tomato seedlings exposed to low‑dose gamma irradiation and cold plasma suggests antiviral responses.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42361669",
-        "title": "Low-dose radiation mitigates PM2.5-induced lung impairment by down-regulating ROS-mediated inflammation and apoptotic pathways in AECII cells",
-        "authors": "Liu R et al.",
-        "year": "2026",
-        "journal": "Ecotoxicol Environ Saf",
-        "doi": "10.1016/j.ecoenv.2026.120428",
-        "source": "pubmed",
-        "abstract": "Low-dose radiation mitigates PM2.5-induced lung impairment by down-regulating ROS-mediated inflammation and apoptotic pathways in AECII cells.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42346346",
-        "title": "Enhanced Synthesis of Polyphenols and Terpenes by UV-A Irradiation in Artemisia argyi Leaves",
-        "authors": "Li S et al.",
-        "year": "2026",
-        "journal": "Metabolites",
-        "doi": "10.3390/metabo16060367",
-        "source": "pubmed",
-        "abstract": "Enhanced Synthesis of Polyphenols and Terpenes by UV-A Irradiation in Artemisia argyi Leaves.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
