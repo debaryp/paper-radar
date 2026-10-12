@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-05T15:39:41.555550",
-  "date_from": "2026/04/08",
-  "date_to": "2026/10/05",
+  "generated": "2026-10-12T16:34:31.612665",
+  "date_from": "2026/04/15",
+  "date_to": "2026/10/12",
   "papers": [
     {
       "block": "A",
@@ -15,56 +15,55 @@
       "no_result": true
     },
     {
-      "pmid": "42821248",
-      "title": "Bioremediation processes for removing plutonium from the environment: a review",
-      "authors": "Zafar S et al.",
-      "year": "2026",
-      "journal": "Environ Sci Pollut Res Int",
-      "doi": "10.1007/s11356-026-38278-7",
-      "source": "pubmed",
-      "abstract": "Bioremediation processes for removing plutonium from the environment: a review.",
       "block": "B",
-      "block_label": "Actinide & Radionuklide"
+      "block_label": "Actinide & Radionuklide",
+      "title": "Keine neuen verifizierten Treffer",
+      "authors": "",
+      "year": "",
+      "journal": "",
+      "doi": "",
+      "source": "",
+      "no_result": true
     },
     {
-      "pmid": "42821200",
-      "title": "Integrated Multi-Cohort Transcriptomic Analysis Reveals Molecular Networks and Signaling Pathway Landscape of Aconitine-Induced Cardiotoxicity and Myocardial Injury",
-      "authors": "Hu C et al.",
+      "pmid": "42108285",
+      "title": "Transcriptome SNP analysis of tomato seedlings exposed to low‑dose gamma irradiation and cold plasma suggests antiviral responses",
+      "authors": "Ghorbani A et al.",
       "year": "2026",
-      "journal": "Cardiovasc Toxicol",
-      "doi": "10.1007/s12012-026-10197-6",
+      "journal": "Sci Rep",
+      "doi": "10.1038/s41598-026-52353-6",
       "source": "pubmed",
-      "abstract": "Integrated Multi-Cohort Transcriptomic Analysis Reveals Molecular Networks and Signaling Pathway Landscape of Aconitine-Induced Cardiotoxicity and Myocardial Injury.",
+      "abstract": "Transcriptome SNP analysis of tomato seedlings exposed to low‑dose gamma irradiation and cold plasma suggests antiviral responses.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42811984",
-      "title": "Integrated Transcriptomic and Functional Analyses Identify SERPINE1 as a Ferroptosis-Associated Mediator of Glioblastoma Radioresistance",
-      "authors": "Wang Y et al.",
+      "pmid": "42859008",
+      "title": "The impact of ultraviolet-C and ozone treatment on the pineapple fruit quality and the critical regulating factors identification through transcriptome analysis",
+      "authors": "Qiu J et al.",
       "year": "2026",
-      "journal": "Front Biosci (Landmark Ed)",
-      "doi": "10.31083/FBL53668",
+      "journal": "Food Res Int",
+      "doi": "10.1016/j.foodres.2026.120530",
       "source": "pubmed",
-      "abstract": "Integrated Transcriptomic and Functional Analyses Identify SERPINE1 as a Ferroptosis-Associated Mediator of Glioblastoma Radioresistance.",
+      "abstract": "The impact of ultraviolet-C and ozone treatment on the pineapple fruit quality and the critical regulating factors identification through transcriptome analysis.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42810610",
-      "title": "Molecular Mechanisms of Radiation-Induced Oxidative Stress: A Genomic Perspective",
-      "authors": "Bhawalkar A et al.",
+      "pmid": "42854851",
+      "title": "Transcriptomic and functional evidence for a CiHY5-CiMYB12-like module associated with UV-B-enhanced drought acclimation in Chrysanthemum indicum var. aromaticum",
+      "authors": "Yang Y et al.",
       "year": "2026",
-      "journal": "Mutat Res Rev Mutat Res",
-      "doi": "10.1016/j.mrrev.2026.108610",
+      "journal": "Plant Sci",
+      "doi": "10.1016/j.plantsci.2026.113505",
       "source": "pubmed",
-      "abstract": "Molecular Mechanisms of Radiation-Induced Oxidative Stress: A Genomic Perspective.",
+      "abstract": "Transcriptomic and functional evidence for a CiHY5-CiMYB12-like module associated with UV-B-enhanced drought acclimation in Chrysanthemum indicum var. aromaticum.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
   ],
-  "total_verified": 4,
+  "total_verified": 3,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 51
+  "history_dois_filtered": 52
 }
