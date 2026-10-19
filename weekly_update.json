@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-12T16:34:31.612665",
-  "date_from": "2026/04/15",
-  "date_to": "2026/10/12",
+  "generated": "2026-10-19T14:26:15.495543",
+  "date_from": "2026/04/22",
+  "date_to": "2026/10/19",
   "papers": [
     {
       "block": "A",
@@ -15,55 +15,56 @@
       "no_result": true
     },
     {
+      "pmid": "42455263",
+      "title": "Transcriptome landscape unveils putative defense response in Chryseobacterium sp. strain PMSZPI against uranium toxicity",
+      "authors": "Khare D et al.",
+      "year": "2026",
+      "journal": "World J Microbiol Biotechnol",
+      "doi": "10.1007/s11274-026-05140-4",
+      "source": "pubmed",
+      "abstract": "Transcriptome landscape unveils putative defense response in Chryseobacterium sp. strain PMSZPI against uranium toxicity.",
       "block": "B",
-      "block_label": "Actinide & Radionuklide",
-      "title": "Keine neuen verifizierten Treffer",
-      "authors": "",
-      "year": "",
-      "journal": "",
-      "doi": "",
-      "source": "",
-      "no_result": true
+      "block_label": "Actinide & Radionuklide"
     },
     {
-      "pmid": "42108285",
-      "title": "Transcriptome SNP analysis of tomato seedlings exposed to low‑dose gamma irradiation and cold plasma suggests antiviral responses",
-      "authors": "Ghorbani A et al.",
+      "pmid": "42883831",
+      "title": "Regulation of Intestinal P-Glycoprotein by Gamma-Ray Irradiation: Impacts on Transporter Expression and Oxidative Stress",
+      "authors": "Wu H et al.",
       "year": "2026",
-      "journal": "Sci Rep",
-      "doi": "10.1038/s41598-026-52353-6",
+      "journal": "Int J Mol Sci",
+      "doi": "10.3390/ijms27198586",
       "source": "pubmed",
-      "abstract": "Transcriptome SNP analysis of tomato seedlings exposed to low‑dose gamma irradiation and cold plasma suggests antiviral responses.",
+      "abstract": "Regulation of Intestinal P-Glycoprotein by Gamma-Ray Irradiation: Impacts on Transporter Expression and Oxidative Stress.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42859008",
-      "title": "The impact of ultraviolet-C and ozone treatment on the pineapple fruit quality and the critical regulating factors identification through transcriptome analysis",
-      "authors": "Qiu J et al.",
+      "pmid": "42580547",
+      "title": "Metagenomic indications of potential pathogen-associated and antibiotic resistance risks following UV-chlorine disinfection in sprout production",
+      "authors": "Wei Y et al.",
       "year": "2026",
-      "journal": "Food Res Int",
-      "doi": "10.1016/j.foodres.2026.120530",
+      "journal": "Environ Pollut",
+      "doi": "10.1016/j.envpol.2026.128943",
       "source": "pubmed",
-      "abstract": "The impact of ultraviolet-C and ozone treatment on the pineapple fruit quality and the critical regulating factors identification through transcriptome analysis.",
+      "abstract": "Metagenomic indications of potential pathogen-associated and antibiotic resistance risks following UV-chlorine disinfection in sprout production.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "42854851",
-      "title": "Transcriptomic and functional evidence for a CiHY5-CiMYB12-like module associated with UV-B-enhanced drought acclimation in Chrysanthemum indicum var. aromaticum",
-      "authors": "Yang Y et al.",
+      "pmid": "42278555",
+      "title": "Long-Term PET-Nanoplastic Exposure Alters DNA Damage Response Capacity in BEAS-2B Human Bronchial Epithelial Cells",
+      "authors": "Morataya-Reyes M et al.",
       "year": "2026",
-      "journal": "Plant Sci",
-      "doi": "10.1016/j.plantsci.2026.113505",
+      "journal": "Int J Mol Sci",
+      "doi": "10.3390/ijms27115031",
       "source": "pubmed",
-      "abstract": "Transcriptomic and functional evidence for a CiHY5-CiMYB12-like module associated with UV-B-enhanced drought acclimation in Chrysanthemum indicum var. aromaticum.",
+      "abstract": "Long-Term PET-Nanoplastic Exposure Alters DNA Damage Response Capacity in BEAS-2B Human Bronchial Epithelial Cells.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
   ],
-  "total_verified": 3,
+  "total_verified": 4,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 52
+  "history_dois_filtered": 51
 }
