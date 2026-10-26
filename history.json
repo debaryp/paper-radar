@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-26T13:59:59.862926",
+    "papers": [
+      {
+        "pmid": "42330899",
+        "title": "Shoot-root hormonal coordination and cross-sphere microbiome assembly underpin nanomaterial-induced resistance to rare earth elements in lettuce",
+        "authors": "Xi Q et al.",
+        "year": "2026",
+        "journal": "J Hazard Mater",
+        "doi": "10.1016/j.jhazmat.2026.142728",
+        "source": "pubmed",
+        "abstract": "Shoot-root hormonal coordination and cross-sphere microbiome assembly underpin nanomaterial-induced resistance to rare earth elements in lettuce.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "42897452",
+        "title": "Transcriptomic insights on differential gene regulations in viable but non-culturable (VBNC) bacteria under chlorine and UV disinfection",
+        "authors": "Tang MLY et al.",
+        "year": "2026",
+        "journal": "BMC Microbiol",
+        "doi": "10.1186/s12866-026-05441-6",
+        "source": "pubmed",
+        "abstract": "Transcriptomic insights on differential gene regulations in viable but non-culturable (VBNC) bacteria under chlorine and UV disinfection.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42478579",
+        "title": "Integrated Kinetic and Transcriptomic Insights Into Nano-Assisted Tandemol Biodegradation by UV-Mutagenized Pseudomonas synaxantha rhizo-25",
+        "authors": "Masvingwe NP et al.",
+        "year": "2026",
+        "journal": "J Basic Microbiol",
+        "doi": "10.1002/jobm.70188",
+        "source": "pubmed",
+        "abstract": "Integrated Kinetic and Transcriptomic Insights Into Nano-Assisted Tandemol Biodegradation by UV-Mutagenized Pseudomonas synaxantha rhizo-25.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42920222",
+        "title": "[Transcriptomic dissection of low-light tolerance and regulatory mechanism of CsCOL2 in cucumber]",
+        "authors": "Yu Y et al.",
+        "year": "2026",
+        "journal": "Sheng Wu Gong Cheng Xue Bao",
+        "doi": "10.13345/j.cjb.260476",
+        "source": "pubmed",
+        "abstract": "[Transcriptomic dissection of low-light tolerance and regulatory mechanism of CsCOL2 in cucumber].",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-10-19T14:26:15.495986",
     "papers": [
       {
@@ -625,47 +678,6 @@
         "doi": "10.1016/j.plaphy.2026.111600",
         "source": "pubmed",
         "abstract": "Phenotypical, physiological and molecular identification in Bougainvillea × buttiana 'Miss Manila' leaves by radiation stress.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-03T10:44:41.174143",
-    "papers": [
-      {
-        "pmid": "42524029",
-        "title": "Transcriptomic differences in chromatin and cell cycle regulation in A549 cells after irradiation with carbon ions and X-rays",
-        "authors": "Nisar H et al.",
-        "year": "2026",
-        "journal": "Front Oncol",
-        "doi": "10.3389/fonc.2026.1869974",
-        "source": "pubmed",
-        "abstract": "Transcriptomic differences in chromatin and cell cycle regulation in A549 cells after irradiation with carbon ions and X-rays.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42520679",
-        "title": "Integrated single-cell and spatial transcriptomic atlas of multi-etiology acute lung injury reveals etiology-dependent neutrophil fate decisions and a prognostic neutrophil-monocyte/macrophage interaction signature",
-        "authors": "Chen L et al.",
-        "year": "2026",
-        "journal": "Int Immunopharmacol",
-        "doi": "10.1016/j.intimp.2026.117182",
-        "source": "pubmed",
-        "abstract": "Integrated single-cell and spatial transcriptomic atlas of multi-etiology acute lung injury reveals etiology-dependent neutrophil fate decisions and a prognostic neutrophil-monocyte/macrophage interaction signature.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42387605",
-        "title": "Integrative Identification of Anti-Photoaging Peptides From Stress-Tolerant Microorganisms via Machine Learning and KEAP1-NRF2 Docking",
-        "authors": "Lee H et al.",
-        "year": "2026",
-        "journal": "J Pept Sci",
-        "doi": "10.1002/psc.70115",
-        "source": "pubmed",
-        "abstract": "Integrative Identification of Anti-Photoaging Peptides From Stress-Tolerant Microorganisms via Machine Learning and KEAP1-NRF2 Docking.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
