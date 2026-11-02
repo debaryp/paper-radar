@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-11-02T16:53:48.979209",
+    "papers": [
+      {
+        "pmid": "42938294",
+        "title": "Time-Series Transcriptome Reveals Differential Regulation of Flavonoid Biosynthesis in Dendrobium huoshanense Under Musical-Acoustic Stimuli: Insights for Green Horticultural Production",
+        "authors": "Huang M et al.",
+        "year": "2026",
+        "journal": "Genes (Basel)",
+        "doi": "10.3390/genes17101178",
+        "source": "pubmed",
+        "abstract": "Time-Series Transcriptome Reveals Differential Regulation of Flavonoid Biosynthesis in Dendrobium huoshanense Under Musical-Acoustic Stimuli: Insights for Green Horticultural Production.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42174123",
+        "title": "Hypoxia, metastatic origin and HPV16 E6/E7 expression differentially shape the radiation response in head and neck squamous cell carcinoma cell lines",
+        "authors": "Pereckova J et al.",
+        "year": "2026",
+        "journal": "Sci Rep",
+        "doi": "10.1038/s41598-026-54319-0",
+        "source": "pubmed",
+        "abstract": "Hypoxia, metastatic origin and HPV16 E6/E7 expression differentially shape the radiation response in head and neck squamous cell carcinoma cell lines.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42858671",
+        "title": "Stage-wise far-UVC/chlorine process curbs antimicrobial resistance in hospital wastewater: Short-burst inactivation and sustained suppression of recovery and resistance transfer",
+        "authors": "Zhou Q et al.",
+        "year": "2026",
+        "journal": "J Hazard Mater",
+        "doi": "10.1016/j.jhazmat.2026.143868",
+        "source": "pubmed",
+        "abstract": "Stage-wise far-UVC/chlorine process curbs antimicrobial resistance in hospital wastewater: Short-burst inactivation and sustained suppression of recovery and resistance transfer.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-10-26T13:59:59.862926",
     "papers": [
       {
@@ -601,83 +642,6 @@
         "doi": "10.1016/j.cub.2026.04.015",
         "source": "pubmed",
         "abstract": "Chemodiverse cell system responses to UV in an algal sister of land plants.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-10T08:40:20.172035",
-    "papers": [
-      {
-        "pmid": "42372854",
-        "title": "Metatranscriptomic analysis of lanthanum driven multi-element metabolic regulation in a rare earth tolerant microbial consortium",
-        "authors": "Yin Y et al.",
-        "year": "2026",
-        "journal": "Environ Res",
-        "doi": "10.1016/j.envres.2026.125150",
-        "source": "pubmed",
-        "abstract": "Metatranscriptomic analysis of lanthanum driven multi-element metabolic regulation in a rare earth tolerant microbial consortium.",
-        "block": "A",
-        "block_label": "SolV & Lanthanide"
-      },
-      {
-        "pmid": "42025675",
-        "title": "Uranium increases toxin biosynthesis gene expression and cell toxicity in the cyanobacteria Microcystis aeruginosa",
-        "authors": "Wang H et al.",
-        "year": "2026",
-        "journal": "Environ Pollut",
-        "doi": "10.1016/j.envpol.2026.128188",
-        "source": "pubmed",
-        "abstract": "Uranium increases toxin biosynthesis gene expression and cell toxicity in the cyanobacteria Microcystis aeruginosa.",
-        "block": "B",
-        "block_label": "Actinide & Radionuklide"
-      },
-      {
-        "pmid": "42331822",
-        "title": "Cation-driven envelope dynamics modulate outer membrane vesiculation and extracellular electron transfer in Geobacter",
-        "authors": "Clark MM et al.",
-        "year": "2026",
-        "journal": "Nat Commun",
-        "doi": "10.1038/s41467-026-74523-w",
-        "source": "pubmed",
-        "abstract": "Cation-driven envelope dynamics modulate outer membrane vesiculation and extracellular electron transfer in Geobacter.",
-        "block": "B",
-        "block_label": "Actinide & Radionuklide"
-      },
-      {
-        "pmid": "42565672",
-        "title": "Proof-of-concept: the TGx-DDI transcriptomic biomarker discriminates radiation-induced DNA damage at the individual-level across dose and dose-rate regimes in human lymphocytes",
-        "authors": "Chauhan V et al.",
-        "year": "2026",
-        "journal": "Int J Radiat Biol",
-        "doi": "10.1080/09553002.2026.2704747",
-        "source": "pubmed",
-        "abstract": "Proof-of-concept: the TGx-DDI transcriptomic biomarker discriminates radiation-induced DNA damage at the individual-level across dose and dose-rate regimes in human lymphocytes.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42088506",
-        "title": "Limited immune perturbations in mice exposed to sustained low-dose ionizing radiation",
-        "authors": "Marr B et al.",
-        "year": "2026",
-        "journal": "Front Immunol",
-        "doi": "10.3389/fimmu.2026.1642012",
-        "source": "pubmed",
-        "abstract": "Limited immune perturbations in mice exposed to sustained low-dose ionizing radiation.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42546607",
-        "title": "Phenotypical, physiological and molecular identification in Bougainvillea × buttiana 'Miss Manila' leaves by radiation stress",
-        "authors": "Wu K et al.",
-        "year": "2026",
-        "journal": "Plant Physiol Biochem",
-        "doi": "10.1016/j.plaphy.2026.111600",
-        "source": "pubmed",
-        "abstract": "Phenotypical, physiological and molecular identification in Bougainvillea × buttiana 'Miss Manila' leaves by radiation stress.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
