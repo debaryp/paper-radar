@@ -1,5 +1,82 @@
 [
   {
+    "date": "2026-11-09T17:15:39.362580",
+    "papers": [
+      {
+        "pmid": "42372854",
+        "title": "Metatranscriptomic analysis of lanthanum driven multi-element metabolic regulation in a rare earth tolerant microbial consortium",
+        "authors": "Yin Y et al.",
+        "year": "2026",
+        "journal": "Environ Res",
+        "doi": "10.1016/j.envres.2026.125150",
+        "source": "pubmed",
+        "abstract": "Metatranscriptomic analysis of lanthanum driven multi-element metabolic regulation in a rare earth tolerant microbial consortium.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "42025675",
+        "title": "Uranium increases toxin biosynthesis gene expression and cell toxicity in the cyanobacteria Microcystis aeruginosa",
+        "authors": "Wang H et al.",
+        "year": "2026",
+        "journal": "Environ Pollut",
+        "doi": "10.1016/j.envpol.2026.128188",
+        "source": "pubmed",
+        "abstract": "Uranium increases toxin biosynthesis gene expression and cell toxicity in the cyanobacteria Microcystis aeruginosa.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "42331822",
+        "title": "Cation-driven envelope dynamics modulate outer membrane vesiculation and extracellular electron transfer in Geobacter",
+        "authors": "Clark MM et al.",
+        "year": "2026",
+        "journal": "Nat Commun",
+        "doi": "10.1038/s41467-026-74523-w",
+        "source": "pubmed",
+        "abstract": "Cation-driven envelope dynamics modulate outer membrane vesiculation and extracellular electron transfer in Geobacter.",
+        "block": "B",
+        "block_label": "Actinide & Radionuklide"
+      },
+      {
+        "pmid": "42992872",
+        "title": "Integrated Transcriptomic and Proteomic Analysis Reveals Antibacterial Responses of Staphylococcus aureus to 60Co γ-Irradiation",
+        "authors": "Cui L et al.",
+        "year": "2026",
+        "journal": "J Proteome Res",
+        "doi": "10.1021/acs.jproteome.6c00340",
+        "source": "pubmed",
+        "abstract": "Integrated Transcriptomic and Proteomic Analysis Reveals Antibacterial Responses of Staphylococcus aureus to 60Co γ-Irradiation.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42974294",
+        "title": "Full-length transcriptome and RNA-Seq analyses reveal the molecular mechanism of light protection in Hosta ventricosa",
+        "authors": "Qu XJ et al.",
+        "year": "2026",
+        "journal": "Photosynthetica",
+        "doi": "10.32615/ps.2026.025",
+        "source": "pubmed",
+        "abstract": "Full-length transcriptome and RNA-Seq analyses reveal the molecular mechanism of light protection in Hosta ventricosa.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "42992617",
+        "title": "Profiling of RNA 8-oxoG marks in Escherichia coli identifies critical intrinsic characteristics that contribute to 8-oxoG accumulation in bacteria",
+        "authors": "Burroughs MR et al.",
+        "year": "2026",
+        "journal": "RNA Biol",
+        "doi": "10.1080/15476286.2026.2753975",
+        "source": "pubmed",
+        "abstract": "Profiling of RNA 8-oxoG marks in Escherichia coli identifies critical intrinsic characteristics that contribute to 8-oxoG accumulation in bacteria.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-11-02T16:53:48.979209",
     "papers": [
       {
@@ -589,59 +666,6 @@
         "doi": "10.1016/j.freeradbiomed.2026.02.074",
         "source": "pubmed",
         "abstract": "Skin commensal Cutibacterium acnes alleviates UVB-induced solar dermatitis via ceramide-mediated TLR4-MyD88-NF-κB.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-17T07:53:57.331968",
-    "papers": [
-      {
-        "pmid": "42061327",
-        "title": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed",
-        "authors": "Xuan Y et al.",
-        "year": "2026",
-        "journal": "J Hazard Mater",
-        "doi": "10.1016/j.jhazmat.2026.142223",
-        "source": "pubmed",
-        "abstract": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed.",
-        "block": "A",
-        "block_label": "SolV & Lanthanide"
-      },
-      {
-        "pmid": "42603249",
-        "title": "Compound Kushen Injection Mitigates Radiation-Induced Pulmonary Fibrosis by Restoring AT2 Cell Stemness and Alveolar Regenerative Capacity",
-        "authors": "Liu YL et al.",
-        "year": "2026",
-        "journal": "Chin J Integr Med",
-        "doi": "10.1007/s11655-026-4159-z",
-        "source": "pubmed",
-        "abstract": "Compound Kushen Injection Mitigates Radiation-Induced Pulmonary Fibrosis by Restoring AT2 Cell Stemness and Alveolar Regenerative Capacity.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42587797",
-        "title": "Far-Infrared Irradiation Induces Time-Dependent Endothelial-Protective and Vascular Repair-Associated Molecular Remodeling in Human Femoral Artery Endothelial Cells",
-        "authors": "Saito M et al.",
-        "year": "2026",
-        "journal": "Cells",
-        "doi": "10.3390/cells15151390",
-        "source": "pubmed",
-        "abstract": "Far-Infrared Irradiation Induces Time-Dependent Endothelial-Protective and Vascular Repair-Associated Molecular Remodeling in Human Femoral Artery Endothelial Cells.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42092354",
-        "title": "Chemodiverse cell system responses to UV in an algal sister of land plants",
-        "authors": "Kunz CF et al.",
-        "year": "2026",
-        "journal": "Curr Biol",
-        "doi": "10.1016/j.cub.2026.04.015",
-        "source": "pubmed",
-        "abstract": "Chemodiverse cell system responses to UV in an algal sister of land plants.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
