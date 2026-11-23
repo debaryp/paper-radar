@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-16T16:49:48.781295",
-  "date_from": "2026/05/20",
-  "date_to": "2026/11/16",
+  "generated": "2026-11-23T19:02:43.529104",
+  "date_from": "2026/05/27",
+  "date_to": "2026/11/23",
   "papers": [
     {
-      "pmid": "42061327",
-      "title": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed",
-      "authors": "Xuan Y et al.",
+      "pmid": "43058125",
+      "title": "Lanthanide-dependent methanotroph thrives on radioactive promethium",
+      "authors": "de Bary P et al.",
       "year": "2026",
-      "journal": "J Hazard Mater",
-      "doi": "10.1016/j.jhazmat.2026.142223",
+      "journal": "Nat Commun",
+      "doi": "10.1038/s41467-026-79368-x",
       "source": "pubmed",
-      "abstract": "REEs-HNMD weakens riverine N-sink function through suppressed sediment denitrification in a rare-earth mining watershed.",
+      "abstract": "Lanthanide-dependent methanotroph thrives on radioactive promethium.",
       "block": "A",
       "block_label": "SolV & Lanthanide"
     },
@@ -27,38 +27,38 @@
       "no_result": true
     },
     {
-      "pmid": "43035716",
-      "title": "Epitranscriptomic RNA modifications in cancer DNA damage response: mechanistic links between RNA fate, genome maintenance, and therapy resistance",
-      "authors": "Yang X et al.",
+      "pmid": "42606163",
+      "title": "Commensal skin microbiota modulate responses to ultraviolet radiation in humans",
+      "authors": "Duan W et al.",
       "year": "2026",
-      "journal": "J Transl Med",
-      "doi": "10.1186/s12967-026-08804-9",
+      "journal": "Br J Dermatol",
+      "doi": "10.1093/bjd/ljag334",
       "source": "pubmed",
-      "abstract": "Epitranscriptomic RNA modifications in cancer DNA damage response: mechanistic links between RNA fate, genome maintenance, and therapy resistance.",
+      "abstract": "Commensal skin microbiota modulate responses to ultraviolet radiation in humans.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     },
     {
-      "pmid": "43028233",
-      "title": "Benzyl Isothiocyanate Pretreatment Enhances Chemoradiation Response in HPV-Negative Head and Neck Squamous Cell Carcinoma",
-      "authors": "Kirven IA et al.",
-      "year": "2026",
-      "journal": "Int J Mol Sci",
-      "doi": "10.3390/ijms27219990",
-      "source": "pubmed",
-      "abstract": "Benzyl Isothiocyanate Pretreatment Enhances Chemoradiation Response in HPV-Negative Head and Neck Squamous Cell Carcinoma.",
-      "block": "C",
-      "block_label": "Transkriptomische Strahlenantworten"
-    },
-    {
-      "pmid": "43026822",
-      "title": "Radiation-Induced Remodeling of Bone Metastases and the Bone Marrow Microenvironment: From External-Beam Radiotherapy to Radiopharmaceutical Therapy",
-      "authors": "Monzen S et al.",
+      "pmid": "43026752",
+      "title": "Extracellular Vesicles Derived from L-MYC Neural Stem Cells Mediate Neuroprotection in 3D Models of Chemotherapy- and Radiation-Induced Neurotoxicity",
+      "authors": "Nunes LGA et al.",
       "year": "2026",
       "journal": "Cancers (Basel)",
-      "doi": "10.3390/cancers18213500",
+      "doi": "10.3390/cancers18213430",
       "source": "pubmed",
-      "abstract": "Radiation-Induced Remodeling of Bone Metastases and the Bone Marrow Microenvironment: From External-Beam Radiotherapy to Radiopharmaceutical Therapy.",
+      "abstract": "Extracellular Vesicles Derived from L-MYC Neural Stem Cells Mediate Neuroprotection in 3D Models of Chemotherapy- and Radiation-Induced Neurotoxicity.",
+      "block": "C",
+      "block_label": "Transkriptomische Strahlenantworten"
+    },
+    {
+      "pmid": "43001622",
+      "title": "HDAC3 drives type II alveolar epithelial barrier dysfunction via MKP1 deacetylation in radiation-induced lung injury",
+      "authors": "Li B et al.",
+      "year": "2026",
+      "journal": "Clin Transl Med",
+      "doi": "10.1002/ctm2.70877",
+      "source": "pubmed",
+      "abstract": "HDAC3 drives type II alveolar epithelial barrier dysfunction via MKP1 deacetylation in radiation-induced lung injury.",
       "block": "C",
       "block_label": "Transkriptomische Strahlenantworten"
     }
@@ -66,5 +66,5 @@
   "total_verified": 4,
   "zotero_loaded": false,
   "zotero_dois_filtered": 0,
-  "history_dois_filtered": 51
+  "history_dois_filtered": 52
 }

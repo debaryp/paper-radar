@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-23T19:02:43.529618",
+    "papers": [
+      {
+        "pmid": "43058125",
+        "title": "Lanthanide-dependent methanotroph thrives on radioactive promethium",
+        "authors": "de Bary P et al.",
+        "year": "2026",
+        "journal": "Nat Commun",
+        "doi": "10.1038/s41467-026-79368-x",
+        "source": "pubmed",
+        "abstract": "Lanthanide-dependent methanotroph thrives on radioactive promethium.",
+        "block": "A",
+        "block_label": "SolV & Lanthanide"
+      },
+      {
+        "pmid": "42606163",
+        "title": "Commensal skin microbiota modulate responses to ultraviolet radiation in humans",
+        "authors": "Duan W et al.",
+        "year": "2026",
+        "journal": "Br J Dermatol",
+        "doi": "10.1093/bjd/ljag334",
+        "source": "pubmed",
+        "abstract": "Commensal skin microbiota modulate responses to ultraviolet radiation in humans.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "43026752",
+        "title": "Extracellular Vesicles Derived from L-MYC Neural Stem Cells Mediate Neuroprotection in 3D Models of Chemotherapy- and Radiation-Induced Neurotoxicity",
+        "authors": "Nunes LGA et al.",
+        "year": "2026",
+        "journal": "Cancers (Basel)",
+        "doi": "10.3390/cancers18213430",
+        "source": "pubmed",
+        "abstract": "Extracellular Vesicles Derived from L-MYC Neural Stem Cells Mediate Neuroprotection in 3D Models of Chemotherapy- and Radiation-Induced Neurotoxicity.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      },
+      {
+        "pmid": "43001622",
+        "title": "HDAC3 drives type II alveolar epithelial barrier dysfunction via MKP1 deacetylation in radiation-induced lung injury",
+        "authors": "Li B et al.",
+        "year": "2026",
+        "journal": "Clin Transl Med",
+        "doi": "10.1002/ctm2.70877",
+        "source": "pubmed",
+        "abstract": "HDAC3 drives type II alveolar epithelial barrier dysfunction via MKP1 deacetylation in radiation-induced lung injury.",
+        "block": "C",
+        "block_label": "Transkriptomische Strahlenantworten"
+      }
+    ]
+  },
+  {
     "date": "2026-11-16T16:49:48.781627",
     "papers": [
       {
@@ -625,59 +678,6 @@
         "doi": "10.3389/fgene.2026.1861806",
         "source": "pubmed",
         "abstract": "Cross-cancer transcriptomic analysis reveals conserved developmental, ferroptosis, and immune remodeling modules in Wilms tumor and oral cancer.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-31T14:55:15.767400",
-    "papers": [
-      {
-        "pmid": "41626782",
-        "title": "Lanthanide-Dependent Methanol Dehydrogenase XoxF Confers a Competitive Advantage to Sinorhizobium meliloti During Symbiosis with Medicago sativa",
-        "authors": "Walser ON et al.",
-        "year": "2026",
-        "journal": "Mol Plant Microbe Interact",
-        "doi": "10.1094/MPMI-08-25-0110-R",
-        "source": "pubmed",
-        "abstract": "Lanthanide-Dependent Methanol Dehydrogenase XoxF Confers a Competitive Advantage to Sinorhizobium meliloti During Symbiosis with Medicago sativa.",
-        "block": "A",
-        "block_label": "SolV & Lanthanide"
-      },
-      {
-        "pmid": "42652458",
-        "title": "A Comparative Transcriptomic Analysis of X-Ray Irradiation Responses Identifies Candidate Biomarker Genes in Bactrocera dorsalis Larvae",
-        "authors": "Li B et al.",
-        "year": "2026",
-        "journal": "Insects",
-        "doi": "10.3390/insects17080804",
-        "source": "pubmed",
-        "abstract": "A Comparative Transcriptomic Analysis of X-Ray Irradiation Responses Identifies Candidate Biomarker Genes in Bactrocera dorsalis Larvae.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42208211",
-        "title": "Mitigating UV-B radiation effects on growth and grain yield of qingke via abscisic acid-induced pathways and transcript-driven metabolic reprogramming",
-        "authors": "Shoaib N et al.",
-        "year": "2026",
-        "journal": "Plant Physiol Biochem",
-        "doi": "10.1016/j.plaphy.2026.111433",
-        "source": "pubmed",
-        "abstract": "Mitigating UV-B radiation effects on growth and grain yield of qingke via abscisic acid-induced pathways and transcript-driven metabolic reprogramming.",
-        "block": "C",
-        "block_label": "Transkriptomische Strahlenantworten"
-      },
-      {
-        "pmid": "42668079",
-        "title": "Identification of new targets for the protection against radiation-induced brain injury through integrated dual-omics analysis",
-        "authors": "Li X et al.",
-        "year": "2026",
-        "journal": "Exp Neurol",
-        "doi": "10.1016/j.expneurol.2026.116001",
-        "source": "pubmed",
-        "abstract": "Identification of new targets for the protection against radiation-induced brain injury through integrated dual-omics analysis.",
         "block": "C",
         "block_label": "Transkriptomische Strahlenantworten"
       }
